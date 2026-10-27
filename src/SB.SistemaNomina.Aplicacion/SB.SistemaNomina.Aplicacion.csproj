@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\SB.PayrollSystem.Domain\SB.PayrollSystem.Domain.csproj" />
+    <ProjectReference Include="..\SB.SistemaNomina.Dominio\SB.SistemaNomina.Dominio.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
