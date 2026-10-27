@@ -8,7 +8,7 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <!-- CS1591: comentarios XML faltantes en miembros públicos (se documentan solo los expuestos en Swagger) -->
+    <!-- CS1591: no exigir comentario XML en cada miembro público -->
     <NoWarn>$(NoWarn);CS1591</NoWarn>
   </PropertyGroup>
 
