@@ -28,3 +28,7 @@ tests/
 ## Requisitos
 
 - .NET SDK 8.0
+
+## Supuestos de diseño
+
+- Nuevo tipo de empleado = nueva subclase de `Empleado` + su creador + un valor nuevo en `TipoEmpleado`. Solo se agrega código; la lógica existente no cambia.

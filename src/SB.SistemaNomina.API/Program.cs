@@ -1,16 +1,16 @@
-var builder = WebApplication.CreateBuilder(args);
+var constructorAplicacion = WebApplication.CreateBuilder(args);
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+constructorAplicacion.Services.AddEndpointsApiExplorer();
+constructorAplicacion.Services.AddSwaggerGen();
 
-var app = builder.Build();
+var aplicacion = constructorAplicacion.Build();
 
-if (app.Environment.IsDevelopment())
+if (aplicacion.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    aplicacion.UseSwagger();
+    aplicacion.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+aplicacion.UseHttpsRedirection();
 
-app.Run();
+aplicacion.Run();
