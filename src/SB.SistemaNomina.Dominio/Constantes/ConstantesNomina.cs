@@ -10,5 +10,6 @@ public static class ConstantesNomina
 
     public const int DECIMALES_MONEDA = 2;
 
-    public const string FORMATO_NUMERO_FORMULA = "0.##";
+    /// <summary>Muestra todos los decimales del operando (precisión máxima de decimal).</summary>
+    public const string FORMATO_NUMERO_FORMULA = "0.############################";
 }

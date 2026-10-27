@@ -21,7 +21,7 @@ public class EmpleadoPorHoras : Empleado
         var lineas = new List<LineaDesglosePago>
         {
             new(
-                "Horas regulares",
+                ConceptosPago.HORAS_REGULARES,
                 $"{FormatearNumero(SueldoPorHora)} × {FormatearNumero(horasRegulares)}",
                 SueldoPorHora * horasRegulares)
         };
@@ -29,7 +29,7 @@ public class EmpleadoPorHoras : Empleado
         if (horasExtra > decimal.Zero)
         {
             lineas.Add(new(
-                "Horas extra",
+                ConceptosPago.HORAS_EXTRA,
                 $"{FormatearNumero(SueldoPorHora)} × {FormatearNumero(ConstantesNomina.MULTIPLICADOR_HORAS_EXTRA)} × {FormatearNumero(horasExtra)}",
                 SueldoPorHora * ConstantesNomina.MULTIPLICADOR_HORAS_EXTRA * horasExtra));
         }

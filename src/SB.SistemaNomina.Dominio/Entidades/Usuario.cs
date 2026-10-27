@@ -17,7 +17,8 @@ public class Usuario
 
     public bool EstaActivo { get; set; } = true;
 
-    public DateTime FechaCreacion { get; set; } = DateTime.UtcNow;
+    /// <summary>Asignada por el servicio (TimeProvider).</summary>
+    public DateTime FechaCreacion { get; set; }
 
     public bool EsAdministrador => Rol == NombresRoles.ADMINISTRADOR;
 }

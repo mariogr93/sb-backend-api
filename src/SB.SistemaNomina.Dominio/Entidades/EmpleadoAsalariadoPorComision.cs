@@ -15,9 +15,9 @@ public class EmpleadoAsalariadoPorComision : EmpleadoPorComision
         new(
         [
             CrearLineaComision(),
-            new LineaDesglosePago("Salario base", FormatearNumero(SalarioBase), SalarioBase),
+            new LineaDesglosePago(ConceptosPago.SALARIO_BASE, FormatearNumero(SalarioBase), SalarioBase),
             new LineaDesglosePago(
-                "Bono sobre salario base",
+                ConceptosPago.BONO_SALARIO_BASE,
                 $"{FormatearNumero(SalarioBase)} × {FormatearNumero(ConstantesNomina.TASA_BONO_SALARIO)}",
                 SalarioBase * ConstantesNomina.TASA_BONO_SALARIO)
         ]);

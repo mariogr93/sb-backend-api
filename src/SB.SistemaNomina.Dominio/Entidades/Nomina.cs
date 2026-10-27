@@ -8,7 +8,8 @@ public class Nomina
     /// <summary>Lunes de la semana.</summary>
     public DateOnly FechaInicioSemana { get; set; }
 
-    public DateTime FechaCreacion { get; set; } = DateTime.UtcNow;
+    /// <summary>Asignada por el servicio (TimeProvider).</summary>
+    public DateTime FechaCreacion { get; set; }
 
     public string CreadoPor { get; set; } = string.Empty;
 

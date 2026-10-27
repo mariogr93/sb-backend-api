@@ -1,3 +1,4 @@
+using SB.SistemaNomina.Dominio.Constantes;
 using SB.SistemaNomina.Dominio.Enumeraciones;
 using SB.SistemaNomina.Dominio.ObjetosValor;
 
@@ -13,6 +14,6 @@ public class EmpleadoAsalariado : Empleado
     public override DesglosePago CalcularPagoSemanal() =>
         new(
         [
-            new LineaDesglosePago("Salario semanal", FormatearNumero(SalarioSemanal), SalarioSemanal)
+            new LineaDesglosePago(ConceptosPago.SALARIO_SEMANAL, FormatearNumero(SalarioSemanal), SalarioSemanal)
         ]);
 }
