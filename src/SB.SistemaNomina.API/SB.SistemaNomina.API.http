@@ -1,0 +1,5 @@
+@SB.SistemaNomina.API_HostAddress = http://localhost:5297
+
+# Las solicitudes de prueba se agregan en la fase de endpoints.
+
+###

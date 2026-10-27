@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SB.PayrollSystem.Infrastructure\SB.PayrollSystem.Infrastructure.csproj" />
-    <ProjectReference Include="..\SB.PayrollSystem.Services\SB.PayrollSystem.Services.csproj" />
+    <ProjectReference Include="..\SB.SistemaNomina.Infraestructura\SB.SistemaNomina.Infraestructura.csproj" />
+    <ProjectReference Include="..\SB.SistemaNomina.Servicios\SB.SistemaNomina.Servicios.csproj" />
   </ItemGroup>
 
 </Project>
