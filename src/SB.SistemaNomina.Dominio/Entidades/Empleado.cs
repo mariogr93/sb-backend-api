@@ -20,7 +20,8 @@ public abstract class Empleado
 
     public EstadoEmpleado Estado { get; set; } = EstadoEmpleado.Activo;
 
-    public DateTime FechaCreacion { get; set; } = DateTime.UtcNow;
+    /// <summary>Asignada por el servicio (TimeProvider).</summary>
+    public DateTime FechaCreacion { get; set; }
 
     public DateTime? FechaActualizacion { get; set; }
 
@@ -32,16 +33,17 @@ public abstract class Empleado
 
     public abstract DesglosePago CalcularPagoSemanal();
 
-    public void Desactivar()
+    /// <summary>Fecha recibida del llamador (TimeProvider) para pruebas deterministas.</summary>
+    public void Desactivar(DateTime fechaActualizacionUtc)
     {
         Estado = EstadoEmpleado.Inactivo;
-        FechaActualizacion = DateTime.UtcNow;
+        FechaActualizacion = fechaActualizacionUtc;
     }
 
-    public void Activar()
+    public void Activar(DateTime fechaActualizacionUtc)
     {
         Estado = EstadoEmpleado.Activo;
-        FechaActualizacion = DateTime.UtcNow;
+        FechaActualizacion = fechaActualizacionUtc;
     }
 
     /// <summary>Cultura invariante: misma fórmula en cualquier servidor.</summary>

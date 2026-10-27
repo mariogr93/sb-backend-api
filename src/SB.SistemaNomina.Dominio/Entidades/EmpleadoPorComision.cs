@@ -1,3 +1,4 @@
+using SB.SistemaNomina.Dominio.Constantes;
 using SB.SistemaNomina.Dominio.Enumeraciones;
 using SB.SistemaNomina.Dominio.ObjetosValor;
 
@@ -17,7 +18,7 @@ public class EmpleadoPorComision : Empleado
 
     protected LineaDesglosePago CrearLineaComision() =>
         new(
-            "Comisión",
+            ConceptosPago.COMISION,
             $"{FormatearNumero(VentasBrutas)} × {FormatearNumero(TarifaComision)}",
             VentasBrutas * TarifaComision);
 }
