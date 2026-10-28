@@ -4,4 +4,9 @@
     <ProjectReference Include="..\SB.SistemaNomina.Dominio\SB.SistemaNomina.Dominio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+  </ItemGroup>
+
 </Project>
