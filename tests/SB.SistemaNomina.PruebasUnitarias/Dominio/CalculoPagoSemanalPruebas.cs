@@ -89,8 +89,9 @@ public class CalculoPagoSemanalPruebas
 
         var desglose = empleado.CalcularPagoSemanal();
 
-        Assert.Equal(desglose.Lineas.Sum(linea => linea.Monto), desglose.Total);
-        Assert.All(desglose.Lineas, linea => Assert.Equal(Math.Round(linea.Monto, ConstantesNomina.DECIMALES_MONEDA), linea.Monto));
+        // A mano: 12.345 × 40 = 493.80; 12.345 × 1.5 × 1.333 = 24.6838... → 24.68
+        Assert.Equal([493.80m, 24.68m], desglose.Lineas.Select(linea => linea.Monto));
+        Assert.Equal(518.48m, desglose.Total);
     }
 
     [Fact]
@@ -102,6 +103,20 @@ public class CalculoPagoSemanalPruebas
         empleado.Desactivar(fechaActualizacion);
 
         Assert.Equal(EstadoEmpleado.Inactivo, empleado.Estado);
+        Assert.False(empleado.EstaActivo);
+        Assert.Equal(fechaActualizacion, empleado.FechaActualizacion);
+    }
+
+    [Fact]
+    public void ActivarRestauraEstadoYUsaFechaRecibida()
+    {
+        var empleado = new EmpleadoAsalariado { Estado = EstadoEmpleado.Inactivo };
+        var fechaActualizacion = new DateTime(2026, 10, 28, 9, 30, 0, DateTimeKind.Utc);
+
+        empleado.Activar(fechaActualizacion);
+
+        Assert.Equal(EstadoEmpleado.Activo, empleado.Estado);
+        Assert.True(empleado.EstaActivo);
         Assert.Equal(fechaActualizacion, empleado.FechaActualizacion);
     }
 }
