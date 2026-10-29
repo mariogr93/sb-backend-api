@@ -15,6 +15,8 @@ namespace SB.SistemaNomina.Servicios.Nominas;
 
 public sealed class NominaServicio : INominaServicio
 {
+    private static readonly CerrojoEscritura _cerrojo = new();
+
     private readonly IEmpleadoRepositorio _empleadoRepositorio;
     private readonly IDepartamentoRepositorio _departamentoRepositorio;
     private readonly INominaRepositorio _nominaRepositorio;
@@ -69,28 +71,35 @@ public sealed class NominaServicio : INominaServicio
     public async Task<NominaRespuesta> GuardarNominaAsync(GuardarNominaSolicitud solicitud, CancellationToken tokenCancelacion)
     {
         await _validadorGuardar.ValidarSolicitudAsync(solicitud, tokenCancelacion);
-        if (await _nominaRepositorio.ExisteSemanaAsync(solicitud.FechaInicioSemana, tokenCancelacion))
-        {
-            throw new ConflictoException(MensajesServicio.NOMINA_SEMANA_DUPLICADA);
-        }
 
-        var nomina = new Nomina
-        {
-            FechaInicioSemana = solicitud.FechaInicioSemana,
-            FechaCreacion = _proveedorTiempo.GetUtcNow().UtcDateTime,
-            CreadoPor = _usuarioActual.NombreUsuario,
-            Detalles = await CalcularDetallesAsync(null, tokenCancelacion)
-        };
-        nomina.Detalles.ForEach(detalle => detalle.NominaId = nomina.Id);
-        nomina.MontoTotal = nomina.Detalles.Sum(detalle => detalle.PagoBruto);
-        await _nominaRepositorio.AgregarAsync(nomina, tokenCancelacion);
+        // Una sola nómina por semana aun con solicitudes simultáneas.
+        return await _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                if (await _nominaRepositorio.ExisteSemanaAsync(solicitud.FechaInicioSemana, tokenCancelacion))
+                {
+                    throw new ConflictoException(MensajesServicio.NOMINA_SEMANA_DUPLICADA);
+                }
 
-        _registro.LogInformation(
-            "Nómina {NominaId} guardada para la semana {FechaInicioSemana} con {CantidadEmpleados} empleados.",
-            nomina.Id,
-            nomina.FechaInicioSemana,
-            nomina.Detalles.Count);
-        return nomina.ARespuesta();
+                var nomina = new Nomina
+                {
+                    FechaInicioSemana = solicitud.FechaInicioSemana,
+                    FechaCreacion = _proveedorTiempo.GetUtcNow().UtcDateTime,
+                    CreadoPor = _usuarioActual.NombreUsuario,
+                    Detalles = await CalcularDetallesAsync(null, tokenCancelacion)
+                };
+                nomina.Detalles.ForEach(detalle => detalle.NominaId = nomina.Id);
+                nomina.MontoTotal = nomina.Detalles.Sum(detalle => detalle.PagoBruto);
+                await _nominaRepositorio.AgregarAsync(nomina, tokenCancelacion);
+
+                _registro.LogInformation(
+                    "Nómina {NominaId} guardada para la semana {FechaInicioSemana} con {CantidadEmpleados} empleados.",
+                    nomina.Id,
+                    nomina.FechaInicioSemana,
+                    nomina.Detalles.Count);
+                return nomina.ARespuesta();
+            },
+            tokenCancelacion);
     }
 
     public async Task<ResultadoPaginado<NominaResumenRespuesta>> ListarNominasAsync(SolicitudPaginada paginacion, CancellationToken tokenCancelacion)

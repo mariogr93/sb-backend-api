@@ -482,3 +482,6 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Datos generados en ejecución (proveedor JSON)
+src/SB.SistemaNomina.API/BaseDatos/

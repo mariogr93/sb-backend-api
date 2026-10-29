@@ -17,6 +17,9 @@ public interface IEmpleadoRepositorio
 
     Task AgregarAsync(Empleado empleado, CancellationToken tokenCancelacion);
 
+    /// <summary>Todos o ninguno (datos iniciales).</summary>
+    Task AgregarVariosAsync(IReadOnlyCollection<Empleado> empleados, CancellationToken tokenCancelacion);
+
     /// <summary>Reemplaza el empleado con el mismo Id (admite cambio de tipo).</summary>
     Task ActualizarAsync(Empleado empleado, CancellationToken tokenCancelacion);
 }
