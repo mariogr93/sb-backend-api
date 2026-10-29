@@ -15,8 +15,8 @@ namespace SB.SistemaNomina.Servicios.Usuarios;
 
 public sealed class UsuarioServicio : IUsuarioServicio
 {
-    // Serializa cambios de rol/estado: dos admins no pueden desactivarse en paralelo (una instancia de la API).
-    private static readonly SemaphoreSlim _cerrojoAdministradores = new(1, 1);
+    // Todas las escrituras de usuarios: dos admins no pueden desactivarse en paralelo ni duplicar nombres.
+    private static readonly CerrojoEscritura _cerrojo = new();
 
     private readonly IUsuarioRepositorio _usuarioRepositorio;
     private readonly IServicioHashContrasena _servicioHash;
@@ -60,82 +60,86 @@ public sealed class UsuarioServicio : IUsuarioServicio
     {
         await _validadorCrear.ValidarSolicitudAsync(solicitud, tokenCancelacion);
         var nombreUsuario = solicitud.NombreUsuario.Trim();
-        if (await _usuarioRepositorio.ExisteNombreUsuarioAsync(nombreUsuario, tokenCancelacion))
-        {
-            throw new ConflictoException(MensajesServicio.NOMBRE_USUARIO_DUPLICADO);
-        }
 
-        var usuario = new Usuario
-        {
-            NombreUsuario = nombreUsuario,
-            NombreCompleto = solicitud.NombreCompleto.Trim(),
-            Rol = solicitud.Rol,
-            FechaCreacion = _proveedorTiempo.GetUtcNow().UtcDateTime
-        };
-        usuario.HashContrasena = _servicioHash.GenerarHash(usuario, solicitud.Contrasena);
-        await _usuarioRepositorio.AgregarAsync(usuario, tokenCancelacion);
+        return await _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                if (await _usuarioRepositorio.ExisteNombreUsuarioAsync(nombreUsuario, tokenCancelacion))
+                {
+                    throw new ConflictoException(MensajesServicio.NOMBRE_USUARIO_DUPLICADO);
+                }
 
-        _registro.LogInformation("Usuario {UsuarioId} creado con rol {Rol}.", usuario.Id, usuario.Rol);
-        return usuario.ARespuesta();
+                var usuario = new Usuario
+                {
+                    NombreUsuario = nombreUsuario,
+                    NombreCompleto = solicitud.NombreCompleto.Trim(),
+                    Rol = solicitud.Rol,
+                    FechaCreacion = _proveedorTiempo.GetUtcNow().UtcDateTime
+                };
+                usuario.HashContrasena = _servicioHash.GenerarHash(usuario, solicitud.Contrasena);
+                await _usuarioRepositorio.AgregarAsync(usuario, tokenCancelacion);
+
+                _registro.LogInformation("Usuario {UsuarioId} creado con rol {Rol}.", usuario.Id, usuario.Rol);
+                return usuario.ARespuesta();
+            },
+            tokenCancelacion);
     }
 
     public async Task<UsuarioRespuesta> ActualizarAsync(Guid id, ActualizarUsuarioSolicitud solicitud, CancellationToken tokenCancelacion)
     {
         await _validadorActualizar.ValidarSolicitudAsync(solicitud, tokenCancelacion);
 
-        await _cerrojoAdministradores.WaitAsync(tokenCancelacion);
-        try
-        {
-            var usuario = await ObtenerExistenteAsync(id, tokenCancelacion);
-            var pierdeAdministracion = solicitud.Rol != NombresRoles.ADMINISTRADOR || !solicitud.EstaActivo;
-            if (pierdeAdministracion)
+        return await _cerrojo.EjecutarAsync(
+            async () =>
             {
-                await ValidarPuedePerderAdministracionAsync(usuario, tokenCancelacion);
-            }
+                var usuario = await ObtenerExistenteAsync(id, tokenCancelacion);
+                var pierdeAdministracion = solicitud.Rol != NombresRoles.ADMINISTRADOR || !solicitud.EstaActivo;
+                if (pierdeAdministracion)
+                {
+                    await ValidarPuedePerderAdministracionAsync(usuario, tokenCancelacion);
+                }
 
-            usuario.NombreCompleto = solicitud.NombreCompleto.Trim();
-            usuario.Rol = solicitud.Rol;
-            usuario.EstaActivo = solicitud.EstaActivo;
-            await _usuarioRepositorio.ActualizarAsync(usuario, tokenCancelacion);
+                usuario.NombreCompleto = solicitud.NombreCompleto.Trim();
+                usuario.Rol = solicitud.Rol;
+                usuario.EstaActivo = solicitud.EstaActivo;
+                await _usuarioRepositorio.ActualizarAsync(usuario, tokenCancelacion);
 
-            _registro.LogInformation("Usuario {UsuarioId} actualizado.", usuario.Id);
-            return usuario.ARespuesta();
-        }
-        finally
-        {
-            _cerrojoAdministradores.Release();
-        }
+                _registro.LogInformation("Usuario {UsuarioId} actualizado.", usuario.Id);
+                return usuario.ARespuesta();
+            },
+            tokenCancelacion);
     }
 
     public async Task CambiarContrasenaAsync(Guid id, CambiarContrasenaSolicitud solicitud, CancellationToken tokenCancelacion)
     {
-        var usuario = await ObtenerExistenteAsync(id, tokenCancelacion);
         await _validadorContrasena.ValidarSolicitudAsync(solicitud, tokenCancelacion);
 
-        usuario.HashContrasena = _servicioHash.GenerarHash(usuario, solicitud.ContrasenaNueva);
-        await _usuarioRepositorio.ActualizarAsync(usuario, tokenCancelacion);
+        // Lectura fresca dentro del cerrojo: no revierte un cambio de rol/estado simultáneo.
+        await _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var usuario = await ObtenerExistenteAsync(id, tokenCancelacion);
+                usuario.HashContrasena = _servicioHash.GenerarHash(usuario, solicitud.ContrasenaNueva);
+                await _usuarioRepositorio.ActualizarAsync(usuario, tokenCancelacion);
 
-        _registro.LogInformation("Contraseña del usuario {UsuarioId} cambiada.", usuario.Id);
+                _registro.LogInformation("Contraseña del usuario {UsuarioId} cambiada.", usuario.Id);
+            },
+            tokenCancelacion);
     }
 
-    public async Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion)
-    {
-        await _cerrojoAdministradores.WaitAsync(tokenCancelacion);
-        try
-        {
-            var usuario = await ObtenerExistenteAsync(id, tokenCancelacion);
-            await ValidarPuedePerderAdministracionAsync(usuario, tokenCancelacion);
+    public Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion) =>
+        _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var usuario = await ObtenerExistenteAsync(id, tokenCancelacion);
+                await ValidarPuedePerderAdministracionAsync(usuario, tokenCancelacion);
 
-            usuario.EstaActivo = false;
-            await _usuarioRepositorio.ActualizarAsync(usuario, tokenCancelacion);
+                usuario.EstaActivo = false;
+                await _usuarioRepositorio.ActualizarAsync(usuario, tokenCancelacion);
 
-            _registro.LogInformation("Usuario {UsuarioId} desactivado.", usuario.Id);
-        }
-        finally
-        {
-            _cerrojoAdministradores.Release();
-        }
-    }
+                _registro.LogInformation("Usuario {UsuarioId} desactivado.", usuario.Id);
+            },
+            tokenCancelacion);
 
     /// <summary>Bloquea autodesactivación/autodegradación y dejar el sistema sin administradores activos.</summary>
     private async Task ValidarPuedePerderAdministracionAsync(Usuario usuario, CancellationToken tokenCancelacion)

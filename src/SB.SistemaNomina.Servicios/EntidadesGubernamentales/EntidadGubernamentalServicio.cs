@@ -14,6 +14,8 @@ namespace SB.SistemaNomina.Servicios.EntidadesGubernamentales;
 
 public sealed class EntidadGubernamentalServicio : IEntidadGubernamentalServicio
 {
+    private static readonly CerrojoEscritura _cerrojo = new();
+
     private readonly IEntidadGubernamentalRepositorio _entidadRepositorio;
     private readonly IValidator<GuardarEntidadGubernamentalSolicitud> _validadorGuardar;
     private readonly IValidator<FiltroEntidadesGubernamentales> _validadorFiltro;
@@ -48,14 +50,20 @@ public sealed class EntidadGubernamentalServicio : IEntidadGubernamentalServicio
         CancellationToken tokenCancelacion)
     {
         await _validadorGuardar.ValidarSolicitudAsync(solicitud, tokenCancelacion);
-        await ValidarNombreUnicoAsync(solicitud.Nombre.Trim(), null, tokenCancelacion);
 
-        var entidad = new EntidadGubernamental();
-        AplicarDatos(entidad, solicitud);
-        await _entidadRepositorio.AgregarAsync(entidad, tokenCancelacion);
+        return await _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                await ValidarNombreUnicoAsync(solicitud.Nombre.Trim(), null, tokenCancelacion);
 
-        _registro.LogInformation("Entidad gubernamental {EntidadId} creada.", entidad.Id);
-        return entidad.ARespuesta();
+                var entidad = new EntidadGubernamental();
+                AplicarDatos(entidad, solicitud);
+                await _entidadRepositorio.AgregarAsync(entidad, tokenCancelacion);
+
+                _registro.LogInformation("Entidad gubernamental {EntidadId} creada.", entidad.Id);
+                return entidad.ARespuesta();
+            },
+            tokenCancelacion);
     }
 
     public async Task<EntidadGubernamentalRespuesta> ActualizarAsync(
@@ -63,25 +71,34 @@ public sealed class EntidadGubernamentalServicio : IEntidadGubernamentalServicio
         GuardarEntidadGubernamentalSolicitud solicitud,
         CancellationToken tokenCancelacion)
     {
-        var entidad = await ObtenerExistenteAsync(id, tokenCancelacion);
         await _validadorGuardar.ValidarSolicitudAsync(solicitud, tokenCancelacion);
-        await ValidarNombreUnicoAsync(solicitud.Nombre.Trim(), id, tokenCancelacion);
 
-        AplicarDatos(entidad, solicitud);
-        await _entidadRepositorio.ActualizarAsync(entidad, tokenCancelacion);
+        return await _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var entidad = await ObtenerExistenteAsync(id, tokenCancelacion);
+                await ValidarNombreUnicoAsync(solicitud.Nombre.Trim(), id, tokenCancelacion);
 
-        _registro.LogInformation("Entidad gubernamental {EntidadId} actualizada.", entidad.Id);
-        return entidad.ARespuesta();
+                AplicarDatos(entidad, solicitud);
+                await _entidadRepositorio.ActualizarAsync(entidad, tokenCancelacion);
+
+                _registro.LogInformation("Entidad gubernamental {EntidadId} actualizada.", entidad.Id);
+                return entidad.ARespuesta();
+            },
+            tokenCancelacion);
     }
 
-    public async Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion)
-    {
-        var entidad = await ObtenerExistenteAsync(id, tokenCancelacion);
-        entidad.EstaActiva = false;
-        await _entidadRepositorio.ActualizarAsync(entidad, tokenCancelacion);
+    public Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion) =>
+        _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var entidad = await ObtenerExistenteAsync(id, tokenCancelacion);
+                entidad.EstaActiva = false;
+                await _entidadRepositorio.ActualizarAsync(entidad, tokenCancelacion);
 
-        _registro.LogInformation("Entidad gubernamental {EntidadId} desactivada.", entidad.Id);
-    }
+                _registro.LogInformation("Entidad gubernamental {EntidadId} desactivada.", entidad.Id);
+            },
+            tokenCancelacion);
 
     private static void AplicarDatos(EntidadGubernamental entidad, GuardarEntidadGubernamentalSolicitud solicitud)
     {

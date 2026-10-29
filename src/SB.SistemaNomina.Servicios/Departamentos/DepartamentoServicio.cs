@@ -13,6 +13,8 @@ namespace SB.SistemaNomina.Servicios.Departamentos;
 
 public sealed class DepartamentoServicio : IDepartamentoServicio
 {
+    private static readonly CerrojoEscritura _cerrojo = new();
+
     private readonly IDepartamentoRepositorio _departamentoRepositorio;
     private readonly IEmpleadoRepositorio _empleadoRepositorio;
     private readonly IValidator<GuardarDepartamentoSolicitud> _validadorGuardar;
@@ -43,43 +45,58 @@ public sealed class DepartamentoServicio : IDepartamentoServicio
     {
         await _validadorGuardar.ValidarSolicitudAsync(solicitud, tokenCancelacion);
         var nombre = solicitud.Nombre.Trim();
-        await ValidarNombreUnicoAsync(nombre, null, tokenCancelacion);
 
-        var departamento = new Departamento { Nombre = nombre };
-        await _departamentoRepositorio.AgregarAsync(departamento, tokenCancelacion);
+        return await _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                await ValidarNombreUnicoAsync(nombre, null, tokenCancelacion);
 
-        _registro.LogInformation("Departamento {DepartamentoId} creado.", departamento.Id);
-        return departamento.ARespuesta();
+                var departamento = new Departamento { Nombre = nombre };
+                await _departamentoRepositorio.AgregarAsync(departamento, tokenCancelacion);
+
+                _registro.LogInformation("Departamento {DepartamentoId} creado.", departamento.Id);
+                return departamento.ARespuesta();
+            },
+            tokenCancelacion);
     }
 
     public async Task<DepartamentoRespuesta> ActualizarAsync(Guid id, GuardarDepartamentoSolicitud solicitud, CancellationToken tokenCancelacion)
     {
-        var departamento = await ObtenerExistenteAsync(id, tokenCancelacion);
         await _validadorGuardar.ValidarSolicitudAsync(solicitud, tokenCancelacion);
         var nombre = solicitud.Nombre.Trim();
-        await ValidarNombreUnicoAsync(nombre, id, tokenCancelacion);
 
-        departamento.Nombre = nombre;
-        await _departamentoRepositorio.ActualizarAsync(departamento, tokenCancelacion);
+        return await _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var departamento = await ObtenerExistenteAsync(id, tokenCancelacion);
+                await ValidarNombreUnicoAsync(nombre, id, tokenCancelacion);
 
-        _registro.LogInformation("Departamento {DepartamentoId} actualizado.", departamento.Id);
-        return departamento.ARespuesta();
+                departamento.Nombre = nombre;
+                await _departamentoRepositorio.ActualizarAsync(departamento, tokenCancelacion);
+
+                _registro.LogInformation("Departamento {DepartamentoId} actualizado.", departamento.Id);
+                return departamento.ARespuesta();
+            },
+            tokenCancelacion);
     }
 
-    public async Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion)
-    {
-        var departamento = await ObtenerExistenteAsync(id, tokenCancelacion);
-        var empleadosActivos = await _empleadoRepositorio.ListarActivosAsync(id, tokenCancelacion);
-        if (empleadosActivos.Count > 0)
-        {
-            throw new ReglaNegocioException(MensajesServicio.DEPARTAMENTO_CON_EMPLEADOS_ACTIVOS);
-        }
+    public Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion) =>
+        _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var departamento = await ObtenerExistenteAsync(id, tokenCancelacion);
+                var empleadosActivos = await _empleadoRepositorio.ListarActivosAsync(id, tokenCancelacion);
+                if (empleadosActivos.Count > 0)
+                {
+                    throw new ReglaNegocioException(MensajesServicio.DEPARTAMENTO_CON_EMPLEADOS_ACTIVOS);
+                }
 
-        departamento.EstaActivo = false;
-        await _departamentoRepositorio.ActualizarAsync(departamento, tokenCancelacion);
+                departamento.EstaActivo = false;
+                await _departamentoRepositorio.ActualizarAsync(departamento, tokenCancelacion);
 
-        _registro.LogInformation("Departamento {DepartamentoId} desactivado.", departamento.Id);
-    }
+                _registro.LogInformation("Departamento {DepartamentoId} desactivado.", departamento.Id);
+            },
+            tokenCancelacion);
 
     private async Task<Departamento> ObtenerExistenteAsync(Guid id, CancellationToken tokenCancelacion) =>
         await _departamentoRepositorio.ObtenerPorIdAsync(id, tokenCancelacion)

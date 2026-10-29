@@ -15,6 +15,8 @@ namespace SB.SistemaNomina.Servicios.Empleados;
 
 public sealed class EmpleadoServicio : IEmpleadoServicio
 {
+    private static readonly CerrojoEscritura _cerrojo = new();
+
     private readonly IEmpleadoRepositorio _empleadoRepositorio;
     private readonly IDepartamentoRepositorio _departamentoRepositorio;
     private readonly IFabricaEmpleado _fabricaEmpleado;
@@ -62,44 +64,59 @@ public sealed class EmpleadoServicio : IEmpleadoServicio
     public async Task<EmpleadoRespuesta> CrearAsync(GuardarEmpleadoSolicitud solicitud, CancellationToken tokenCancelacion)
     {
         await _validadorGuardar.ValidarSolicitudAsync(solicitud, tokenCancelacion);
-        var departamento = await ObtenerDepartamentoActivoAsync(solicitud.DepartamentoId, tokenCancelacion);
-        await ValidarNumeroSeguroSocialUnicoAsync(solicitud.NumeroSeguroSocial, null, tokenCancelacion);
 
-        var empleado = _fabricaEmpleado.Crear(solicitud);
-        empleado.FechaCreacion = _proveedorTiempo.GetUtcNow().UtcDateTime;
-        await _empleadoRepositorio.AgregarAsync(empleado, tokenCancelacion);
+        return await _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var departamento = await ObtenerDepartamentoActivoAsync(solicitud.DepartamentoId, tokenCancelacion);
+                await ValidarNumeroSeguroSocialUnicoAsync(solicitud.NumeroSeguroSocial, null, tokenCancelacion);
 
-        _registro.LogInformation("Empleado {EmpleadoId} creado ({Tipo}).", empleado.Id, empleado.Tipo);
-        return ARespuesta(empleado, departamento.Nombre);
+                var empleado = _fabricaEmpleado.Crear(solicitud);
+                empleado.FechaCreacion = _proveedorTiempo.GetUtcNow().UtcDateTime;
+                await _empleadoRepositorio.AgregarAsync(empleado, tokenCancelacion);
+
+                _registro.LogInformation("Empleado {EmpleadoId} creado ({Tipo}).", empleado.Id, empleado.Tipo);
+                return ARespuesta(empleado, departamento.Nombre);
+            },
+            tokenCancelacion);
     }
 
     public async Task<EmpleadoRespuesta> ActualizarAsync(Guid id, GuardarEmpleadoSolicitud solicitud, CancellationToken tokenCancelacion)
     {
-        var existente = await ObtenerExistenteAsync(id, tokenCancelacion);
         await _validadorGuardar.ValidarSolicitudAsync(solicitud, tokenCancelacion);
-        var departamento = await ObtenerDepartamentoActivoAsync(solicitud.DepartamentoId, tokenCancelacion);
-        await ValidarNumeroSeguroSocialUnicoAsync(solicitud.NumeroSeguroSocial, id, tokenCancelacion);
 
-        // Se recrea la subclase para admitir cambio de tipo; se conservan Id, estado y fecha de creación.
-        var empleado = _fabricaEmpleado.Crear(solicitud);
-        empleado.Id = existente.Id;
-        empleado.Estado = existente.Estado;
-        empleado.FechaCreacion = existente.FechaCreacion;
-        empleado.FechaActualizacion = _proveedorTiempo.GetUtcNow().UtcDateTime;
-        await _empleadoRepositorio.ActualizarAsync(empleado, tokenCancelacion);
+        return await _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var existente = await ObtenerExistenteAsync(id, tokenCancelacion);
+                var departamento = await ObtenerDepartamentoActivoAsync(solicitud.DepartamentoId, tokenCancelacion);
+                await ValidarNumeroSeguroSocialUnicoAsync(solicitud.NumeroSeguroSocial, id, tokenCancelacion);
 
-        _registro.LogInformation("Empleado {EmpleadoId} actualizado ({Tipo}).", empleado.Id, empleado.Tipo);
-        return ARespuesta(empleado, departamento.Nombre);
+                // Se recrea la subclase para admitir cambio de tipo; se conservan Id, estado y fecha de creación.
+                var empleado = _fabricaEmpleado.Crear(solicitud);
+                empleado.Id = existente.Id;
+                empleado.Estado = existente.Estado;
+                empleado.FechaCreacion = existente.FechaCreacion;
+                empleado.FechaActualizacion = _proveedorTiempo.GetUtcNow().UtcDateTime;
+                await _empleadoRepositorio.ActualizarAsync(empleado, tokenCancelacion);
+
+                _registro.LogInformation("Empleado {EmpleadoId} actualizado ({Tipo}).", empleado.Id, empleado.Tipo);
+                return ARespuesta(empleado, departamento.Nombre);
+            },
+            tokenCancelacion);
     }
 
-    public async Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion)
-    {
-        var empleado = await ObtenerExistenteAsync(id, tokenCancelacion);
-        empleado.Desactivar(_proveedorTiempo.GetUtcNow().UtcDateTime);
-        await _empleadoRepositorio.ActualizarAsync(empleado, tokenCancelacion);
+    public Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion) =>
+        _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var empleado = await ObtenerExistenteAsync(id, tokenCancelacion);
+                empleado.Desactivar(_proveedorTiempo.GetUtcNow().UtcDateTime);
+                await _empleadoRepositorio.ActualizarAsync(empleado, tokenCancelacion);
 
-        _registro.LogInformation("Empleado {EmpleadoId} desactivado.", empleado.Id);
-    }
+                _registro.LogInformation("Empleado {EmpleadoId} desactivado.", empleado.Id);
+            },
+            tokenCancelacion);
 
     private async Task<Empleado> ObtenerExistenteAsync(Guid id, CancellationToken tokenCancelacion) =>
         await _empleadoRepositorio.ObtenerPorIdAsync(id, tokenCancelacion)
