@@ -1,0 +1,2882 @@
+[
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 11591.92,
+      "primerNombre": "Miguel",
+      "apellidoPaterno": "Brito",
+      "numeroSeguroSocial": "100-00-0001",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 14953.29,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Martínez",
+      "numeroSeguroSocial": "100-00-0002",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 16778.68,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Mejía",
+      "numeroSeguroSocial": "100-00-0003",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 18493.93,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Gómez",
+      "numeroSeguroSocial": "100-00-0004",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 20807.86,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "García",
+      "numeroSeguroSocial": "100-00-0005",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 22807.56,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "García",
+      "numeroSeguroSocial": "100-00-0006",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 25555.55,
+      "primerNombre": "Valeria",
+      "apellidoPaterno": "Rodríguez",
+      "numeroSeguroSocial": "100-00-0007",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 28860.56,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Almonte",
+      "numeroSeguroSocial": "100-00-0008",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 29278.55,
+      "primerNombre": "Ramón",
+      "apellidoPaterno": "Almonte",
+      "numeroSeguroSocial": "100-00-0009",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 30680.54,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Vásquez",
+      "numeroSeguroSocial": "100-00-0010",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 241.03,
+      "horasTrabajadas": 32,
+      "primerNombre": "José",
+      "apellidoPaterno": "Tavárez",
+      "numeroSeguroSocial": "100-00-0011",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 284.36,
+      "horasTrabajadas": 43,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Martínez",
+      "numeroSeguroSocial": "100-00-0012",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 336.86,
+      "horasTrabajadas": 37,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Santana",
+      "numeroSeguroSocial": "100-00-0013",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 382.35,
+      "horasTrabajadas": 42,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0014",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 442.99,
+      "horasTrabajadas": 34,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0015",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 498.4,
+      "horasTrabajadas": 49,
+      "primerNombre": "José",
+      "apellidoPaterno": "Reyes",
+      "numeroSeguroSocial": "100-00-0016",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 550.39,
+      "horasTrabajadas": 35,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "García",
+      "numeroSeguroSocial": "100-00-0017",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 591.65,
+      "horasTrabajadas": 36,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Rosario",
+      "numeroSeguroSocial": "100-00-0018",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 637.53,
+      "horasTrabajadas": 50,
+      "primerNombre": "Carlos",
+      "apellidoPaterno": "Tavárez",
+      "numeroSeguroSocial": "100-00-0019",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 651.35,
+      "horasTrabajadas": 44,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0020",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 114523.37,
+      "tarifaComision": 0.03,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Almonte",
+      "numeroSeguroSocial": "100-00-0021",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 138157.9,
+      "tarifaComision": 0.035,
+      "primerNombre": "Héctor",
+      "apellidoPaterno": "Núñez",
+      "numeroSeguroSocial": "100-00-0022",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 166848.53,
+      "tarifaComision": 0.04,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Guzmán",
+      "numeroSeguroSocial": "100-00-0023",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 183529.52,
+      "tarifaComision": 0.045,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Mejía",
+      "numeroSeguroSocial": "100-00-0024",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 219220.4,
+      "tarifaComision": 0.05,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Ureña",
+      "numeroSeguroSocial": "100-00-0025",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 227928.64,
+      "tarifaComision": 0.055,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Vásquez",
+      "numeroSeguroSocial": "100-00-0026",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 265746.11,
+      "tarifaComision": 0.06,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0027",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 267947.73,
+      "tarifaComision": 0.065,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0028",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 287054.6,
+      "tarifaComision": 0.07,
+      "primerNombre": "Carlos",
+      "apellidoPaterno": "Encarnación",
+      "numeroSeguroSocial": "100-00-0029",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 319282.26,
+      "tarifaComision": 0.075,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Ramírez",
+      "numeroSeguroSocial": "100-00-0030",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 7193.78,
+      "ventasBrutas": 82214.59,
+      "tarifaComision": 0.02,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Tavárez",
+      "numeroSeguroSocial": "100-00-0031",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8324.9,
+      "ventasBrutas": 95141.68,
+      "tarifaComision": 0.023,
+      "primerNombre": "Héctor",
+      "apellidoPaterno": "Jiménez",
+      "numeroSeguroSocial": "100-00-0032",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 9166.25,
+      "ventasBrutas": 104757.1,
+      "tarifaComision": 0.026,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Cruz",
+      "numeroSeguroSocial": "100-00-0033",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10866.03,
+      "ventasBrutas": 124183.25,
+      "tarifaComision": 0.029,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Pérez",
+      "numeroSeguroSocial": "100-00-0034",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 12115.41,
+      "ventasBrutas": 138461.77,
+      "tarifaComision": 0.032,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Cruz",
+      "numeroSeguroSocial": "100-00-0035",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 13747.6,
+      "ventasBrutas": 157115.48,
+      "tarifaComision": 0.035,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0036",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 15526.19,
+      "ventasBrutas": 177442.15,
+      "tarifaComision": 0.038,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Guzmán",
+      "numeroSeguroSocial": "100-00-0037",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 16078.75,
+      "ventasBrutas": 183757.11,
+      "tarifaComision": 0.041,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Mejía",
+      "numeroSeguroSocial": "100-00-0038",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 18166.7,
+      "ventasBrutas": 207619.44,
+      "tarifaComision": 0.044,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Pérez",
+      "numeroSeguroSocial": "100-00-0039",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 19407.06,
+      "ventasBrutas": 221794.94,
+      "tarifaComision": 0.047,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Guzmán",
+      "numeroSeguroSocial": "100-00-0040",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 12528.57,
+      "primerNombre": "Carlos",
+      "apellidoPaterno": "Castillo",
+      "numeroSeguroSocial": "100-00-0041",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 14709.45,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0042",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17766.28,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Díaz",
+      "numeroSeguroSocial": "100-00-0043",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 19642.23,
+      "primerNombre": "Miguel",
+      "apellidoPaterno": "Reyes",
+      "numeroSeguroSocial": "100-00-0044",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 21747.21,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Gómez",
+      "numeroSeguroSocial": "100-00-0045",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 24526.59,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Brito",
+      "numeroSeguroSocial": "100-00-0046",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 27015.48,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Batista",
+      "numeroSeguroSocial": "100-00-0047",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 28410.04,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Núñez",
+      "numeroSeguroSocial": "100-00-0048",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 31472.5,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Ramírez",
+      "numeroSeguroSocial": "100-00-0049",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 32396.2,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Pérez",
+      "numeroSeguroSocial": "100-00-0050",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 255.54,
+      "horasTrabajadas": 34,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Santana",
+      "numeroSeguroSocial": "100-00-0051",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 320.97,
+      "horasTrabajadas": 40,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Ureña",
+      "numeroSeguroSocial": "100-00-0052",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 373.03,
+      "horasTrabajadas": 37,
+      "primerNombre": "Valeria",
+      "apellidoPaterno": "Ramírez",
+      "numeroSeguroSocial": "100-00-0053",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 399.65,
+      "horasTrabajadas": 38,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0054",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 476.63,
+      "horasTrabajadas": 35,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Reyes",
+      "numeroSeguroSocial": "100-00-0055",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 484.72,
+      "horasTrabajadas": 33,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0056",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 538.57,
+      "horasTrabajadas": 34,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "García",
+      "numeroSeguroSocial": "100-00-0057",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 621.58,
+      "horasTrabajadas": 33,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0058",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 668.86,
+      "horasTrabajadas": 33,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Martínez",
+      "numeroSeguroSocial": "100-00-0059",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 701.63,
+      "horasTrabajadas": 50,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Vásquez",
+      "numeroSeguroSocial": "100-00-0060",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 120295.99,
+      "tarifaComision": 0.03,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0061",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 146214.2,
+      "tarifaComision": 0.035,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Gómez",
+      "numeroSeguroSocial": "100-00-0062",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 163132.87,
+      "tarifaComision": 0.04,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Vásquez",
+      "numeroSeguroSocial": "100-00-0063",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 187776.66,
+      "tarifaComision": 0.045,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Martínez",
+      "numeroSeguroSocial": "100-00-0064",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 223224.44,
+      "tarifaComision": 0.05,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Ureña",
+      "numeroSeguroSocial": "100-00-0065",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 234491.5,
+      "tarifaComision": 0.055,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Rodríguez",
+      "numeroSeguroSocial": "100-00-0066",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 260511.23,
+      "tarifaComision": 0.06,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0067",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 285024.8,
+      "tarifaComision": 0.065,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Tavárez",
+      "numeroSeguroSocial": "100-00-0068",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 315846.92,
+      "tarifaComision": 0.07,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Castillo",
+      "numeroSeguroSocial": "100-00-0069",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 325253.36,
+      "tarifaComision": 0.075,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0070",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 7583.27,
+      "ventasBrutas": 86665.95,
+      "tarifaComision": 0.02,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Mejía",
+      "numeroSeguroSocial": "100-00-0071",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8820.32,
+      "ventasBrutas": 100803.69,
+      "tarifaComision": 0.023,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Cruz",
+      "numeroSeguroSocial": "100-00-0072",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 9657.04,
+      "ventasBrutas": 110366.18,
+      "tarifaComision": 0.026,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Pérez",
+      "numeroSeguroSocial": "100-00-0073",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10869.01,
+      "ventasBrutas": 124217.2,
+      "tarifaComision": 0.029,
+      "primerNombre": "Carmen",
+      "apellidoPaterno": "Rosario",
+      "numeroSeguroSocial": "100-00-0074",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 12567.02,
+      "ventasBrutas": 143623.1,
+      "tarifaComision": 0.032,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Tavárez",
+      "numeroSeguroSocial": "100-00-0075",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14278.47,
+      "ventasBrutas": 163182.54,
+      "tarifaComision": 0.035,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Jiménez",
+      "numeroSeguroSocial": "100-00-0076",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 15001.6,
+      "ventasBrutas": 171446.85,
+      "tarifaComision": 0.038,
+      "primerNombre": "María",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0077",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 16881.3,
+      "ventasBrutas": 192929.12,
+      "tarifaComision": 0.041,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Encarnación",
+      "numeroSeguroSocial": "100-00-0078",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 17378.7,
+      "ventasBrutas": 198613.75,
+      "tarifaComision": 0.044,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0079",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 19010.32,
+      "ventasBrutas": 217260.8,
+      "tarifaComision": 0.047,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0080",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 9783.01,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0081",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 11055.45,
+      "primerNombre": "Carlos",
+      "apellidoPaterno": "Ramírez",
+      "numeroSeguroSocial": "100-00-0082",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 13129.84,
+      "primerNombre": "José",
+      "apellidoPaterno": "Ramírez",
+      "numeroSeguroSocial": "100-00-0083",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 15182.32,
+      "primerNombre": "María",
+      "apellidoPaterno": "Cruz",
+      "numeroSeguroSocial": "100-00-0084",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17585.77,
+      "primerNombre": "Miguel",
+      "apellidoPaterno": "Castillo",
+      "numeroSeguroSocial": "100-00-0085",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17734.72,
+      "primerNombre": "José",
+      "apellidoPaterno": "Núñez",
+      "numeroSeguroSocial": "100-00-0086",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 21355.22,
+      "primerNombre": "José",
+      "apellidoPaterno": "García",
+      "numeroSeguroSocial": "100-00-0087",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 21330.24,
+      "primerNombre": "José",
+      "apellidoPaterno": "Martínez",
+      "numeroSeguroSocial": "100-00-0088",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 24171.75,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Castillo",
+      "numeroSeguroSocial": "100-00-0089",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 26412.99,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Hernández",
+      "numeroSeguroSocial": "100-00-0090",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 202.94,
+      "horasTrabajadas": 51,
+      "primerNombre": "José",
+      "apellidoPaterno": "Batista",
+      "numeroSeguroSocial": "100-00-0091",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 234.28,
+      "horasTrabajadas": 38,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Sánchez",
+      "numeroSeguroSocial": "100-00-0092",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 274.88,
+      "horasTrabajadas": 41,
+      "primerNombre": "Carmen",
+      "apellidoPaterno": "Ureña",
+      "numeroSeguroSocial": "100-00-0093",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 299.88,
+      "horasTrabajadas": 43,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0094",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 352.09,
+      "horasTrabajadas": 36,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Rodríguez",
+      "numeroSeguroSocial": "100-00-0095",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 397.23,
+      "horasTrabajadas": 35,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Vásquez",
+      "numeroSeguroSocial": "100-00-0096",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 422.65,
+      "horasTrabajadas": 43,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Brito",
+      "numeroSeguroSocial": "100-00-0097",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 468.34,
+      "horasTrabajadas": 48,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Guzmán",
+      "numeroSeguroSocial": "100-00-0098",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 493.2,
+      "horasTrabajadas": 52,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "García",
+      "numeroSeguroSocial": "100-00-0099",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 526.45,
+      "horasTrabajadas": 41,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Sánchez",
+      "numeroSeguroSocial": "100-00-0100",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 94657.78,
+      "tarifaComision": 0.03,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Brito",
+      "numeroSeguroSocial": "100-00-0101",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 113422.37,
+      "tarifaComision": 0.035,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Sánchez",
+      "numeroSeguroSocial": "100-00-0102",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 125559.61,
+      "tarifaComision": 0.04,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Martínez",
+      "numeroSeguroSocial": "100-00-0103",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 155878.69,
+      "tarifaComision": 0.045,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Díaz",
+      "numeroSeguroSocial": "100-00-0104",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 165650.7,
+      "tarifaComision": 0.05,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Santana",
+      "numeroSeguroSocial": "100-00-0105",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 183970.28,
+      "tarifaComision": 0.055,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Ramírez",
+      "numeroSeguroSocial": "100-00-0106",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 194644.06,
+      "tarifaComision": 0.06,
+      "primerNombre": "Valeria",
+      "apellidoPaterno": "Santana",
+      "numeroSeguroSocial": "100-00-0107",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 228024.16,
+      "tarifaComision": 0.065,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0108",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 246356.12,
+      "tarifaComision": 0.07,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Santana",
+      "numeroSeguroSocial": "100-00-0109",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 248554.58,
+      "tarifaComision": 0.075,
+      "primerNombre": "Ramón",
+      "apellidoPaterno": "Encarnación",
+      "numeroSeguroSocial": "100-00-0110",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 5535.73,
+      "ventasBrutas": 63265.53,
+      "tarifaComision": 0.02,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Jiménez",
+      "numeroSeguroSocial": "100-00-0111",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 6479.71,
+      "ventasBrutas": 74053.79,
+      "tarifaComision": 0.023,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Brito",
+      "numeroSeguroSocial": "100-00-0112",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 7571.76,
+      "ventasBrutas": 86534.45,
+      "tarifaComision": 0.026,
+      "primerNombre": "Valeria",
+      "apellidoPaterno": "Brito",
+      "numeroSeguroSocial": "100-00-0113",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8561.47,
+      "ventasBrutas": 97845.37,
+      "tarifaComision": 0.029,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Jiménez",
+      "numeroSeguroSocial": "100-00-0114",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10119.11,
+      "ventasBrutas": 115646.99,
+      "tarifaComision": 0.032,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0115",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10875.53,
+      "ventasBrutas": 124291.72,
+      "tarifaComision": 0.035,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Guzmán",
+      "numeroSeguroSocial": "100-00-0116",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 11754.54,
+      "ventasBrutas": 134337.6,
+      "tarifaComision": 0.038,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0117",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 12323.62,
+      "ventasBrutas": 140841.35,
+      "tarifaComision": 0.041,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "García",
+      "numeroSeguroSocial": "100-00-0118",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14088.49,
+      "ventasBrutas": 161011.33,
+      "tarifaComision": 0.044,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Cruz",
+      "numeroSeguroSocial": "100-00-0119",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14675.35,
+      "ventasBrutas": 167718.3,
+      "tarifaComision": 0.047,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Hernández",
+      "numeroSeguroSocial": "100-00-0120",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 9182.7,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Almonte",
+      "numeroSeguroSocial": "100-00-0121",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 10505.99,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Vásquez",
+      "numeroSeguroSocial": "100-00-0122",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 12964.95,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0123",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 14504.81,
+      "primerNombre": "María",
+      "apellidoPaterno": "Encarnación",
+      "numeroSeguroSocial": "100-00-0124",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 15736.37,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Díaz",
+      "numeroSeguroSocial": "100-00-0125",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17115.24,
+      "primerNombre": "Héctor",
+      "apellidoPaterno": "Almonte",
+      "numeroSeguroSocial": "100-00-0126",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 19722.98,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "García",
+      "numeroSeguroSocial": "100-00-0127",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 21864.84,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Rodríguez",
+      "numeroSeguroSocial": "100-00-0128",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 22663.2,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Rosario",
+      "numeroSeguroSocial": "100-00-0129",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 23947.02,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Pérez",
+      "numeroSeguroSocial": "100-00-0130",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 191.91,
+      "horasTrabajadas": 31,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0131",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 230.49,
+      "horasTrabajadas": 45,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Mejía",
+      "numeroSeguroSocial": "100-00-0132",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 254.13,
+      "horasTrabajadas": 35,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Díaz",
+      "numeroSeguroSocial": "100-00-0133",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 303.93,
+      "horasTrabajadas": 46,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0134",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 337.7,
+      "horasTrabajadas": 45,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Jiménez",
+      "numeroSeguroSocial": "100-00-0135",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 373.39,
+      "horasTrabajadas": 41,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0136",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 393.23,
+      "horasTrabajadas": 46,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Almonte",
+      "numeroSeguroSocial": "100-00-0137",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 450.84,
+      "horasTrabajadas": 33,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Santana",
+      "numeroSeguroSocial": "100-00-0138",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 471.94,
+      "horasTrabajadas": 51,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0139",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 524.38,
+      "horasTrabajadas": 48,
+      "primerNombre": "María",
+      "apellidoPaterno": "Castillo",
+      "numeroSeguroSocial": "100-00-0140",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 92342.3,
+      "tarifaComision": 0.03,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Santana",
+      "numeroSeguroSocial": "100-00-0141",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 107581.11,
+      "tarifaComision": 0.035,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Encarnación",
+      "numeroSeguroSocial": "100-00-0142",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 120758.35,
+      "tarifaComision": 0.04,
+      "primerNombre": "María",
+      "apellidoPaterno": "Batista",
+      "numeroSeguroSocial": "100-00-0143",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 148013.78,
+      "tarifaComision": 0.045,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Ureña",
+      "numeroSeguroSocial": "100-00-0144",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 157377.36,
+      "tarifaComision": 0.05,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Núñez",
+      "numeroSeguroSocial": "100-00-0145",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 169654.14,
+      "tarifaComision": 0.055,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0146",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 190339.32,
+      "tarifaComision": 0.06,
+      "primerNombre": "José",
+      "apellidoPaterno": "Santana",
+      "numeroSeguroSocial": "100-00-0147",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 216272.88,
+      "tarifaComision": 0.065,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Martínez",
+      "numeroSeguroSocial": "100-00-0148",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 219558.61,
+      "tarifaComision": 0.07,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Tavárez",
+      "numeroSeguroSocial": "100-00-0149",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 252847.86,
+      "tarifaComision": 0.075,
+      "primerNombre": "Ramón",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0150",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 5470.96,
+      "ventasBrutas": 62525.25,
+      "tarifaComision": 0.02,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Rosario",
+      "numeroSeguroSocial": "100-00-0151",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 6247.94,
+      "ventasBrutas": 71405.07,
+      "tarifaComision": 0.023,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Cruz",
+      "numeroSeguroSocial": "100-00-0152",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 7622.86,
+      "ventasBrutas": 87118.44,
+      "tarifaComision": 0.026,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Encarnación",
+      "numeroSeguroSocial": "100-00-0153",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8191.61,
+      "ventasBrutas": 93618.35,
+      "tarifaComision": 0.029,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Pérez",
+      "numeroSeguroSocial": "100-00-0154",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 9137.64,
+      "ventasBrutas": 104430.16,
+      "tarifaComision": 0.032,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Núñez",
+      "numeroSeguroSocial": "100-00-0155",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 9956.48,
+      "ventasBrutas": 113788.39,
+      "tarifaComision": 0.035,
+      "primerNombre": "Carlos",
+      "apellidoPaterno": "García",
+      "numeroSeguroSocial": "100-00-0156",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 11304.55,
+      "ventasBrutas": 129194.82,
+      "tarifaComision": 0.038,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Batista",
+      "numeroSeguroSocial": "100-00-0157",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 11808.02,
+      "ventasBrutas": 134948.76,
+      "tarifaComision": 0.041,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Rodríguez",
+      "numeroSeguroSocial": "100-00-0158",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 13897.97,
+      "ventasBrutas": 158833.91,
+      "tarifaComision": 0.044,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0159",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14281.02,
+      "ventasBrutas": 163211.65,
+      "tarifaComision": 0.047,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0160",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 12425.55,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0161",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 16067.04,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Valdez",
+      "numeroSeguroSocial": "100-00-0162",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17484.38,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0163",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 19439.35,
+      "primerNombre": "Carmen",
+      "apellidoPaterno": "Jiménez",
+      "numeroSeguroSocial": "100-00-0164",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 23325.77,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0165",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 25123.04,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0166",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 27993.43,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Brito",
+      "numeroSeguroSocial": "100-00-0167",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 30465.54,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Rosario",
+      "numeroSeguroSocial": "100-00-0168",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 31053.91,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Jiménez",
+      "numeroSeguroSocial": "100-00-0169",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 35233.51,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Encarnación",
+      "numeroSeguroSocial": "100-00-0170",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 279.86,
+      "horasTrabajadas": 39,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0171",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 313.15,
+      "horasTrabajadas": 35,
+      "primerNombre": "Ramón",
+      "apellidoPaterno": "Jiménez",
+      "numeroSeguroSocial": "100-00-0172",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 381.3,
+      "horasTrabajadas": 43,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Reyes",
+      "numeroSeguroSocial": "100-00-0173",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 425.26,
+      "horasTrabajadas": 39,
+      "primerNombre": "Valeria",
+      "apellidoPaterno": "Martínez",
+      "numeroSeguroSocial": "100-00-0174",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 463.68,
+      "horasTrabajadas": 41,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0175",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 519.49,
+      "horasTrabajadas": 40,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Hernández",
+      "numeroSeguroSocial": "100-00-0176",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 575.61,
+      "horasTrabajadas": 39,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Tavárez",
+      "numeroSeguroSocial": "100-00-0177",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 646.56,
+      "horasTrabajadas": 39,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0178",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 677.06,
+      "horasTrabajadas": 45,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Vásquez",
+      "numeroSeguroSocial": "100-00-0179",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 727.89,
+      "horasTrabajadas": 37,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Gómez",
+      "numeroSeguroSocial": "100-00-0180",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 134484.43,
+      "tarifaComision": 0.03,
+      "primerNombre": "María",
+      "apellidoPaterno": "Díaz",
+      "numeroSeguroSocial": "100-00-0181",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 147658.57,
+      "tarifaComision": 0.035,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0182",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 170804.69,
+      "tarifaComision": 0.04,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Valdez",
+      "numeroSeguroSocial": "100-00-0183",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 212334.84,
+      "tarifaComision": 0.045,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Encarnación",
+      "numeroSeguroSocial": "100-00-0184",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 216189.31,
+      "tarifaComision": 0.05,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0185",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 248546.41,
+      "tarifaComision": 0.055,
+      "primerNombre": "Ramón",
+      "apellidoPaterno": "Castillo",
+      "numeroSeguroSocial": "100-00-0186",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 286790.11,
+      "tarifaComision": 0.06,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Reyes",
+      "numeroSeguroSocial": "100-00-0187",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 309747.54,
+      "tarifaComision": 0.065,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Hernández",
+      "numeroSeguroSocial": "100-00-0188",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 310881.38,
+      "tarifaComision": 0.07,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Guzmán",
+      "numeroSeguroSocial": "100-00-0189",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 362584.72,
+      "tarifaComision": 0.075,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Pérez",
+      "numeroSeguroSocial": "100-00-0190",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 7611.13,
+      "ventasBrutas": 86984.37,
+      "tarifaComision": 0.02,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Almonte",
+      "numeroSeguroSocial": "100-00-0191",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8886.4,
+      "ventasBrutas": 101558.9,
+      "tarifaComision": 0.023,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Hernández",
+      "numeroSeguroSocial": "100-00-0192",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10132.56,
+      "ventasBrutas": 115800.71,
+      "tarifaComision": 0.026,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Díaz",
+      "numeroSeguroSocial": "100-00-0193",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 12239.05,
+      "ventasBrutas": 139874.84,
+      "tarifaComision": 0.029,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Martínez",
+      "numeroSeguroSocial": "100-00-0194",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 13820.37,
+      "ventasBrutas": 157947.13,
+      "tarifaComision": 0.032,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Pérez",
+      "numeroSeguroSocial": "100-00-0195",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14802.47,
+      "ventasBrutas": 169171.08,
+      "tarifaComision": 0.035,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0196",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 15614.21,
+      "ventasBrutas": 178448.1,
+      "tarifaComision": 0.038,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Sánchez",
+      "numeroSeguroSocial": "100-00-0197",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 16657.63,
+      "ventasBrutas": 190372.88,
+      "tarifaComision": 0.041,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Valdez",
+      "numeroSeguroSocial": "100-00-0198",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 19702.57,
+      "ventasBrutas": 225172.19,
+      "tarifaComision": 0.044,
+      "primerNombre": "María",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0199",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 21061.35,
+      "ventasBrutas": 240701.11,
+      "tarifaComision": 0.047,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Matos",
+      "numeroSeguroSocial": "100-00-0200",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 10548.5,
+      "primerNombre": "Carmen",
+      "apellidoPaterno": "Vásquez",
+      "numeroSeguroSocial": "100-00-0201",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 12326.83,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Jiménez",
+      "numeroSeguroSocial": "100-00-0202",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 13248.15,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Núñez",
+      "numeroSeguroSocial": "100-00-0203",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 15096.65,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Encarnación",
+      "numeroSeguroSocial": "100-00-0204",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17273.13,
+      "primerNombre": "María",
+      "apellidoPaterno": "Castillo",
+      "numeroSeguroSocial": "100-00-0205",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 18904.82,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Rosario",
+      "numeroSeguroSocial": "100-00-0206",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 21009.01,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Batista",
+      "numeroSeguroSocial": "100-00-0207",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 22545.0,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Cruz",
+      "numeroSeguroSocial": "100-00-0208",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 26231.39,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Féliz",
+      "numeroSeguroSocial": "100-00-0209",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 28323.95,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Castillo",
+      "numeroSeguroSocial": "100-00-0210",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 216.73,
+      "horasTrabajadas": 38,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Reyes",
+      "numeroSeguroSocial": "100-00-0211",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 259.26,
+      "horasTrabajadas": 33,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Sánchez",
+      "numeroSeguroSocial": "100-00-0212",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 287.35,
+      "horasTrabajadas": 44,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Rodríguez",
+      "numeroSeguroSocial": "100-00-0213",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 315.21,
+      "horasTrabajadas": 33,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Reyes",
+      "numeroSeguroSocial": "100-00-0214",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 376.18,
+      "horasTrabajadas": 38,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Vásquez",
+      "numeroSeguroSocial": "100-00-0215",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 392.74,
+      "horasTrabajadas": 50,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Castillo",
+      "numeroSeguroSocial": "100-00-0216",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 445.45,
+      "horasTrabajadas": 48,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Núñez",
+      "numeroSeguroSocial": "100-00-0217",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 504.51,
+      "horasTrabajadas": 50,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "García",
+      "numeroSeguroSocial": "100-00-0218",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 507.14,
+      "horasTrabajadas": 50,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Tavárez",
+      "numeroSeguroSocial": "100-00-0219",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 544.57,
+      "horasTrabajadas": 31,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Hernández",
+      "numeroSeguroSocial": "100-00-0220",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 104332.09,
+      "tarifaComision": 0.03,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Gómez",
+      "numeroSeguroSocial": "100-00-0221",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 121625.38,
+      "tarifaComision": 0.035,
+      "primerNombre": "Héctor",
+      "apellidoPaterno": "Peña",
+      "numeroSeguroSocial": "100-00-0222",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 132578.34,
+      "tarifaComision": 0.04,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Rosario",
+      "numeroSeguroSocial": "100-00-0223",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 159847.28,
+      "tarifaComision": 0.045,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Gómez",
+      "numeroSeguroSocial": "100-00-0224",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 178299.38,
+      "tarifaComision": 0.05,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Jiménez",
+      "numeroSeguroSocial": "100-00-0225",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 203595.09,
+      "tarifaComision": 0.055,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Díaz",
+      "numeroSeguroSocial": "100-00-0226",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 219733.5,
+      "tarifaComision": 0.06,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Polanco",
+      "numeroSeguroSocial": "100-00-0227",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 242600.66,
+      "tarifaComision": 0.065,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Santana",
+      "numeroSeguroSocial": "100-00-0228",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 259528.67,
+      "tarifaComision": 0.07,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Encarnación",
+      "numeroSeguroSocial": "100-00-0229",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 262875.85,
+      "tarifaComision": 0.075,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Brito",
+      "numeroSeguroSocial": "100-00-0230",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 5651.33,
+      "ventasBrutas": 64586.58,
+      "tarifaComision": 0.02,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Díaz",
+      "numeroSeguroSocial": "100-00-0231",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 6635.34,
+      "ventasBrutas": 75832.45,
+      "tarifaComision": 0.023,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Núñez",
+      "numeroSeguroSocial": "100-00-0232",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8244.55,
+      "ventasBrutas": 94223.47,
+      "tarifaComision": 0.026,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Santana",
+      "numeroSeguroSocial": "100-00-0233",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8750.05,
+      "ventasBrutas": 100000.61,
+      "tarifaComision": 0.029,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Brito",
+      "numeroSeguroSocial": "100-00-0234",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10576.13,
+      "ventasBrutas": 120870.05,
+      "tarifaComision": 0.032,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Martínez",
+      "numeroSeguroSocial": "100-00-0235",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 11588.39,
+      "ventasBrutas": 132438.71,
+      "tarifaComision": 0.035,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Núñez",
+      "numeroSeguroSocial": "100-00-0236",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 12531.49,
+      "ventasBrutas": 143217.08,
+      "tarifaComision": 0.038,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Ureña",
+      "numeroSeguroSocial": "100-00-0237",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14181.04,
+      "ventasBrutas": 162069.02,
+      "tarifaComision": 0.041,
+      "primerNombre": "Miguel",
+      "apellidoPaterno": "Pérez",
+      "numeroSeguroSocial": "100-00-0238",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14945.13,
+      "ventasBrutas": 170801.53,
+      "tarifaComision": 0.044,
+      "primerNombre": "Héctor",
+      "apellidoPaterno": "Batista",
+      "numeroSeguroSocial": "100-00-0239",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 16000.16,
+      "ventasBrutas": 182858.96,
+      "tarifaComision": 0.047,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Batista",
+      "numeroSeguroSocial": "100-00-0240",
+      "estado": "Inactivo"
+    }
+  }
+]

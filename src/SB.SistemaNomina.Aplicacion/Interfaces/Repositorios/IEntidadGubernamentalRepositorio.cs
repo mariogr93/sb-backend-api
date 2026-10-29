@@ -14,5 +14,8 @@ public interface IEntidadGubernamentalRepositorio
 
     Task AgregarAsync(EntidadGubernamental entidad, CancellationToken tokenCancelacion);
 
+    /// <summary>Todos o ninguno (datos iniciales).</summary>
+    Task AgregarVariosAsync(IReadOnlyCollection<EntidadGubernamental> entidades, CancellationToken tokenCancelacion);
+
     Task ActualizarAsync(EntidadGubernamental entidad, CancellationToken tokenCancelacion);
 }

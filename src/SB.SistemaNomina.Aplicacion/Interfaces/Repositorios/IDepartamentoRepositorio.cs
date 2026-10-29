@@ -12,5 +12,8 @@ public interface IDepartamentoRepositorio
 
     Task AgregarAsync(Departamento departamento, CancellationToken tokenCancelacion);
 
+    /// <summary>Todos o ninguno (datos iniciales).</summary>
+    Task AgregarVariosAsync(IReadOnlyCollection<Departamento> departamentos, CancellationToken tokenCancelacion);
+
     Task ActualizarAsync(Departamento departamento, CancellationToken tokenCancelacion);
 }
