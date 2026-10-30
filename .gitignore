@@ -485,3 +485,6 @@ $RECYCLE.BIN/
 
 # Datos generados en ejecución (proveedor JSON)
 src/SB.SistemaNomina.API/BaseDatos/
+
+# Archivos de log (Serilog)
+src/SB.SistemaNomina.API/Logs/
