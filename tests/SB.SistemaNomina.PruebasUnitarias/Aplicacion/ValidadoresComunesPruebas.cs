@@ -3,12 +3,20 @@ using Microsoft.Extensions.DependencyInjection;
 using SB.SistemaNomina.Aplicacion;
 using SB.SistemaNomina.Aplicacion.Comun;
 using SB.SistemaNomina.Aplicacion.Excepciones;
+using SB.SistemaNomina.Aplicacion.Modelos.Autenticacion;
+using SB.SistemaNomina.Aplicacion.Modelos.Departamentos;
 using SB.SistemaNomina.Aplicacion.Modelos.Empleados;
+using SB.SistemaNomina.Aplicacion.Modelos.EntidadesGubernamentales;
 using SB.SistemaNomina.Aplicacion.Modelos.Nominas;
+using SB.SistemaNomina.Aplicacion.Modelos.Usuarios;
 using SB.SistemaNomina.Aplicacion.Validadores;
+using SB.SistemaNomina.Aplicacion.Validadores.Autenticacion;
 using SB.SistemaNomina.Aplicacion.Validadores.Comun;
+using SB.SistemaNomina.Aplicacion.Validadores.Departamentos;
 using SB.SistemaNomina.Aplicacion.Validadores.Empleados;
+using SB.SistemaNomina.Aplicacion.Validadores.EntidadesGubernamentales;
 using SB.SistemaNomina.Aplicacion.Validadores.Nominas;
+using SB.SistemaNomina.Aplicacion.Validadores.Usuarios;
 using SB.SistemaNomina.Dominio.Enumeraciones;
 using SB.SistemaNomina.PruebasUnitarias.Comun;
 
@@ -77,6 +85,20 @@ public class ValidadoresComunesPruebas
         {
             Assert.Equal(MensajesValidacion.FECHA_INICIO_SEMANA_FUTURA, Assert.Single(resultado.Errors).ErrorMessage);
         }
+    }
+
+    [Theory]
+    [InlineData(2026, 10, 26)]
+    [InlineData(2026, 10, 19)]
+    [InlineData(2025, 1, 6)]
+    public async Task LunesPasadoEsValido(int anio, int mes, int dia)
+    {
+        var reloj = new ProveedorTiempoFijo(new DateTimeOffset(2026, 10, 30, 12, 0, 0, TimeSpan.Zero));
+
+        var resultado = await new GuardarNominaSolicitudValidador(reloj)
+            .ValidateAsync(new GuardarNominaSolicitud { FechaInicioSemana = new DateOnly(anio, mes, dia) });
+
+        Assert.True(resultado.IsValid);
     }
 
     [Fact]
@@ -176,6 +198,55 @@ public class ValidadoresComunesPruebas
 
         await Assert.ThrowsAnyAsync<OperationCanceledException>(() =>
             validador.ValidarSolicitudAsync(new SolicitudPaginada(), fuente.Token));
+    }
+
+    private static ServiceProvider CrearContenedor() =>
+        new ServiceCollection()
+            .AddSingleton<TimeProvider>(new ProveedorTiempoFijo(new DateTimeOffset(2026, 10, 30, 12, 0, 0, TimeSpan.Zero)))
+            .AddAplicacion()
+            .BuildServiceProvider(new ServiceProviderOptions { ValidateScopes = true, ValidateOnBuild = true });
+
+    [Theory]
+    [InlineData(typeof(IniciarSesionSolicitud), typeof(IniciarSesionSolicitudValidador))]
+    [InlineData(typeof(SolicitudPaginada), typeof(SolicitudPaginadaValidador))]
+    [InlineData(typeof(FiltroEmpleados), typeof(FiltroEmpleadosValidador))]
+    [InlineData(typeof(GuardarEmpleadoSolicitud), typeof(GuardarEmpleadoSolicitudValidador))]
+    [InlineData(typeof(GuardarDepartamentoSolicitud), typeof(GuardarDepartamentoSolicitudValidador))]
+    [InlineData(typeof(FiltroEntidadesGubernamentales), typeof(FiltroEntidadesGubernamentalesValidador))]
+    [InlineData(typeof(GuardarEntidadGubernamentalSolicitud), typeof(GuardarEntidadGubernamentalSolicitudValidador))]
+    [InlineData(typeof(GuardarNominaSolicitud), typeof(GuardarNominaSolicitudValidador))]
+    [InlineData(typeof(CrearUsuarioSolicitud), typeof(CrearUsuarioSolicitudValidador))]
+    [InlineData(typeof(ActualizarUsuarioSolicitud), typeof(ActualizarUsuarioSolicitudValidador))]
+    [InlineData(typeof(CambiarContrasenaSolicitud), typeof(CambiarContrasenaSolicitudValidador))]
+    public void AddAplicacionResuelveCadaValidadorDeSolicitud(Type solicitud, Type validadorEsperado)
+    {
+        using var contenedor = CrearContenedor();
+        using var alcance = contenedor.CreateScope();
+
+        var validador = alcance.ServiceProvider.GetRequiredService(typeof(IValidator<>).MakeGenericType(solicitud));
+
+        Assert.IsType(validadorEsperado, validador);
+    }
+
+    [Fact]
+    public async Task ValidadoresResueltosAplicanSusReglas()
+    {
+        using var contenedor = CrearContenedor();
+        using var alcance = contenedor.CreateScope();
+        var proveedor = alcance.ServiceProvider;
+
+        var loginVacio = await proveedor.GetRequiredService<IValidator<IniciarSesionSolicitud>>()
+            .ValidateAsync(new IniciarSesionSolicitud());
+        var nominaPasada = await proveedor.GetRequiredService<IValidator<GuardarNominaSolicitud>>()
+            .ValidateAsync(new GuardarNominaSolicitud { FechaInicioSemana = _lunes });
+        var nominaFutura = await proveedor.GetRequiredService<IValidator<GuardarNominaSolicitud>>()
+            .ValidateAsync(new GuardarNominaSolicitud { FechaInicioSemana = _lunes.AddDays(7) });
+
+        Assert.Equal(
+            [nameof(IniciarSesionSolicitud.NombreUsuario), nameof(IniciarSesionSolicitud.Contrasena)],
+            loginVacio.Errors.Select(error => error.PropertyName));
+        Assert.True(nominaPasada.IsValid);
+        Assert.Equal(MensajesValidacion.FECHA_INICIO_SEMANA_FUTURA, Assert.Single(nominaFutura.Errors).ErrorMessage);
     }
 
     [Fact]

@@ -123,6 +123,16 @@ public class ValidadoresUsuarioPruebas
     }
 
     [Theory]
+    [InlineData("Mario_1.test-2")]
+    [InlineData("ADMIN99")]
+    public async Task NombreUsuarioAceptaMayusculasDigitosPuntoGuionYGuionBajo(string nombreUsuario)
+    {
+        var resultado = await _validadorCrear.ValidateAsync(CrearSolicitud() with { NombreUsuario = nombreUsuario });
+
+        Assert.True(resultado.IsValid);
+    }
+
+    [Theory]
     [InlineData("mg", MensajesValidacion.NOMBRE_USUARIO_INVALIDO)]
     [InlineData("LARGO51", MensajesValidacion.NOMBRE_USUARIO_INVALIDO)]
     [InlineData("mario@", MensajesValidacion.NOMBRE_USUARIO_INVALIDO)]

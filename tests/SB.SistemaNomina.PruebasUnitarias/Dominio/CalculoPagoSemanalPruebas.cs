@@ -1,6 +1,7 @@
 using SB.SistemaNomina.Dominio.Constantes;
 using SB.SistemaNomina.Dominio.Entidades;
 using SB.SistemaNomina.Dominio.Enumeraciones;
+using SB.SistemaNomina.Dominio.ObjetosValor;
 
 namespace SB.SistemaNomina.PruebasUnitarias.Dominio;
 
@@ -13,22 +14,23 @@ public class CalculoPagoSemanalPruebas
 
         var desglose = empleado.CalcularPagoSemanal();
 
+        Assert.Equal(TipoEmpleado.Asalariado, empleado.Tipo);
         Assert.Equal(1500m, desglose.Total);
-        Assert.Equal(ConceptosPago.SALARIO_SEMANAL, Assert.Single(desglose.Lineas).Concepto);
+        Assert.Equal(new LineaDesglosePago(ConceptosPago.SALARIO_SEMANAL, "1500", 1500m), Assert.Single(desglose.Lineas));
     }
 
     [Theory]
-    [InlineData(500, 40, 20000)]
-    [InlineData(500, 0, 0)]
-    [InlineData(500, 39.5, 19750)]
-    public void PorHorasHastaCuarentaHorasSinHorasExtra(decimal sueldoPorHora, decimal horasTrabajadas, decimal pagoEsperado)
+    [InlineData(500, 40, 20000, "500 × 40")]
+    [InlineData(500, 0, 0, "500 × 0")]
+    [InlineData(500, 39.5, 19750, "500 × 39.5")]
+    public void PorHorasHastaCuarentaHorasSinHorasExtra(decimal sueldoPorHora, decimal horasTrabajadas, decimal pagoEsperado, string formula)
     {
         var empleado = new EmpleadoPorHoras { SueldoPorHora = sueldoPorHora, HorasTrabajadas = horasTrabajadas };
 
         var desglose = empleado.CalcularPagoSemanal();
 
         Assert.Equal(pagoEsperado, desglose.Total);
-        Assert.Equal(ConceptosPago.HORAS_REGULARES, Assert.Single(desglose.Lineas).Concepto);
+        Assert.Equal(new LineaDesglosePago(ConceptosPago.HORAS_REGULARES, formula, pagoEsperado), Assert.Single(desglose.Lineas));
     }
 
     [Fact]
@@ -39,9 +41,14 @@ public class CalculoPagoSemanalPruebas
         var desglose = empleado.CalcularPagoSemanal();
 
         // (500 × 40) + (500 × 1.5 × 5) = 20,000 + 3,750
+        Assert.Equal(TipoEmpleado.PorHoras, empleado.Tipo);
         Assert.Equal(23750m, desglose.Total);
-        Assert.Equal(2, desglose.Lineas.Count);
-        Assert.Equal(3750m, desglose.Lineas.Single(linea => linea.Concepto == ConceptosPago.HORAS_EXTRA).Monto);
+        Assert.Equal(
+            [
+                new LineaDesglosePago(ConceptosPago.HORAS_REGULARES, "500 × 40", 20000m),
+                new LineaDesglosePago(ConceptosPago.HORAS_EXTRA, "500 × 1.5 × 5", 3750m)
+            ],
+            desglose.Lineas);
     }
 
     [Fact]
@@ -51,7 +58,9 @@ public class CalculoPagoSemanalPruebas
 
         var desglose = empleado.CalcularPagoSemanal();
 
+        Assert.Equal(TipoEmpleado.PorComision, empleado.Tipo);
         Assert.Equal(600m, desglose.Total);
+        Assert.Equal(new LineaDesglosePago(ConceptosPago.COMISION, "10000 × 0.06", 600m), Assert.Single(desglose.Lineas));
     }
 
     [Fact]
@@ -67,8 +76,15 @@ public class CalculoPagoSemanalPruebas
         var desglose = empleado.CalcularPagoSemanal();
 
         // 600 + 1,000 + 100
+        Assert.Equal(TipoEmpleado.AsalariadoPorComision, empleado.Tipo);
         Assert.Equal(1700m, desglose.Total);
-        Assert.Equal(100m, desglose.Lineas.Single(linea => linea.Concepto == ConceptosPago.BONO_SALARIO_BASE).Monto);
+        Assert.Equal(
+            [
+                new LineaDesglosePago(ConceptosPago.COMISION, "10000 × 0.06", 600m),
+                new LineaDesglosePago(ConceptosPago.SALARIO_BASE, "1000", 1000m),
+                new LineaDesglosePago(ConceptosPago.BONO_SALARIO_BASE, "1000 × 0.1", 100m)
+            ],
+            desglose.Lineas);
     }
 
     [Fact]

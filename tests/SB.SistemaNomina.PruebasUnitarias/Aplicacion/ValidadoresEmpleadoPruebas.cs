@@ -1,4 +1,5 @@
 using System.Globalization;
+using FluentValidation;
 using FluentValidation.Results;
 using SB.SistemaNomina.Aplicacion.Comun;
 using SB.SistemaNomina.Aplicacion.Modelos.Empleados;
@@ -63,6 +64,71 @@ public class ValidadoresEmpleadoPruebas
         Assert.True(resultado.IsValid);
     }
 
+    // Campos ajenos al tipo fuera de rango: deben ignorarse.
+    private static readonly CompensacionEmpleado _compensacionInvalida = new()
+    {
+        SalarioSemanal = -1m,
+        SueldoPorHora = -1m,
+        HorasTrabajadas = 999m,
+        VentasBrutas = -1m,
+        TarifaComision = 5m,
+        SalarioBase = -1m
+    };
+
+    private static CompensacionEmpleado SoloCamposDelTipo(TipoEmpleado tipo, CompensacionEmpleado otros) => tipo switch
+    {
+        TipoEmpleado.Asalariado => otros with { SalarioSemanal = 1000m },
+        TipoEmpleado.PorHoras => otros with { SueldoPorHora = 500m, HorasTrabajadas = 40m },
+        TipoEmpleado.PorComision => otros with { VentasBrutas = 1000m, TarifaComision = 0.1m },
+        _ => otros with { VentasBrutas = 1000m, TarifaComision = 0.1m, SalarioBase = 500m }
+    };
+
+    [Theory]
+    [InlineData(TipoEmpleado.Asalariado, false)]
+    [InlineData(TipoEmpleado.PorHoras, false)]
+    [InlineData(TipoEmpleado.PorComision, false)]
+    [InlineData(TipoEmpleado.AsalariadoPorComision, false)]
+    [InlineData(TipoEmpleado.Asalariado, true)]
+    [InlineData(TipoEmpleado.PorHoras, true)]
+    [InlineData(TipoEmpleado.PorComision, true)]
+    [InlineData(TipoEmpleado.AsalariadoPorComision, true)]
+    public async Task CadaTipoExigeSoloSusCampos(TipoEmpleado tipo, bool otrosCamposInvalidos)
+    {
+        var otros = otrosCamposInvalidos ? _compensacionInvalida : new CompensacionEmpleado();
+
+        var resultado = await _validador.ValidateAsync(CrearSolicitud(tipo, SoloCamposDelTipo(tipo, otros)));
+
+        Assert.True(resultado.IsValid);
+    }
+
+    [Fact]
+    public async Task ValidadorRaizPasaSuTokenAlDeCompensacion()
+    {
+        using var fuente = new CancellationTokenSource();
+        var compensacion = new ValidadorCompensacionQueRegistraToken();
+        var validador = new GuardarEmpleadoSolicitudValidador([compensacion]);
+
+        await validador.ValidateAsync(CrearSolicitud(TipoEmpleado.Asalariado), fuente.Token);
+
+        Assert.Equal(fuente.Token, compensacion.TokenRecibido);
+    }
+
+    private sealed class ValidadorCompensacionQueRegistraToken : AbstractValidator<GuardarEmpleadoSolicitud>, IValidadorCompensacionEmpleado
+    {
+        public ValidadorCompensacionQueRegistraToken()
+        {
+            RuleFor(solicitud => solicitud).CustomAsync((_, _, token) =>
+            {
+                TokenRecibido = token;
+                return Task.CompletedTask;
+            });
+        }
+
+        public CancellationToken TokenRecibido { get; private set; }
+
+        public TipoEmpleado Tipo => TipoEmpleado.Asalariado;
+    }
+
     [Theory]
     [InlineData(null, false)]
     [InlineData("-0.001", false)]
@@ -87,11 +153,13 @@ public class ValidadoresEmpleadoPruebas
 
     [Theory]
     [InlineData(TipoEmpleado.PorComision, null, false)]
+    [InlineData(TipoEmpleado.PorComision, "-0.0001", false)]
     [InlineData(TipoEmpleado.PorComision, "0", false)]
     [InlineData(TipoEmpleado.PorComision, "0.0001", true)]
     [InlineData(TipoEmpleado.PorComision, "1", true)]
     [InlineData(TipoEmpleado.PorComision, "1.0001", false)]
     [InlineData(TipoEmpleado.AsalariadoPorComision, null, false)]
+    [InlineData(TipoEmpleado.AsalariadoPorComision, "-0.0001", false)]
     [InlineData(TipoEmpleado.AsalariadoPorComision, "0", false)]
     [InlineData(TipoEmpleado.AsalariadoPorComision, "1", true)]
     [InlineData(TipoEmpleado.AsalariadoPorComision, "1.0001", false)]

@@ -8,6 +8,9 @@ public sealed class CerrojoEscritura
 {
     private readonly SemaphoreSlim _semaforo = new(1, 1);
 
+    /// <summary>Compartido: asignar empleado y desactivar departamento no deben intercalarse.</summary>
+    public static CerrojoEscritura EmpleadosYDepartamentos { get; } = new();
+
     public async Task<T> EjecutarAsync<T>(Func<Task<T>> operacion, CancellationToken tokenCancelacion)
     {
         await _semaforo.WaitAsync(tokenCancelacion);
