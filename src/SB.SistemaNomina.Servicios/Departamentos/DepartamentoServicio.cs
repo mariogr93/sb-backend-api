@@ -13,7 +13,7 @@ namespace SB.SistemaNomina.Servicios.Departamentos;
 
 public sealed class DepartamentoServicio : IDepartamentoServicio
 {
-    private static readonly CerrojoEscritura _cerrojo = new();
+    private static readonly CerrojoEscritura _cerrojo = CerrojoEscritura.EmpleadosYDepartamentos;
 
     private readonly IDepartamentoRepositorio _departamentoRepositorio;
     private readonly IEmpleadoRepositorio _empleadoRepositorio;

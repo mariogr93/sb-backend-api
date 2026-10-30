@@ -15,7 +15,7 @@ namespace SB.SistemaNomina.Servicios.Empleados;
 
 public sealed class EmpleadoServicio : IEmpleadoServicio
 {
-    private static readonly CerrojoEscritura _cerrojo = new();
+    private static readonly CerrojoEscritura _cerrojo = CerrojoEscritura.EmpleadosYDepartamentos;
 
     private readonly IEmpleadoRepositorio _empleadoRepositorio;
     private readonly IDepartamentoRepositorio _departamentoRepositorio;
