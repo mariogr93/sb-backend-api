@@ -6,4 +6,6 @@ public interface IUsuarioActual
     Guid? Id { get; }
 
     string NombreUsuario { get; }
+
+    bool EsAdministrador { get; }
 }

@@ -13,7 +13,7 @@ public interface IEmpleadoRepositorio
 
     Task<Empleado?> ObtenerPorIdAsync(Guid id, CancellationToken tokenCancelacion);
 
-    Task<bool> ExisteNumeroSeguroSocialAsync(string numeroSeguroSocial, Guid? idExcluido, CancellationToken tokenCancelacion);
+    Task<bool> ExisteCedulaAsync(string cedula, Guid? idExcluido, CancellationToken tokenCancelacion);
 
     Task AgregarAsync(Empleado empleado, CancellationToken tokenCancelacion);
 

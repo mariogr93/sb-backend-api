@@ -26,6 +26,9 @@ public sealed class InicializadorDatos
 
     private const string ARCHIVO_EMPLEADOS_DEMOSTRACION = "empleados-demostracion.json";
 
+    private const string MENSAJE_EMPLEADOS_SIN_CEDULA =
+        "Hay empleados sin cédula (datos de una versión anterior). Respalde y elimine la carpeta de datos (ConnectionStrings:BaseDatosJson) o asigne las cédulas antes de arrancar.";
+
     private static readonly JsonSerializerOptions _opcionesLectura = new() { PropertyNameCaseInsensitive = true };
 
     // Mismo formato polimórfico del almacén ("tipo" + campos de la subclase).
@@ -62,6 +65,7 @@ public sealed class InicializadorDatos
 
     public async Task InicializarAsync(CancellationToken tokenCancelacion)
     {
+        await VerificarEsquemaEmpleadosAsync(tokenCancelacion);
         await SembrarDepartamentosAsync(tokenCancelacion);
         await SembrarEntidadesAsync(tokenCancelacion);
         await SembrarAdministradorAsync(tokenCancelacion);
@@ -70,6 +74,15 @@ public sealed class InicializadorDatos
         if (_opciones.IncluirEmpleadosDemostracion)
         {
             await SembrarEmpleadosDemostracionAsync(tokenCancelacion);
+        }
+    }
+
+    /// <summary>Datos de una versión anterior (numeroSeguroSocial) llegan sin cédula; guardar los perdería.</summary>
+    private async Task VerificarEsquemaEmpleadosAsync(CancellationToken tokenCancelacion)
+    {
+        if (await _empleadoRepositorio.ExisteCedulaAsync(string.Empty, idExcluido: null, tokenCancelacion))
+        {
+            throw new InvalidOperationException(MENSAJE_EMPLEADOS_SIN_CEDULA);
         }
     }
 

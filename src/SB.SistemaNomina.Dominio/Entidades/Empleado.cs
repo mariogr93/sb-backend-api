@@ -14,7 +14,8 @@ public abstract class Empleado
 
     public string ApellidoPaterno { get; set; } = string.Empty;
 
-    public string NumeroSeguroSocial { get; set; } = string.Empty;
+    /// <summary>Cédula dominicana ###-#######-#.</summary>
+    public string Cedula { get; set; } = string.Empty;
 
     public Guid DepartamentoId { get; set; }
 

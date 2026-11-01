@@ -40,9 +40,9 @@ public sealed class JsonEmpleadoRepositorio : IEmpleadoRepositorio
     public Task<Empleado?> ObtenerPorIdAsync(Guid id, CancellationToken tokenCancelacion) =>
         _almacen.ObtenerAsync(id, tokenCancelacion);
 
-    public Task<bool> ExisteNumeroSeguroSocialAsync(string numeroSeguroSocial, Guid? idExcluido, CancellationToken tokenCancelacion) =>
+    public Task<bool> ExisteCedulaAsync(string cedula, Guid? idExcluido, CancellationToken tokenCancelacion) =>
         _almacen.ExisteAsync(
-            empleado => empleado.Id != idExcluido && empleado.NumeroSeguroSocial == numeroSeguroSocial,
+            empleado => empleado.Id != idExcluido && empleado.Cedula == cedula,
             tokenCancelacion);
 
     public Task AgregarAsync(Empleado empleado, CancellationToken tokenCancelacion) =>

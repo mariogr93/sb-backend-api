@@ -6,7 +6,7 @@
       "salarioSemanal": 11591.92,
       "primerNombre": "Miguel",
       "apellidoPaterno": "Brito",
-      "numeroSeguroSocial": "100-00-0001",
+      "cedula": "031-0007919-7",
       "estado": "Activo"
     }
   },
@@ -17,7 +17,7 @@
       "salarioSemanal": 14953.29,
       "primerNombre": "Paola",
       "apellidoPaterno": "Martínez",
-      "numeroSeguroSocial": "100-00-0002",
+      "cedula": "402-0015838-0",
       "estado": "Activo"
     }
   },
@@ -28,7 +28,7 @@
       "salarioSemanal": 16778.68,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Mejía",
-      "numeroSeguroSocial": "100-00-0003",
+      "cedula": "223-0023757-9",
       "estado": "Activo"
     }
   },
@@ -39,7 +39,7 @@
       "salarioSemanal": 18493.93,
       "primerNombre": "Paola",
       "apellidoPaterno": "Gómez",
-      "numeroSeguroSocial": "100-00-0004",
+      "cedula": "047-0031676-5",
       "estado": "Activo"
     }
   },
@@ -50,7 +50,7 @@
       "salarioSemanal": 20807.86,
       "primerNombre": "Patricia",
       "apellidoPaterno": "García",
-      "numeroSeguroSocial": "100-00-0005",
+      "cedula": "056-0039595-7",
       "estado": "Activo"
     }
   },
@@ -61,7 +61,7 @@
       "salarioSemanal": 22807.56,
       "primerNombre": "Patricia",
       "apellidoPaterno": "García",
-      "numeroSeguroSocial": "100-00-0006",
+      "cedula": "001-0047514-4",
       "estado": "Activo"
     }
   },
@@ -72,7 +72,7 @@
       "salarioSemanal": 25555.55,
       "primerNombre": "Valeria",
       "apellidoPaterno": "Rodríguez",
-      "numeroSeguroSocial": "100-00-0007",
+      "cedula": "031-0055433-0",
       "estado": "Activo"
     }
   },
@@ -83,7 +83,7 @@
       "salarioSemanal": 28860.56,
       "primerNombre": "Elena",
       "apellidoPaterno": "Almonte",
-      "numeroSeguroSocial": "100-00-0008",
+      "cedula": "402-0063352-3",
       "estado": "Activo"
     }
   },
@@ -94,7 +94,7 @@
       "salarioSemanal": 29278.55,
       "primerNombre": "Ramón",
       "apellidoPaterno": "Almonte",
-      "numeroSeguroSocial": "100-00-0009",
+      "cedula": "223-0071271-2",
       "estado": "Activo"
     }
   },
@@ -105,7 +105,7 @@
       "salarioSemanal": 30680.54,
       "primerNombre": "Luis",
       "apellidoPaterno": "Vásquez",
-      "numeroSeguroSocial": "100-00-0010",
+      "cedula": "047-0079190-0",
       "estado": "Activo"
     }
   },
@@ -117,7 +117,7 @@
       "horasTrabajadas": 32,
       "primerNombre": "José",
       "apellidoPaterno": "Tavárez",
-      "numeroSeguroSocial": "100-00-0011",
+      "cedula": "056-0087109-8",
       "estado": "Activo"
     }
   },
@@ -129,7 +129,7 @@
       "horasTrabajadas": 43,
       "primerNombre": "Rosa",
       "apellidoPaterno": "Martínez",
-      "numeroSeguroSocial": "100-00-0012",
+      "cedula": "001-0095028-6",
       "estado": "Activo"
     }
   },
@@ -141,7 +141,7 @@
       "horasTrabajadas": 37,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Santana",
-      "numeroSeguroSocial": "100-00-0013",
+      "cedula": "031-0102947-2",
       "estado": "Activo"
     }
   },
@@ -153,7 +153,7 @@
       "horasTrabajadas": 42,
       "primerNombre": "Juan",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0014",
+      "cedula": "402-0110866-5",
       "estado": "Activo"
     }
   },
@@ -165,7 +165,7 @@
       "horasTrabajadas": 34,
       "primerNombre": "Juan",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0015",
+      "cedula": "223-0118785-6",
       "estado": "Activo"
     }
   },
@@ -177,7 +177,7 @@
       "horasTrabajadas": 49,
       "primerNombre": "José",
       "apellidoPaterno": "Reyes",
-      "numeroSeguroSocial": "100-00-0016",
+      "cedula": "047-0126704-1",
       "estado": "Activo"
     }
   },
@@ -189,7 +189,7 @@
       "horasTrabajadas": 35,
       "primerNombre": "Fernando",
       "apellidoPaterno": "García",
-      "numeroSeguroSocial": "100-00-0017",
+      "cedula": "056-0134623-1",
       "estado": "Activo"
     }
   },
@@ -201,7 +201,7 @@
       "horasTrabajadas": 36,
       "primerNombre": "Rosa",
       "apellidoPaterno": "Rosario",
-      "numeroSeguroSocial": "100-00-0018",
+      "cedula": "001-0142542-9",
       "estado": "Activo"
     }
   },
@@ -213,7 +213,7 @@
       "horasTrabajadas": 50,
       "primerNombre": "Carlos",
       "apellidoPaterno": "Tavárez",
-      "numeroSeguroSocial": "100-00-0019",
+      "cedula": "031-0150461-5",
       "estado": "Activo"
     }
   },
@@ -225,7 +225,7 @@
       "horasTrabajadas": 44,
       "primerNombre": "Rafael",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0020",
+      "cedula": "402-0158380-0",
       "estado": "Inactivo"
     }
   },
@@ -237,7 +237,7 @@
       "tarifaComision": 0.03,
       "primerNombre": "Rafael",
       "apellidoPaterno": "Almonte",
-      "numeroSeguroSocial": "100-00-0021",
+      "cedula": "223-0166299-9",
       "estado": "Activo"
     }
   },
@@ -249,7 +249,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Héctor",
       "apellidoPaterno": "Núñez",
-      "numeroSeguroSocial": "100-00-0022",
+      "cedula": "047-0174218-3",
       "estado": "Activo"
     }
   },
@@ -261,7 +261,7 @@
       "tarifaComision": 0.04,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Guzmán",
-      "numeroSeguroSocial": "100-00-0023",
+      "cedula": "056-0182137-3",
       "estado": "Activo"
     }
   },
@@ -273,7 +273,7 @@
       "tarifaComision": 0.045,
       "primerNombre": "Camila",
       "apellidoPaterno": "Mejía",
-      "numeroSeguroSocial": "100-00-0024",
+      "cedula": "001-0190056-1",
       "estado": "Activo"
     }
   },
@@ -285,7 +285,7 @@
       "tarifaComision": 0.05,
       "primerNombre": "Luis",
       "apellidoPaterno": "Ureña",
-      "numeroSeguroSocial": "100-00-0025",
+      "cedula": "031-0197975-9",
       "estado": "Activo"
     }
   },
@@ -297,7 +297,7 @@
       "tarifaComision": 0.055,
       "primerNombre": "Juan",
       "apellidoPaterno": "Vásquez",
-      "numeroSeguroSocial": "100-00-0026",
+      "cedula": "402-0205894-3",
       "estado": "Activo"
     }
   },
@@ -309,7 +309,7 @@
       "tarifaComision": 0.06,
       "primerNombre": "Ricardo",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0027",
+      "cedula": "223-0213813-0",
       "estado": "Activo"
     }
   },
@@ -321,7 +321,7 @@
       "tarifaComision": 0.065,
       "primerNombre": "Pedro",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0028",
+      "cedula": "047-0221732-6",
       "estado": "Activo"
     }
   },
@@ -333,7 +333,7 @@
       "tarifaComision": 0.07,
       "primerNombre": "Carlos",
       "apellidoPaterno": "Encarnación",
-      "numeroSeguroSocial": "100-00-0029",
+      "cedula": "056-0229651-8",
       "estado": "Activo"
     }
   },
@@ -345,7 +345,7 @@
       "tarifaComision": 0.075,
       "primerNombre": "Laura",
       "apellidoPaterno": "Ramírez",
-      "numeroSeguroSocial": "100-00-0030",
+      "cedula": "001-0237570-6",
       "estado": "Activo"
     }
   },
@@ -358,7 +358,7 @@
       "tarifaComision": 0.02,
       "primerNombre": "Camila",
       "apellidoPaterno": "Tavárez",
-      "numeroSeguroSocial": "100-00-0031",
+      "cedula": "031-0245489-3",
       "estado": "Activo"
     }
   },
@@ -371,7 +371,7 @@
       "tarifaComision": 0.023,
       "primerNombre": "Héctor",
       "apellidoPaterno": "Jiménez",
-      "numeroSeguroSocial": "100-00-0032",
+      "cedula": "402-0253408-3",
       "estado": "Activo"
     }
   },
@@ -384,7 +384,7 @@
       "tarifaComision": 0.026,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Cruz",
-      "numeroSeguroSocial": "100-00-0033",
+      "cedula": "223-0261327-2",
       "estado": "Activo"
     }
   },
@@ -397,7 +397,7 @@
       "tarifaComision": 0.029,
       "primerNombre": "Lucía",
       "apellidoPaterno": "Pérez",
-      "numeroSeguroSocial": "100-00-0034",
+      "cedula": "047-0269246-0",
       "estado": "Activo"
     }
   },
@@ -410,7 +410,7 @@
       "tarifaComision": 0.032,
       "primerNombre": "Isabel",
       "apellidoPaterno": "Cruz",
-      "numeroSeguroSocial": "100-00-0035",
+      "cedula": "056-0277165-0",
       "estado": "Activo"
     }
   },
@@ -423,7 +423,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Sofía",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0036",
+      "cedula": "001-0285084-9",
       "estado": "Activo"
     }
   },
@@ -436,7 +436,7 @@
       "tarifaComision": 0.038,
       "primerNombre": "Paola",
       "apellidoPaterno": "Guzmán",
-      "numeroSeguroSocial": "100-00-0037",
+      "cedula": "031-0293003-3",
       "estado": "Activo"
     }
   },
@@ -449,7 +449,7 @@
       "tarifaComision": 0.041,
       "primerNombre": "Sofía",
       "apellidoPaterno": "Mejía",
-      "numeroSeguroSocial": "100-00-0038",
+      "cedula": "402-0300922-6",
       "estado": "Activo"
     }
   },
@@ -462,7 +462,7 @@
       "tarifaComision": 0.044,
       "primerNombre": "Fernando",
       "apellidoPaterno": "Pérez",
-      "numeroSeguroSocial": "100-00-0039",
+      "cedula": "223-0308841-7",
       "estado": "Activo"
     }
   },
@@ -475,7 +475,7 @@
       "tarifaComision": 0.047,
       "primerNombre": "Ana",
       "apellidoPaterno": "Guzmán",
-      "numeroSeguroSocial": "100-00-0040",
+      "cedula": "047-0316760-3",
       "estado": "Inactivo"
     }
   },
@@ -486,7 +486,7 @@
       "salarioSemanal": 12528.57,
       "primerNombre": "Carlos",
       "apellidoPaterno": "Castillo",
-      "numeroSeguroSocial": "100-00-0041",
+      "cedula": "056-0324679-3",
       "estado": "Activo"
     }
   },
@@ -497,7 +497,7 @@
       "salarioSemanal": 14709.45,
       "primerNombre": "Patricia",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0042",
+      "cedula": "001-0332598-1",
       "estado": "Activo"
     }
   },
@@ -508,7 +508,7 @@
       "salarioSemanal": 17766.28,
       "primerNombre": "Rafael",
       "apellidoPaterno": "Díaz",
-      "numeroSeguroSocial": "100-00-0043",
+      "cedula": "031-0340517-5",
       "estado": "Activo"
     }
   },
@@ -519,7 +519,7 @@
       "salarioSemanal": 19642.23,
       "primerNombre": "Miguel",
       "apellidoPaterno": "Reyes",
-      "numeroSeguroSocial": "100-00-0044",
+      "cedula": "402-0348436-1",
       "estado": "Activo"
     }
   },
@@ -530,7 +530,7 @@
       "salarioSemanal": 21747.21,
       "primerNombre": "Manuel",
       "apellidoPaterno": "Gómez",
-      "numeroSeguroSocial": "100-00-0045",
+      "cedula": "223-0356355-9",
       "estado": "Activo"
     }
   },
@@ -541,7 +541,7 @@
       "salarioSemanal": 24526.59,
       "primerNombre": "Jorge",
       "apellidoPaterno": "Brito",
-      "numeroSeguroSocial": "100-00-0046",
+      "cedula": "047-0364274-6",
       "estado": "Activo"
     }
   },
@@ -552,7 +552,7 @@
       "salarioSemanal": 27015.48,
       "primerNombre": "Rafael",
       "apellidoPaterno": "Batista",
-      "numeroSeguroSocial": "100-00-0047",
+      "cedula": "056-0372193-6",
       "estado": "Activo"
     }
   },
@@ -563,7 +563,7 @@
       "salarioSemanal": 28410.04,
       "primerNombre": "Isabel",
       "apellidoPaterno": "Núñez",
-      "numeroSeguroSocial": "100-00-0048",
+      "cedula": "001-0380112-2",
       "estado": "Activo"
     }
   },
@@ -574,7 +574,7 @@
       "salarioSemanal": 31472.5,
       "primerNombre": "Pedro",
       "apellidoPaterno": "Ramírez",
-      "numeroSeguroSocial": "100-00-0049",
+      "cedula": "031-0388031-0",
       "estado": "Activo"
     }
   },
@@ -585,7 +585,7 @@
       "salarioSemanal": 32396.2,
       "primerNombre": "Lucía",
       "apellidoPaterno": "Pérez",
-      "numeroSeguroSocial": "100-00-0050",
+      "cedula": "402-0395950-3",
       "estado": "Activo"
     }
   },
@@ -597,7 +597,7 @@
       "horasTrabajadas": 34,
       "primerNombre": "Sofía",
       "apellidoPaterno": "Santana",
-      "numeroSeguroSocial": "100-00-0051",
+      "cedula": "223-0403869-2",
       "estado": "Activo"
     }
   },
@@ -609,7 +609,7 @@
       "horasTrabajadas": 40,
       "primerNombre": "Patricia",
       "apellidoPaterno": "Ureña",
-      "numeroSeguroSocial": "100-00-0052",
+      "cedula": "047-0411788-8",
       "estado": "Activo"
     }
   },
@@ -621,7 +621,7 @@
       "horasTrabajadas": 37,
       "primerNombre": "Valeria",
       "apellidoPaterno": "Ramírez",
-      "numeroSeguroSocial": "100-00-0053",
+      "cedula": "056-0419707-8",
       "estado": "Activo"
     }
   },
@@ -633,7 +633,7 @@
       "horasTrabajadas": 38,
       "primerNombre": "Lucía",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0054",
+      "cedula": "001-0427626-6",
       "estado": "Activo"
     }
   },
@@ -645,7 +645,7 @@
       "horasTrabajadas": 35,
       "primerNombre": "Isabel",
       "apellidoPaterno": "Reyes",
-      "numeroSeguroSocial": "100-00-0055",
+      "cedula": "031-0435545-2",
       "estado": "Activo"
     }
   },
@@ -657,7 +657,7 @@
       "horasTrabajadas": 33,
       "primerNombre": "Ana",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0056",
+      "cedula": "402-0443464-7",
       "estado": "Activo"
     }
   },
@@ -669,7 +669,7 @@
       "horasTrabajadas": 34,
       "primerNombre": "Jorge",
       "apellidoPaterno": "García",
-      "numeroSeguroSocial": "100-00-0057",
+      "cedula": "223-0451383-5",
       "estado": "Activo"
     }
   },
@@ -681,7 +681,7 @@
       "horasTrabajadas": 33,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0058",
+      "cedula": "047-0459302-1",
       "estado": "Activo"
     }
   },
@@ -693,7 +693,7 @@
       "horasTrabajadas": 33,
       "primerNombre": "Rosa",
       "apellidoPaterno": "Martínez",
-      "numeroSeguroSocial": "100-00-0059",
+      "cedula": "056-0467221-1",
       "estado": "Activo"
     }
   },
@@ -705,7 +705,7 @@
       "horasTrabajadas": 50,
       "primerNombre": "Gabriela",
       "apellidoPaterno": "Vásquez",
-      "numeroSeguroSocial": "100-00-0060",
+      "cedula": "001-0475140-9",
       "estado": "Inactivo"
     }
   },
@@ -717,7 +717,7 @@
       "tarifaComision": 0.03,
       "primerNombre": "Ricardo",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0061",
+      "cedula": "031-0483059-5",
       "estado": "Activo"
     }
   },
@@ -729,7 +729,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Lucía",
       "apellidoPaterno": "Gómez",
-      "numeroSeguroSocial": "100-00-0062",
+      "cedula": "402-0490978-8",
       "estado": "Activo"
     }
   },
@@ -741,7 +741,7 @@
       "tarifaComision": 0.04,
       "primerNombre": "Juan",
       "apellidoPaterno": "Vásquez",
-      "numeroSeguroSocial": "100-00-0063",
+      "cedula": "223-0498897-9",
       "estado": "Activo"
     }
   },
@@ -753,7 +753,7 @@
       "tarifaComision": 0.045,
       "primerNombre": "Elena",
       "apellidoPaterno": "Martínez",
-      "numeroSeguroSocial": "100-00-0064",
+      "cedula": "047-0506816-3",
       "estado": "Activo"
     }
   },
@@ -765,7 +765,7 @@
       "tarifaComision": 0.05,
       "primerNombre": "Elena",
       "apellidoPaterno": "Ureña",
-      "numeroSeguroSocial": "100-00-0065",
+      "cedula": "056-0514735-3",
       "estado": "Activo"
     }
   },
@@ -777,7 +777,7 @@
       "tarifaComision": 0.055,
       "primerNombre": "Juan",
       "apellidoPaterno": "Rodríguez",
-      "numeroSeguroSocial": "100-00-0066",
+      "cedula": "001-0522654-2",
       "estado": "Activo"
     }
   },
@@ -789,7 +789,7 @@
       "tarifaComision": 0.06,
       "primerNombre": "Sofía",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0067",
+      "cedula": "031-0530573-8",
       "estado": "Activo"
     }
   },
@@ -801,7 +801,7 @@
       "tarifaComision": 0.065,
       "primerNombre": "Ana",
       "apellidoPaterno": "Tavárez",
-      "numeroSeguroSocial": "100-00-0068",
+      "cedula": "402-0538492-4",
       "estado": "Activo"
     }
   },
@@ -813,7 +813,7 @@
       "tarifaComision": 0.07,
       "primerNombre": "Juan",
       "apellidoPaterno": "Castillo",
-      "numeroSeguroSocial": "100-00-0069",
+      "cedula": "223-0546411-1",
       "estado": "Activo"
     }
   },
@@ -825,7 +825,7 @@
       "tarifaComision": 0.075,
       "primerNombre": "Ana",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0070",
+      "cedula": "047-0554330-6",
       "estado": "Activo"
     }
   },
@@ -838,7 +838,7 @@
       "tarifaComision": 0.02,
       "primerNombre": "Juan",
       "apellidoPaterno": "Mejía",
-      "numeroSeguroSocial": "100-00-0071",
+      "cedula": "056-0562249-6",
       "estado": "Activo"
     }
   },
@@ -851,7 +851,7 @@
       "tarifaComision": 0.023,
       "primerNombre": "Juan",
       "apellidoPaterno": "Cruz",
-      "numeroSeguroSocial": "100-00-0072",
+      "cedula": "001-0570168-4",
       "estado": "Activo"
     }
   },
@@ -864,7 +864,7 @@
       "tarifaComision": 0.026,
       "primerNombre": "Jorge",
       "apellidoPaterno": "Pérez",
-      "numeroSeguroSocial": "100-00-0073",
+      "cedula": "031-0578087-2",
       "estado": "Activo"
     }
   },
@@ -877,7 +877,7 @@
       "tarifaComision": 0.029,
       "primerNombre": "Carmen",
       "apellidoPaterno": "Rosario",
-      "numeroSeguroSocial": "100-00-0074",
+      "cedula": "402-0586006-3",
       "estado": "Activo"
     }
   },
@@ -890,7 +890,7 @@
       "tarifaComision": 0.032,
       "primerNombre": "Sofía",
       "apellidoPaterno": "Tavárez",
-      "numeroSeguroSocial": "100-00-0075",
+      "cedula": "223-0593925-2",
       "estado": "Activo"
     }
   },
@@ -903,7 +903,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Camila",
       "apellidoPaterno": "Jiménez",
-      "numeroSeguroSocial": "100-00-0076",
+      "cedula": "047-0601844-9",
       "estado": "Activo"
     }
   },
@@ -916,7 +916,7 @@
       "tarifaComision": 0.038,
       "primerNombre": "María",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0077",
+      "cedula": "056-0609763-1",
       "estado": "Activo"
     }
   },
@@ -929,7 +929,7 @@
       "tarifaComision": 0.041,
       "primerNombre": "Francisco",
       "apellidoPaterno": "Encarnación",
-      "numeroSeguroSocial": "100-00-0078",
+      "cedula": "001-0617682-9",
       "estado": "Activo"
     }
   },
@@ -942,7 +942,7 @@
       "tarifaComision": 0.044,
       "primerNombre": "Jorge",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0079",
+      "cedula": "031-0625601-3",
       "estado": "Activo"
     }
   },
@@ -955,7 +955,7 @@
       "tarifaComision": 0.047,
       "primerNombre": "Jorge",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0080",
+      "cedula": "402-0633520-6",
       "estado": "Inactivo"
     }
   },
@@ -966,7 +966,7 @@
       "salarioSemanal": 9783.01,
       "primerNombre": "Ricardo",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0081",
+      "cedula": "223-0641439-6",
       "estado": "Activo"
     }
   },
@@ -977,7 +977,7 @@
       "salarioSemanal": 11055.45,
       "primerNombre": "Carlos",
       "apellidoPaterno": "Ramírez",
-      "numeroSeguroSocial": "100-00-0082",
+      "cedula": "047-0649358-4",
       "estado": "Activo"
     }
   },
@@ -988,7 +988,7 @@
       "salarioSemanal": 13129.84,
       "primerNombre": "José",
       "apellidoPaterno": "Ramírez",
-      "numeroSeguroSocial": "100-00-0083",
+      "cedula": "056-0657277-3",
       "estado": "Activo"
     }
   },
@@ -999,7 +999,7 @@
       "salarioSemanal": 15182.32,
       "primerNombre": "María",
       "apellidoPaterno": "Cruz",
-      "numeroSeguroSocial": "100-00-0084",
+      "cedula": "001-0665196-1",
       "estado": "Activo"
     }
   },
@@ -1010,7 +1010,7 @@
       "salarioSemanal": 17585.77,
       "primerNombre": "Miguel",
       "apellidoPaterno": "Castillo",
-      "numeroSeguroSocial": "100-00-0085",
+      "cedula": "031-0673115-5",
       "estado": "Activo"
     }
   },
@@ -1021,7 +1021,7 @@
       "salarioSemanal": 17734.72,
       "primerNombre": "José",
       "apellidoPaterno": "Núñez",
-      "numeroSeguroSocial": "100-00-0086",
+      "cedula": "402-0681034-9",
       "estado": "Activo"
     }
   },
@@ -1032,7 +1032,7 @@
       "salarioSemanal": 21355.22,
       "primerNombre": "José",
       "apellidoPaterno": "García",
-      "numeroSeguroSocial": "100-00-0087",
+      "cedula": "223-0688953-0",
       "estado": "Activo"
     }
   },
@@ -1043,7 +1043,7 @@
       "salarioSemanal": 21330.24,
       "primerNombre": "José",
       "apellidoPaterno": "Martínez",
-      "numeroSeguroSocial": "100-00-0088",
+      "cedula": "047-0696872-6",
       "estado": "Activo"
     }
   },
@@ -1054,7 +1054,7 @@
       "salarioSemanal": 24171.75,
       "primerNombre": "Elena",
       "apellidoPaterno": "Castillo",
-      "numeroSeguroSocial": "100-00-0089",
+      "cedula": "056-0704791-6",
       "estado": "Activo"
     }
   },
@@ -1065,7 +1065,7 @@
       "salarioSemanal": 26412.99,
       "primerNombre": "Lucía",
       "apellidoPaterno": "Hernández",
-      "numeroSeguroSocial": "100-00-0090",
+      "cedula": "001-0712710-2",
       "estado": "Activo"
     }
   },
@@ -1077,7 +1077,7 @@
       "horasTrabajadas": 51,
       "primerNombre": "José",
       "apellidoPaterno": "Batista",
-      "numeroSeguroSocial": "100-00-0091",
+      "cedula": "031-0720629-8",
       "estado": "Activo"
     }
   },
@@ -1089,7 +1089,7 @@
       "horasTrabajadas": 38,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Sánchez",
-      "numeroSeguroSocial": "100-00-0092",
+      "cedula": "402-0728548-3",
       "estado": "Activo"
     }
   },
@@ -1101,7 +1101,7 @@
       "horasTrabajadas": 41,
       "primerNombre": "Carmen",
       "apellidoPaterno": "Ureña",
-      "numeroSeguroSocial": "100-00-0093",
+      "cedula": "223-0736467-3",
       "estado": "Activo"
     }
   },
@@ -1113,7 +1113,7 @@
       "horasTrabajadas": 43,
       "primerNombre": "Camila",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0094",
+      "cedula": "047-0744386-9",
       "estado": "Activo"
     }
   },
@@ -1125,7 +1125,7 @@
       "horasTrabajadas": 36,
       "primerNombre": "Elena",
       "apellidoPaterno": "Rodríguez",
-      "numeroSeguroSocial": "100-00-0095",
+      "cedula": "056-0752305-6",
       "estado": "Activo"
     }
   },
@@ -1137,7 +1137,7 @@
       "horasTrabajadas": 35,
       "primerNombre": "Rosa",
       "apellidoPaterno": "Vásquez",
-      "numeroSeguroSocial": "100-00-0096",
+      "cedula": "001-0760224-5",
       "estado": "Activo"
     }
   },
@@ -1149,7 +1149,7 @@
       "horasTrabajadas": 43,
       "primerNombre": "Ricardo",
       "apellidoPaterno": "Brito",
-      "numeroSeguroSocial": "100-00-0097",
+      "cedula": "031-0768143-3",
       "estado": "Activo"
     }
   },
@@ -1161,7 +1161,7 @@
       "horasTrabajadas": 48,
       "primerNombre": "Jorge",
       "apellidoPaterno": "Guzmán",
-      "numeroSeguroSocial": "100-00-0098",
+      "cedula": "402-0776062-6",
       "estado": "Activo"
     }
   },
@@ -1173,7 +1173,7 @@
       "horasTrabajadas": 52,
       "primerNombre": "Camila",
       "apellidoPaterno": "García",
-      "numeroSeguroSocial": "100-00-0099",
+      "cedula": "223-0783981-5",
       "estado": "Activo"
     }
   },
@@ -1185,7 +1185,7 @@
       "horasTrabajadas": 41,
       "primerNombre": "Paola",
       "apellidoPaterno": "Sánchez",
-      "numeroSeguroSocial": "100-00-0100",
+      "cedula": "047-0791900-9",
       "estado": "Inactivo"
     }
   },
@@ -1197,7 +1197,7 @@
       "tarifaComision": 0.03,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Brito",
-      "numeroSeguroSocial": "100-00-0101",
+      "cedula": "056-0799819-1",
       "estado": "Activo"
     }
   },
@@ -1209,7 +1209,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Ricardo",
       "apellidoPaterno": "Sánchez",
-      "numeroSeguroSocial": "100-00-0102",
+      "cedula": "001-0807738-9",
       "estado": "Activo"
     }
   },
@@ -1221,7 +1221,7 @@
       "tarifaComision": 0.04,
       "primerNombre": "Rafael",
       "apellidoPaterno": "Martínez",
-      "numeroSeguroSocial": "100-00-0103",
+      "cedula": "031-0815657-5",
       "estado": "Activo"
     }
   },
@@ -1233,7 +1233,7 @@
       "tarifaComision": 0.045,
       "primerNombre": "Ricardo",
       "apellidoPaterno": "Díaz",
-      "numeroSeguroSocial": "100-00-0104",
+      "cedula": "402-0823576-8",
       "estado": "Activo"
     }
   },
@@ -1245,7 +1245,7 @@
       "tarifaComision": 0.05,
       "primerNombre": "Lucía",
       "apellidoPaterno": "Santana",
-      "numeroSeguroSocial": "100-00-0105",
+      "cedula": "223-0831495-8",
       "estado": "Activo"
     }
   },
@@ -1257,7 +1257,7 @@
       "tarifaComision": 0.055,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Ramírez",
-      "numeroSeguroSocial": "100-00-0106",
+      "cedula": "047-0839414-5",
       "estado": "Activo"
     }
   },
@@ -1269,7 +1269,7 @@
       "tarifaComision": 0.06,
       "primerNombre": "Valeria",
       "apellidoPaterno": "Santana",
-      "numeroSeguroSocial": "100-00-0107",
+      "cedula": "056-0847333-5",
       "estado": "Activo"
     }
   },
@@ -1281,7 +1281,7 @@
       "tarifaComision": 0.065,
       "primerNombre": "Francisco",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0108",
+      "cedula": "001-0855252-2",
       "estado": "Activo"
     }
   },
@@ -1293,7 +1293,7 @@
       "tarifaComision": 0.07,
       "primerNombre": "Manuel",
       "apellidoPaterno": "Santana",
-      "numeroSeguroSocial": "100-00-0109",
+      "cedula": "031-0863171-8",
       "estado": "Activo"
     }
   },
@@ -1305,7 +1305,7 @@
       "tarifaComision": 0.075,
       "primerNombre": "Ramón",
       "apellidoPaterno": "Encarnación",
-      "numeroSeguroSocial": "100-00-0110",
+      "cedula": "402-0871090-1",
       "estado": "Activo"
     }
   },
@@ -1318,7 +1318,7 @@
       "tarifaComision": 0.02,
       "primerNombre": "Juan",
       "apellidoPaterno": "Jiménez",
-      "numeroSeguroSocial": "100-00-0111",
+      "cedula": "223-0879009-0",
       "estado": "Activo"
     }
   },
@@ -1331,7 +1331,7 @@
       "tarifaComision": 0.023,
       "primerNombre": "Lucía",
       "apellidoPaterno": "Brito",
-      "numeroSeguroSocial": "100-00-0112",
+      "cedula": "047-0886928-6",
       "estado": "Activo"
     }
   },
@@ -1344,7 +1344,7 @@
       "tarifaComision": 0.026,
       "primerNombre": "Valeria",
       "apellidoPaterno": "Brito",
-      "numeroSeguroSocial": "100-00-0113",
+      "cedula": "056-0894847-6",
       "estado": "Activo"
     }
   },
@@ -1357,7 +1357,7 @@
       "tarifaComision": 0.029,
       "primerNombre": "Gabriela",
       "apellidoPaterno": "Jiménez",
-      "numeroSeguroSocial": "100-00-0114",
+      "cedula": "001-0902766-4",
       "estado": "Activo"
     }
   },
@@ -1370,7 +1370,7 @@
       "tarifaComision": 0.032,
       "primerNombre": "Jorge",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0115",
+      "cedula": "031-0910685-0",
       "estado": "Activo"
     }
   },
@@ -1383,7 +1383,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Pedro",
       "apellidoPaterno": "Guzmán",
-      "numeroSeguroSocial": "100-00-0116",
+      "cedula": "402-0918604-4",
       "estado": "Activo"
     }
   },
@@ -1396,7 +1396,7 @@
       "tarifaComision": 0.038,
       "primerNombre": "Gabriela",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0117",
+      "cedula": "223-0926523-3",
       "estado": "Activo"
     }
   },
@@ -1409,7 +1409,7 @@
       "tarifaComision": 0.041,
       "primerNombre": "Isabel",
       "apellidoPaterno": "García",
-      "numeroSeguroSocial": "100-00-0118",
+      "cedula": "047-0934442-0",
       "estado": "Activo"
     }
   },
@@ -1422,7 +1422,7 @@
       "tarifaComision": 0.044,
       "primerNombre": "Gabriela",
       "apellidoPaterno": "Cruz",
-      "numeroSeguroSocial": "100-00-0119",
+      "cedula": "056-0942361-0",
       "estado": "Activo"
     }
   },
@@ -1435,7 +1435,7 @@
       "tarifaComision": 0.047,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Hernández",
-      "numeroSeguroSocial": "100-00-0120",
+      "cedula": "001-0950280-7",
       "estado": "Inactivo"
     }
   },
@@ -1446,7 +1446,7 @@
       "salarioSemanal": 9182.7,
       "primerNombre": "Fernando",
       "apellidoPaterno": "Almonte",
-      "numeroSeguroSocial": "100-00-0121",
+      "cedula": "031-0958199-5",
       "estado": "Activo"
     }
   },
@@ -1457,7 +1457,7 @@
       "salarioSemanal": 10505.99,
       "primerNombre": "Patricia",
       "apellidoPaterno": "Vásquez",
-      "numeroSeguroSocial": "100-00-0122",
+      "cedula": "402-0966118-6",
       "estado": "Activo"
     }
   },
@@ -1468,7 +1468,7 @@
       "salarioSemanal": 12964.95,
       "primerNombre": "Ana",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0123",
+      "cedula": "223-0974037-5",
       "estado": "Activo"
     }
   },
@@ -1479,7 +1479,7 @@
       "salarioSemanal": 14504.81,
       "primerNombre": "María",
       "apellidoPaterno": "Encarnación",
-      "numeroSeguroSocial": "100-00-0124",
+      "cedula": "047-0981956-1",
       "estado": "Activo"
     }
   },
@@ -1490,7 +1490,7 @@
       "salarioSemanal": 15736.37,
       "primerNombre": "Jorge",
       "apellidoPaterno": "Díaz",
-      "numeroSeguroSocial": "100-00-0125",
+      "cedula": "056-0989875-3",
       "estado": "Activo"
     }
   },
@@ -1501,7 +1501,7 @@
       "salarioSemanal": 17115.24,
       "primerNombre": "Héctor",
       "apellidoPaterno": "Almonte",
-      "numeroSeguroSocial": "100-00-0126",
+      "cedula": "001-0997794-2",
       "estado": "Activo"
     }
   },
@@ -1512,7 +1512,7 @@
       "salarioSemanal": 19722.98,
       "primerNombre": "Rosa",
       "apellidoPaterno": "García",
-      "numeroSeguroSocial": "100-00-0127",
+      "cedula": "031-1005713-4",
       "estado": "Activo"
     }
   },
@@ -1523,7 +1523,7 @@
       "salarioSemanal": 21864.84,
       "primerNombre": "Jorge",
       "apellidoPaterno": "Rodríguez",
-      "numeroSeguroSocial": "100-00-0128",
+      "cedula": "402-1013632-7",
       "estado": "Activo"
     }
   },
@@ -1534,7 +1534,7 @@
       "salarioSemanal": 22663.2,
       "primerNombre": "Elena",
       "apellidoPaterno": "Rosario",
-      "numeroSeguroSocial": "100-00-0129",
+      "cedula": "223-1021551-6",
       "estado": "Activo"
     }
   },
@@ -1545,7 +1545,7 @@
       "salarioSemanal": 23947.02,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Pérez",
-      "numeroSeguroSocial": "100-00-0130",
+      "cedula": "047-1029470-5",
       "estado": "Activo"
     }
   },
@@ -1557,7 +1557,7 @@
       "horasTrabajadas": 31,
       "primerNombre": "Ana",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0131",
+      "cedula": "056-1037389-5",
       "estado": "Activo"
     }
   },
@@ -1569,7 +1569,7 @@
       "horasTrabajadas": 45,
       "primerNombre": "Francisco",
       "apellidoPaterno": "Mejía",
-      "numeroSeguroSocial": "100-00-0132",
+      "cedula": "001-1045308-1",
       "estado": "Activo"
     }
   },
@@ -1581,7 +1581,7 @@
       "horasTrabajadas": 35,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Díaz",
-      "numeroSeguroSocial": "100-00-0133",
+      "cedula": "031-1053227-6",
       "estado": "Activo"
     }
   },
@@ -1593,7 +1593,7 @@
       "horasTrabajadas": 46,
       "primerNombre": "Patricia",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0134",
+      "cedula": "402-1061146-9",
       "estado": "Activo"
     }
   },
@@ -1605,7 +1605,7 @@
       "horasTrabajadas": 45,
       "primerNombre": "Paola",
       "apellidoPaterno": "Jiménez",
-      "numeroSeguroSocial": "100-00-0135",
+      "cedula": "223-1069065-0",
       "estado": "Activo"
     }
   },
@@ -1617,7 +1617,7 @@
       "horasTrabajadas": 41,
       "primerNombre": "Gabriela",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0136",
+      "cedula": "047-1076984-7",
       "estado": "Activo"
     }
   },
@@ -1629,7 +1629,7 @@
       "horasTrabajadas": 46,
       "primerNombre": "Ana",
       "apellidoPaterno": "Almonte",
-      "numeroSeguroSocial": "100-00-0137",
+      "cedula": "056-1084903-5",
       "estado": "Activo"
     }
   },
@@ -1641,7 +1641,7 @@
       "horasTrabajadas": 33,
       "primerNombre": "Ana",
       "apellidoPaterno": "Santana",
-      "numeroSeguroSocial": "100-00-0138",
+      "cedula": "001-1092822-3",
       "estado": "Activo"
     }
   },
@@ -1653,7 +1653,7 @@
       "horasTrabajadas": 51,
       "primerNombre": "Juan",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0139",
+      "cedula": "031-1100741-9",
       "estado": "Activo"
     }
   },
@@ -1665,7 +1665,7 @@
       "horasTrabajadas": 48,
       "primerNombre": "María",
       "apellidoPaterno": "Castillo",
-      "numeroSeguroSocial": "100-00-0140",
+      "cedula": "402-1108660-4",
       "estado": "Inactivo"
     }
   },
@@ -1677,7 +1677,7 @@
       "tarifaComision": 0.03,
       "primerNombre": "Laura",
       "apellidoPaterno": "Santana",
-      "numeroSeguroSocial": "100-00-0141",
+      "cedula": "223-1116579-3",
       "estado": "Activo"
     }
   },
@@ -1689,7 +1689,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Francisco",
       "apellidoPaterno": "Encarnación",
-      "numeroSeguroSocial": "100-00-0142",
+      "cedula": "047-1124498-0",
       "estado": "Activo"
     }
   },
@@ -1701,7 +1701,7 @@
       "tarifaComision": 0.04,
       "primerNombre": "María",
       "apellidoPaterno": "Batista",
-      "numeroSeguroSocial": "100-00-0143",
+      "cedula": "056-1132417-8",
       "estado": "Activo"
     }
   },
@@ -1713,7 +1713,7 @@
       "tarifaComision": 0.045,
       "primerNombre": "Sofía",
       "apellidoPaterno": "Ureña",
-      "numeroSeguroSocial": "100-00-0144",
+      "cedula": "001-1140336-6",
       "estado": "Activo"
     }
   },
@@ -1725,7 +1725,7 @@
       "tarifaComision": 0.05,
       "primerNombre": "Laura",
       "apellidoPaterno": "Núñez",
-      "numeroSeguroSocial": "100-00-0145",
+      "cedula": "031-1148255-4",
       "estado": "Activo"
     }
   },
@@ -1737,7 +1737,7 @@
       "tarifaComision": 0.055,
       "primerNombre": "Patricia",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0146",
+      "cedula": "402-1156174-7",
       "estado": "Activo"
     }
   },
@@ -1749,7 +1749,7 @@
       "tarifaComision": 0.06,
       "primerNombre": "José",
       "apellidoPaterno": "Santana",
-      "numeroSeguroSocial": "100-00-0147",
+      "cedula": "223-1164093-6",
       "estado": "Activo"
     }
   },
@@ -1761,7 +1761,7 @@
       "tarifaComision": 0.065,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Martínez",
-      "numeroSeguroSocial": "100-00-0148",
+      "cedula": "047-1172012-0",
       "estado": "Activo"
     }
   },
@@ -1773,7 +1773,7 @@
       "tarifaComision": 0.07,
       "primerNombre": "Ana",
       "apellidoPaterno": "Tavárez",
-      "numeroSeguroSocial": "100-00-0149",
+      "cedula": "056-1179931-2",
       "estado": "Activo"
     }
   },
@@ -1785,7 +1785,7 @@
       "tarifaComision": 0.075,
       "primerNombre": "Ramón",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0150",
+      "cedula": "001-1187850-0",
       "estado": "Activo"
     }
   },
@@ -1798,7 +1798,7 @@
       "tarifaComision": 0.02,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Rosario",
-      "numeroSeguroSocial": "100-00-0151",
+      "cedula": "031-1195769-6",
       "estado": "Activo"
     }
   },
@@ -1811,7 +1811,7 @@
       "tarifaComision": 0.023,
       "primerNombre": "Jorge",
       "apellidoPaterno": "Cruz",
-      "numeroSeguroSocial": "100-00-0152",
+      "cedula": "402-1203688-9",
       "estado": "Activo"
     }
   },
@@ -1824,7 +1824,7 @@
       "tarifaComision": 0.026,
       "primerNombre": "Luis",
       "apellidoPaterno": "Encarnación",
-      "numeroSeguroSocial": "100-00-0153",
+      "cedula": "223-1211607-6",
       "estado": "Activo"
     }
   },
@@ -1837,7 +1837,7 @@
       "tarifaComision": 0.029,
       "primerNombre": "Gabriela",
       "apellidoPaterno": "Pérez",
-      "numeroSeguroSocial": "100-00-0154",
+      "cedula": "047-1219526-4",
       "estado": "Activo"
     }
   },
@@ -1850,7 +1850,7 @@
       "tarifaComision": 0.032,
       "primerNombre": "Fernando",
       "apellidoPaterno": "Núñez",
-      "numeroSeguroSocial": "100-00-0155",
+      "cedula": "056-1227445-5",
       "estado": "Activo"
     }
   },
@@ -1863,7 +1863,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Carlos",
       "apellidoPaterno": "García",
-      "numeroSeguroSocial": "100-00-0156",
+      "cedula": "001-1235364-4",
       "estado": "Activo"
     }
   },
@@ -1876,7 +1876,7 @@
       "tarifaComision": 0.038,
       "primerNombre": "Camila",
       "apellidoPaterno": "Batista",
-      "numeroSeguroSocial": "100-00-0157",
+      "cedula": "031-1243283-0",
       "estado": "Activo"
     }
   },
@@ -1889,7 +1889,7 @@
       "tarifaComision": 0.041,
       "primerNombre": "Manuel",
       "apellidoPaterno": "Rodríguez",
-      "numeroSeguroSocial": "100-00-0158",
+      "cedula": "402-1251202-0",
       "estado": "Activo"
     }
   },
@@ -1902,7 +1902,7 @@
       "tarifaComision": 0.044,
       "primerNombre": "Fernando",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0159",
+      "cedula": "223-1259121-1",
       "estado": "Activo"
     }
   },
@@ -1915,7 +1915,7 @@
       "tarifaComision": 0.047,
       "primerNombre": "Laura",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0160",
+      "cedula": "047-1267040-7",
       "estado": "Inactivo"
     }
   },
@@ -1926,7 +1926,7 @@
       "salarioSemanal": 12425.55,
       "primerNombre": "Laura",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0161",
+      "cedula": "056-1274959-7",
       "estado": "Activo"
     }
   },
@@ -1937,7 +1937,7 @@
       "salarioSemanal": 16067.04,
       "primerNombre": "Ana",
       "apellidoPaterno": "Valdez",
-      "numeroSeguroSocial": "100-00-0162",
+      "cedula": "001-1282878-5",
       "estado": "Activo"
     }
   },
@@ -1948,7 +1948,7 @@
       "salarioSemanal": 17484.38,
       "primerNombre": "Camila",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0163",
+      "cedula": "031-1290797-1",
       "estado": "Activo"
     }
   },
@@ -1959,7 +1959,7 @@
       "salarioSemanal": 19439.35,
       "primerNombre": "Carmen",
       "apellidoPaterno": "Jiménez",
-      "numeroSeguroSocial": "100-00-0164",
+      "cedula": "402-1298716-4",
       "estado": "Activo"
     }
   },
@@ -1970,7 +1970,7 @@
       "salarioSemanal": 23325.77,
       "primerNombre": "Camila",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0165",
+      "cedula": "223-1306635-3",
       "estado": "Activo"
     }
   },
@@ -1981,7 +1981,7 @@
       "salarioSemanal": 25123.04,
       "primerNombre": "Isabel",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0166",
+      "cedula": "047-1314554-0",
       "estado": "Activo"
     }
   },
@@ -1992,7 +1992,7 @@
       "salarioSemanal": 27993.43,
       "primerNombre": "Camila",
       "apellidoPaterno": "Brito",
-      "numeroSeguroSocial": "100-00-0167",
+      "cedula": "056-1322473-1",
       "estado": "Activo"
     }
   },
@@ -2003,7 +2003,7 @@
       "salarioSemanal": 30465.54,
       "primerNombre": "Laura",
       "apellidoPaterno": "Rosario",
-      "numeroSeguroSocial": "100-00-0168",
+      "cedula": "001-1330392-9",
       "estado": "Activo"
     }
   },
@@ -2014,7 +2014,7 @@
       "salarioSemanal": 31053.91,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Jiménez",
-      "numeroSeguroSocial": "100-00-0169",
+      "cedula": "031-1338311-5",
       "estado": "Activo"
     }
   },
@@ -2025,7 +2025,7 @@
       "salarioSemanal": 35233.51,
       "primerNombre": "Isabel",
       "apellidoPaterno": "Encarnación",
-      "numeroSeguroSocial": "100-00-0170",
+      "cedula": "402-1346230-8",
       "estado": "Activo"
     }
   },
@@ -2037,7 +2037,7 @@
       "horasTrabajadas": 39,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0171",
+      "cedula": "223-1354149-6",
       "estado": "Activo"
     }
   },
@@ -2049,7 +2049,7 @@
       "horasTrabajadas": 35,
       "primerNombre": "Ramón",
       "apellidoPaterno": "Jiménez",
-      "numeroSeguroSocial": "100-00-0172",
+      "cedula": "047-1362068-2",
       "estado": "Activo"
     }
   },
@@ -2061,7 +2061,7 @@
       "horasTrabajadas": 43,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Reyes",
-      "numeroSeguroSocial": "100-00-0173",
+      "cedula": "056-1369987-4",
       "estado": "Activo"
     }
   },
@@ -2073,7 +2073,7 @@
       "horasTrabajadas": 39,
       "primerNombre": "Valeria",
       "apellidoPaterno": "Martínez",
-      "numeroSeguroSocial": "100-00-0174",
+      "cedula": "001-1377906-0",
       "estado": "Activo"
     }
   },
@@ -2085,7 +2085,7 @@
       "horasTrabajadas": 41,
       "primerNombre": "Gabriela",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0175",
+      "cedula": "031-1385825-6",
       "estado": "Activo"
     }
   },
@@ -2097,7 +2097,7 @@
       "horasTrabajadas": 40,
       "primerNombre": "Ricardo",
       "apellidoPaterno": "Hernández",
-      "numeroSeguroSocial": "100-00-0176",
+      "cedula": "402-1393744-0",
       "estado": "Activo"
     }
   },
@@ -2109,7 +2109,7 @@
       "horasTrabajadas": 39,
       "primerNombre": "Camila",
       "apellidoPaterno": "Tavárez",
-      "numeroSeguroSocial": "100-00-0177",
+      "cedula": "223-1401663-9",
       "estado": "Activo"
     }
   },
@@ -2121,7 +2121,7 @@
       "horasTrabajadas": 39,
       "primerNombre": "Manuel",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0178",
+      "cedula": "047-1409582-7",
       "estado": "Activo"
     }
   },
@@ -2133,7 +2133,7 @@
       "horasTrabajadas": 45,
       "primerNombre": "Rosa",
       "apellidoPaterno": "Vásquez",
-      "numeroSeguroSocial": "100-00-0179",
+      "cedula": "056-1417501-5",
       "estado": "Activo"
     }
   },
@@ -2145,7 +2145,7 @@
       "horasTrabajadas": 37,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Gómez",
-      "numeroSeguroSocial": "100-00-0180",
+      "cedula": "001-1425420-4",
       "estado": "Inactivo"
     }
   },
@@ -2157,7 +2157,7 @@
       "tarifaComision": 0.03,
       "primerNombre": "María",
       "apellidoPaterno": "Díaz",
-      "numeroSeguroSocial": "100-00-0181",
+      "cedula": "031-1433339-0",
       "estado": "Activo"
     }
   },
@@ -2169,7 +2169,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Ana",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0182",
+      "cedula": "402-1441258-3",
       "estado": "Activo"
     }
   },
@@ -2181,7 +2181,7 @@
       "tarifaComision": 0.04,
       "primerNombre": "Paola",
       "apellidoPaterno": "Valdez",
-      "numeroSeguroSocial": "100-00-0183",
+      "cedula": "223-1449177-4",
       "estado": "Activo"
     }
   },
@@ -2193,7 +2193,7 @@
       "tarifaComision": 0.045,
       "primerNombre": "Elena",
       "apellidoPaterno": "Encarnación",
-      "numeroSeguroSocial": "100-00-0184",
+      "cedula": "047-1457096-9",
       "estado": "Activo"
     }
   },
@@ -2205,7 +2205,7 @@
       "tarifaComision": 0.05,
       "primerNombre": "Camila",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0185",
+      "cedula": "056-1465015-7",
       "estado": "Activo"
     }
   },
@@ -2217,7 +2217,7 @@
       "tarifaComision": 0.055,
       "primerNombre": "Ramón",
       "apellidoPaterno": "Castillo",
-      "numeroSeguroSocial": "100-00-0186",
+      "cedula": "001-1472934-6",
       "estado": "Activo"
     }
   },
@@ -2229,7 +2229,7 @@
       "tarifaComision": 0.06,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Reyes",
-      "numeroSeguroSocial": "100-00-0187",
+      "cedula": "031-1480853-2",
       "estado": "Activo"
     }
   },
@@ -2241,7 +2241,7 @@
       "tarifaComision": 0.065,
       "primerNombre": "Patricia",
       "apellidoPaterno": "Hernández",
-      "numeroSeguroSocial": "100-00-0188",
+      "cedula": "402-1488772-7",
       "estado": "Activo"
     }
   },
@@ -2253,7 +2253,7 @@
       "tarifaComision": 0.07,
       "primerNombre": "Luis",
       "apellidoPaterno": "Guzmán",
-      "numeroSeguroSocial": "100-00-0189",
+      "cedula": "223-1496691-6",
       "estado": "Activo"
     }
   },
@@ -2265,7 +2265,7 @@
       "tarifaComision": 0.075,
       "primerNombre": "Luis",
       "apellidoPaterno": "Pérez",
-      "numeroSeguroSocial": "100-00-0190",
+      "cedula": "047-1504610-0",
       "estado": "Activo"
     }
   },
@@ -2278,7 +2278,7 @@
       "tarifaComision": 0.02,
       "primerNombre": "Camila",
       "apellidoPaterno": "Almonte",
-      "numeroSeguroSocial": "100-00-0191",
+      "cedula": "056-1512529-0",
       "estado": "Activo"
     }
   },
@@ -2291,7 +2291,7 @@
       "tarifaComision": 0.023,
       "primerNombre": "Gabriela",
       "apellidoPaterno": "Hernández",
-      "numeroSeguroSocial": "100-00-0192",
+      "cedula": "001-1520448-9",
       "estado": "Activo"
     }
   },
@@ -2304,7 +2304,7 @@
       "tarifaComision": 0.026,
       "primerNombre": "Sofía",
       "apellidoPaterno": "Díaz",
-      "numeroSeguroSocial": "100-00-0193",
+      "cedula": "031-1528367-7",
       "estado": "Activo"
     }
   },
@@ -2317,7 +2317,7 @@
       "tarifaComision": 0.029,
       "primerNombre": "Pedro",
       "apellidoPaterno": "Martínez",
-      "numeroSeguroSocial": "100-00-0194",
+      "cedula": "402-1536286-0",
       "estado": "Activo"
     }
   },
@@ -2330,7 +2330,7 @@
       "tarifaComision": 0.032,
       "primerNombre": "Fernando",
       "apellidoPaterno": "Pérez",
-      "numeroSeguroSocial": "100-00-0195",
+      "cedula": "223-1544205-7",
       "estado": "Activo"
     }
   },
@@ -2343,7 +2343,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Lucía",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0196",
+      "cedula": "047-1552124-3",
       "estado": "Activo"
     }
   },
@@ -2356,7 +2356,7 @@
       "tarifaComision": 0.038,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Sánchez",
-      "numeroSeguroSocial": "100-00-0197",
+      "cedula": "056-1560043-3",
       "estado": "Activo"
     }
   },
@@ -2369,7 +2369,7 @@
       "tarifaComision": 0.041,
       "primerNombre": "Rafael",
       "apellidoPaterno": "Valdez",
-      "numeroSeguroSocial": "100-00-0198",
+      "cedula": "001-1567962-3",
       "estado": "Activo"
     }
   },
@@ -2382,7 +2382,7 @@
       "tarifaComision": 0.044,
       "primerNombre": "María",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0199",
+      "cedula": "031-1575881-9",
       "estado": "Activo"
     }
   },
@@ -2395,7 +2395,7 @@
       "tarifaComision": 0.047,
       "primerNombre": "Camila",
       "apellidoPaterno": "Matos",
-      "numeroSeguroSocial": "100-00-0200",
+      "cedula": "402-1583800-0",
       "estado": "Inactivo"
     }
   },
@@ -2406,7 +2406,7 @@
       "salarioSemanal": 10548.5,
       "primerNombre": "Carmen",
       "apellidoPaterno": "Vásquez",
-      "numeroSeguroSocial": "100-00-0201",
+      "cedula": "223-1591719-9",
       "estado": "Activo"
     }
   },
@@ -2417,7 +2417,7 @@
       "salarioSemanal": 12326.83,
       "primerNombre": "Rafael",
       "apellidoPaterno": "Jiménez",
-      "numeroSeguroSocial": "100-00-0202",
+      "cedula": "047-1599638-7",
       "estado": "Activo"
     }
   },
@@ -2428,7 +2428,7 @@
       "salarioSemanal": 13248.15,
       "primerNombre": "Lucía",
       "apellidoPaterno": "Núñez",
-      "numeroSeguroSocial": "100-00-0203",
+      "cedula": "056-1607557-7",
       "estado": "Activo"
     }
   },
@@ -2439,7 +2439,7 @@
       "salarioSemanal": 15096.65,
       "primerNombre": "Luis",
       "apellidoPaterno": "Encarnación",
-      "numeroSeguroSocial": "100-00-0204",
+      "cedula": "001-1615476-6",
       "estado": "Activo"
     }
   },
@@ -2450,7 +2450,7 @@
       "salarioSemanal": 17273.13,
       "primerNombre": "María",
       "apellidoPaterno": "Castillo",
-      "numeroSeguroSocial": "100-00-0205",
+      "cedula": "031-1623395-2",
       "estado": "Activo"
     }
   },
@@ -2461,7 +2461,7 @@
       "salarioSemanal": 18904.82,
       "primerNombre": "Fernando",
       "apellidoPaterno": "Rosario",
-      "numeroSeguroSocial": "100-00-0206",
+      "cedula": "402-1631314-4",
       "estado": "Activo"
     }
   },
@@ -2472,7 +2472,7 @@
       "salarioSemanal": 21009.01,
       "primerNombre": "Manuel",
       "apellidoPaterno": "Batista",
-      "numeroSeguroSocial": "100-00-0207",
+      "cedula": "223-1639233-5",
       "estado": "Activo"
     }
   },
@@ -2483,7 +2483,7 @@
       "salarioSemanal": 22545.0,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Cruz",
-      "numeroSeguroSocial": "100-00-0208",
+      "cedula": "047-1647152-1",
       "estado": "Activo"
     }
   },
@@ -2494,7 +2494,7 @@
       "salarioSemanal": 26231.39,
       "primerNombre": "Francisco",
       "apellidoPaterno": "Féliz",
-      "numeroSeguroSocial": "100-00-0209",
+      "cedula": "056-1655071-0",
       "estado": "Activo"
     }
   },
@@ -2505,7 +2505,7 @@
       "salarioSemanal": 28323.95,
       "primerNombre": "Manuel",
       "apellidoPaterno": "Castillo",
-      "numeroSeguroSocial": "100-00-0210",
+      "cedula": "001-1662990-8",
       "estado": "Activo"
     }
   },
@@ -2517,7 +2517,7 @@
       "horasTrabajadas": 38,
       "primerNombre": "Sofía",
       "apellidoPaterno": "Reyes",
-      "numeroSeguroSocial": "100-00-0211",
+      "cedula": "031-1670909-2",
       "estado": "Activo"
     }
   },
@@ -2529,7 +2529,7 @@
       "horasTrabajadas": 33,
       "primerNombre": "Laura",
       "apellidoPaterno": "Sánchez",
-      "numeroSeguroSocial": "100-00-0212",
+      "cedula": "402-1678828-7",
       "estado": "Activo"
     }
   },
@@ -2541,7 +2541,7 @@
       "horasTrabajadas": 44,
       "primerNombre": "Francisco",
       "apellidoPaterno": "Rodríguez",
-      "numeroSeguroSocial": "100-00-0213",
+      "cedula": "223-1686747-6",
       "estado": "Activo"
     }
   },
@@ -2553,7 +2553,7 @@
       "horasTrabajadas": 33,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Reyes",
-      "numeroSeguroSocial": "100-00-0214",
+      "cedula": "047-1694666-2",
       "estado": "Activo"
     }
   },
@@ -2565,7 +2565,7 @@
       "horasTrabajadas": 38,
       "primerNombre": "Pedro",
       "apellidoPaterno": "Vásquez",
-      "numeroSeguroSocial": "100-00-0215",
+      "cedula": "056-1702585-2",
       "estado": "Activo"
     }
   },
@@ -2577,7 +2577,7 @@
       "horasTrabajadas": 50,
       "primerNombre": "Francisco",
       "apellidoPaterno": "Castillo",
-      "numeroSeguroSocial": "100-00-0216",
+      "cedula": "001-1710504-9",
       "estado": "Activo"
     }
   },
@@ -2589,7 +2589,7 @@
       "horasTrabajadas": 48,
       "primerNombre": "Manuel",
       "apellidoPaterno": "Núñez",
-      "numeroSeguroSocial": "100-00-0217",
+      "cedula": "031-1718423-8",
       "estado": "Activo"
     }
   },
@@ -2601,7 +2601,7 @@
       "horasTrabajadas": 50,
       "primerNombre": "Daniela",
       "apellidoPaterno": "García",
-      "numeroSeguroSocial": "100-00-0218",
+      "cedula": "402-1726342-1",
       "estado": "Activo"
     }
   },
@@ -2613,7 +2613,7 @@
       "horasTrabajadas": 50,
       "primerNombre": "Rosa",
       "apellidoPaterno": "Tavárez",
-      "numeroSeguroSocial": "100-00-0219",
+      "cedula": "223-1734261-0",
       "estado": "Activo"
     }
   },
@@ -2625,7 +2625,7 @@
       "horasTrabajadas": 31,
       "primerNombre": "Luis",
       "apellidoPaterno": "Hernández",
-      "numeroSeguroSocial": "100-00-0220",
+      "cedula": "047-1742180-6",
       "estado": "Inactivo"
     }
   },
@@ -2637,7 +2637,7 @@
       "tarifaComision": 0.03,
       "primerNombre": "Jorge",
       "apellidoPaterno": "Gómez",
-      "numeroSeguroSocial": "100-00-0221",
+      "cedula": "056-1750099-5",
       "estado": "Activo"
     }
   },
@@ -2649,7 +2649,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Héctor",
       "apellidoPaterno": "Peña",
-      "numeroSeguroSocial": "100-00-0222",
+      "cedula": "001-1758018-3",
       "estado": "Activo"
     }
   },
@@ -2661,7 +2661,7 @@
       "tarifaComision": 0.04,
       "primerNombre": "Francisco",
       "apellidoPaterno": "Rosario",
-      "numeroSeguroSocial": "100-00-0223",
+      "cedula": "031-1765937-9",
       "estado": "Activo"
     }
   },
@@ -2673,7 +2673,7 @@
       "tarifaComision": 0.045,
       "primerNombre": "Ricardo",
       "apellidoPaterno": "Gómez",
-      "numeroSeguroSocial": "100-00-0224",
+      "cedula": "402-1773856-2",
       "estado": "Activo"
     }
   },
@@ -2685,7 +2685,7 @@
       "tarifaComision": 0.05,
       "primerNombre": "Sofía",
       "apellidoPaterno": "Jiménez",
-      "numeroSeguroSocial": "100-00-0225",
+      "cedula": "223-1781775-1",
       "estado": "Activo"
     }
   },
@@ -2697,7 +2697,7 @@
       "tarifaComision": 0.055,
       "primerNombre": "Ricardo",
       "apellidoPaterno": "Díaz",
-      "numeroSeguroSocial": "100-00-0226",
+      "cedula": "047-1789694-0",
       "estado": "Activo"
     }
   },
@@ -2709,7 +2709,7 @@
       "tarifaComision": 0.06,
       "primerNombre": "Ana",
       "apellidoPaterno": "Polanco",
-      "numeroSeguroSocial": "100-00-0227",
+      "cedula": "056-1797613-8",
       "estado": "Activo"
     }
   },
@@ -2721,7 +2721,7 @@
       "tarifaComision": 0.065,
       "primerNombre": "Rosa",
       "apellidoPaterno": "Santana",
-      "numeroSeguroSocial": "100-00-0228",
+      "cedula": "001-1805532-6",
       "estado": "Activo"
     }
   },
@@ -2733,7 +2733,7 @@
       "tarifaComision": 0.07,
       "primerNombre": "Isabel",
       "apellidoPaterno": "Encarnación",
-      "numeroSeguroSocial": "100-00-0229",
+      "cedula": "031-1813451-3",
       "estado": "Activo"
     }
   },
@@ -2745,7 +2745,7 @@
       "tarifaComision": 0.075,
       "primerNombre": "Fernando",
       "apellidoPaterno": "Brito",
-      "numeroSeguroSocial": "100-00-0230",
+      "cedula": "402-1821370-6",
       "estado": "Activo"
     }
   },
@@ -2758,7 +2758,7 @@
       "tarifaComision": 0.02,
       "primerNombre": "Andrés",
       "apellidoPaterno": "Díaz",
-      "numeroSeguroSocial": "100-00-0231",
+      "cedula": "223-1829289-7",
       "estado": "Activo"
     }
   },
@@ -2771,7 +2771,7 @@
       "tarifaComision": 0.023,
       "primerNombre": "Fernando",
       "apellidoPaterno": "Núñez",
-      "numeroSeguroSocial": "100-00-0232",
+      "cedula": "047-1837208-1",
       "estado": "Activo"
     }
   },
@@ -2784,7 +2784,7 @@
       "tarifaComision": 0.026,
       "primerNombre": "Fernando",
       "apellidoPaterno": "Santana",
-      "numeroSeguroSocial": "100-00-0233",
+      "cedula": "056-1845127-1",
       "estado": "Activo"
     }
   },
@@ -2797,7 +2797,7 @@
       "tarifaComision": 0.029,
       "primerNombre": "Sofía",
       "apellidoPaterno": "Brito",
-      "numeroSeguroSocial": "100-00-0234",
+      "cedula": "001-1853046-8",
       "estado": "Activo"
     }
   },
@@ -2810,7 +2810,7 @@
       "tarifaComision": 0.032,
       "primerNombre": "Rosa",
       "apellidoPaterno": "Martínez",
-      "numeroSeguroSocial": "100-00-0235",
+      "cedula": "031-1860965-4",
       "estado": "Activo"
     }
   },
@@ -2823,7 +2823,7 @@
       "tarifaComision": 0.035,
       "primerNombre": "Manuel",
       "apellidoPaterno": "Núñez",
-      "numeroSeguroSocial": "100-00-0236",
+      "cedula": "402-1868884-0",
       "estado": "Activo"
     }
   },
@@ -2836,7 +2836,7 @@
       "tarifaComision": 0.038,
       "primerNombre": "Pedro",
       "apellidoPaterno": "Ureña",
-      "numeroSeguroSocial": "100-00-0237",
+      "cedula": "223-1876803-7",
       "estado": "Activo"
     }
   },
@@ -2849,7 +2849,7 @@
       "tarifaComision": 0.041,
       "primerNombre": "Miguel",
       "apellidoPaterno": "Pérez",
-      "numeroSeguroSocial": "100-00-0238",
+      "cedula": "047-1884722-3",
       "estado": "Activo"
     }
   },
@@ -2862,7 +2862,7 @@
       "tarifaComision": 0.044,
       "primerNombre": "Héctor",
       "apellidoPaterno": "Batista",
-      "numeroSeguroSocial": "100-00-0239",
+      "cedula": "056-1892641-3",
       "estado": "Activo"
     }
   },
@@ -2875,7 +2875,7 @@
       "tarifaComision": 0.047,
       "primerNombre": "Daniela",
       "apellidoPaterno": "Batista",
-      "numeroSeguroSocial": "100-00-0240",
+      "cedula": "001-1900560-1",
       "estado": "Inactivo"
     }
   }

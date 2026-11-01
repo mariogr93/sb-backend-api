@@ -4,6 +4,7 @@ using SB.SistemaNomina.Aplicacion.Comun;
 using SB.SistemaNomina.Aplicacion.Excepciones;
 using SB.SistemaNomina.Aplicacion.Interfaces.Fabricas;
 using SB.SistemaNomina.Aplicacion.Interfaces.Repositorios;
+using SB.SistemaNomina.Aplicacion.Interfaces.Seguridad;
 using SB.SistemaNomina.Aplicacion.Interfaces.Servicios;
 using SB.SistemaNomina.Aplicacion.Mapeos;
 using SB.SistemaNomina.Aplicacion.Modelos.Empleados;
@@ -22,6 +23,7 @@ public sealed class EmpleadoServicio : IEmpleadoServicio
     private readonly IFabricaEmpleado _fabricaEmpleado;
     private readonly IValidator<GuardarEmpleadoSolicitud> _validadorGuardar;
     private readonly IValidator<FiltroEmpleados> _validadorFiltro;
+    private readonly IUsuarioActual _usuarioActual;
     private readonly TimeProvider _proveedorTiempo;
     private readonly ILogger<EmpleadoServicio> _registro;
 
@@ -31,6 +33,7 @@ public sealed class EmpleadoServicio : IEmpleadoServicio
         IFabricaEmpleado fabricaEmpleado,
         IValidator<GuardarEmpleadoSolicitud> validadorGuardar,
         IValidator<FiltroEmpleados> validadorFiltro,
+        IUsuarioActual usuarioActual,
         TimeProvider proveedorTiempo,
         ILogger<EmpleadoServicio> registro)
     {
@@ -39,6 +42,7 @@ public sealed class EmpleadoServicio : IEmpleadoServicio
         _fabricaEmpleado = fabricaEmpleado;
         _validadorGuardar = validadorGuardar;
         _validadorFiltro = validadorFiltro;
+        _usuarioActual = usuarioActual;
         _proveedorTiempo = proveedorTiempo;
         _registro = registro;
     }
@@ -69,7 +73,7 @@ public sealed class EmpleadoServicio : IEmpleadoServicio
             async () =>
             {
                 var departamento = await ObtenerDepartamentoActivoAsync(solicitud.DepartamentoId, tokenCancelacion);
-                await ValidarNumeroSeguroSocialUnicoAsync(solicitud.NumeroSeguroSocial, null, tokenCancelacion);
+                await ValidarCedulaUnicaAsync(solicitud.Cedula, null, tokenCancelacion);
 
                 var empleado = _fabricaEmpleado.Crear(solicitud);
                 empleado.FechaCreacion = _proveedorTiempo.GetUtcNow().UtcDateTime;
@@ -90,7 +94,7 @@ public sealed class EmpleadoServicio : IEmpleadoServicio
             {
                 var existente = await ObtenerExistenteAsync(id, tokenCancelacion);
                 var departamento = await ObtenerDepartamentoActivoAsync(solicitud.DepartamentoId, tokenCancelacion);
-                await ValidarNumeroSeguroSocialUnicoAsync(solicitud.NumeroSeguroSocial, id, tokenCancelacion);
+                await ValidarCedulaUnicaAsync(solicitud.Cedula, id, tokenCancelacion);
 
                 // Se recrea la subclase para admitir cambio de tipo; se conservan Id, estado y fecha de creación.
                 var empleado = _fabricaEmpleado.Crear(solicitud);
@@ -136,11 +140,11 @@ public sealed class EmpleadoServicio : IEmpleadoServicio
         });
     }
 
-    private async Task ValidarNumeroSeguroSocialUnicoAsync(string numeroSeguroSocial, Guid? idExcluido, CancellationToken tokenCancelacion)
+    private async Task ValidarCedulaUnicaAsync(string cedula, Guid? idExcluido, CancellationToken tokenCancelacion)
     {
-        if (await _empleadoRepositorio.ExisteNumeroSeguroSocialAsync(numeroSeguroSocial.Trim(), idExcluido, tokenCancelacion))
+        if (await _empleadoRepositorio.ExisteCedulaAsync(cedula.Trim(), idExcluido, tokenCancelacion))
         {
-            throw new ConflictoException(MensajesServicio.NUMERO_SEGURO_SOCIAL_DUPLICADO);
+            throw new ConflictoException(MensajesServicio.CEDULA_DUPLICADA);
         }
     }
 
@@ -159,7 +163,7 @@ public sealed class EmpleadoServicio : IEmpleadoServicio
             empleado.PrimerNombre,
             empleado.ApellidoPaterno,
             empleado.NombreCompleto,
-            empleado.NumeroSeguroSocial,
+            _usuarioActual.EsAdministrador ? empleado.Cedula : EnmascaradorCedula.Enmascarar(empleado.Cedula),
             empleado.DepartamentoId,
             nombreDepartamento,
             empleado.Tipo,
