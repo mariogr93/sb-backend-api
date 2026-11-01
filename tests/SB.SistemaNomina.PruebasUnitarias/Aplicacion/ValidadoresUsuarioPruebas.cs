@@ -154,6 +154,8 @@ public class ValidadoresUsuarioPruebas
     [InlineData("", "NotEmptyValidator")]
     [InlineData(null, "NotEmptyValidator")]
     [InlineData("Maria3", "RegularExpressionValidator")]
+    [InlineData("'María", "RegularExpressionValidator")]
+    [InlineData("María_García", "RegularExpressionValidator")]
     [InlineData("LARGO101", "MaximumLengthValidator")]
     public async Task NombreCompletoInvalidoSeRechazaAlCrearYActualizar(string? nombreCompleto, string codigoError)
     {
@@ -168,6 +170,18 @@ public class ValidadoresUsuarioPruebas
             Assert.Equal(nameof(CrearUsuarioSolicitud.NombreCompleto), error.PropertyName);
             Assert.Equal(codigoError, error.ErrorCode);
         }
+    }
+
+    [Theory]
+    [InlineData("María O'Neil")]
+    [InlineData("Ana-María Pérez Jr.")]
+    public async Task NombreCompletoConApostrofoPuntoOGuionEsValido(string nombreCompleto)
+    {
+        var resultadoCrear = await _validadorCrear.ValidateAsync(CrearSolicitud() with { NombreCompleto = nombreCompleto });
+        var resultadoActualizar = await _validadorActualizar.ValidateAsync(ActualizarSolicitud(nombreCompleto: nombreCompleto));
+
+        Assert.True(resultadoCrear.IsValid);
+        Assert.True(resultadoActualizar.IsValid);
     }
 
     [Fact]

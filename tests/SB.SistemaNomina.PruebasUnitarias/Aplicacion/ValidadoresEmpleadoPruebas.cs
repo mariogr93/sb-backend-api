@@ -262,9 +262,23 @@ public class ValidadoresEmpleadoPruebas
         Assert.True(resultado.IsValid);
     }
 
+    // Política: letra inicial y luego letras, espacios, apóstrofo, punto o guion.
+    [Theory]
+    [InlineData(nameof(GuardarEmpleadoSolicitud.PrimerNombre), "Ana-María")]
+    [InlineData(nameof(GuardarEmpleadoSolicitud.ApellidoPaterno), "O'Neil")]
+    [InlineData(nameof(GuardarEmpleadoSolicitud.ApellidoPaterno), "Gómez Jr.")]
+    public async Task NombreConApostrofoPuntoOGuionEsValido(string campo, string valor)
+    {
+        var resultado = await _validador.ValidateAsync(ConNombre(campo, valor));
+
+        Assert.True(resultado.IsValid);
+    }
+
     [Theory]
     [InlineData(nameof(GuardarEmpleadoSolicitud.PrimerNombre), "Carlos3")]
     [InlineData(nameof(GuardarEmpleadoSolicitud.ApellidoPaterno), "Pérez@")]
+    [InlineData(nameof(GuardarEmpleadoSolicitud.PrimerNombre), "-Ana")]
+    [InlineData(nameof(GuardarEmpleadoSolicitud.ApellidoPaterno), "Pérez_Díaz")]
     public async Task NombreConCaracteresInvalidosSeRechaza(string campo, string valor)
     {
         var resultado = await _validador.ValidateAsync(ConNombre(campo, valor));
@@ -331,6 +345,8 @@ public class ValidadoresEmpleadoPruebas
     [InlineData("402-1234567-")]
     [InlineData("402-123456a-8")]
     [InlineData("402-12-3456")]
+    [InlineData("x402-1234567-8")]
+    [InlineData("402-1234567-8x")]
     public async Task CedulaConFormatoIncorrectoEsInvalida(string cedula)
     {
         var solicitud = CrearSolicitud(TipoEmpleado.Asalariado) with { Cedula = cedula };

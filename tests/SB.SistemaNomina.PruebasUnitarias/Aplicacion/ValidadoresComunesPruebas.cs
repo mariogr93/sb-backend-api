@@ -101,6 +101,25 @@ public class ValidadoresComunesPruebas
         Assert.True(resultado.IsValid);
     }
 
+    // Servidor en UTC−4: a las 03:59 UTC del lunes todavía es domingo local.
+    [Theory]
+    [InlineData(3, 59, false)]
+    [InlineData(4, 0, true)]
+    public async Task LunesSeEvaluaEnLaZonaLocalDelServidor(int hora, int minuto, bool esValido)
+    {
+        var zonaMenosCuatro = TimeZoneInfo.CreateCustomTimeZone("UTC-4", TimeSpan.FromHours(-4), "UTC-4", "UTC-4");
+        var reloj = new ProveedorTiempoFijo(new DateTimeOffset(2026, 10, 26, hora, minuto, 0, TimeSpan.Zero), zonaMenosCuatro);
+
+        var resultado = await new GuardarNominaSolicitudValidador(reloj)
+            .ValidateAsync(new GuardarNominaSolicitud { FechaInicioSemana = _lunes });
+
+        Assert.Equal(esValido, resultado.IsValid);
+        if (!esValido)
+        {
+            Assert.Equal(MensajesValidacion.FECHA_INICIO_SEMANA_FUTURA, Assert.Single(resultado.Errors).ErrorMessage);
+        }
+    }
+
     [Fact]
     public async Task FechaNoLunesSeRechazaConSuMensaje()
     {
