@@ -14,6 +14,8 @@ public class EnmascaradorCedulaPruebas
 
     [Theory]
     [InlineData("100-00-0001", "***-**-****")]
+    [InlineData("x402-1234567-8", "x***-*******-*")]
+    [InlineData("402-1234567-8x", "***-*******-*x")]
     [InlineData("12345", "*****")]
     [InlineData("", "")]
     public void FormatoInesperadoOcultaTodosLosDigitos(string cedula, string esperada)
