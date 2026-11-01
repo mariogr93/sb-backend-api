@@ -11,7 +11,7 @@ public static class MensajesValidacion
 
     public const string NOMBRE_INVALIDO = "El campo {PropertyName} solo admite letras, espacios, apóstrofo, punto y guion.";
 
-    public const string NUMERO_SEGURO_SOCIAL_INVALIDO = "El número de seguro social debe tener el formato ###-##-####.";
+    public const string CEDULA_INVALIDA = "La cédula debe tener el formato ###-#######-#.";
 
     public const string MONTO_FUERA_RANGO = "El campo {PropertyName} debe estar entre 0 y 99,999,999.99.";
 

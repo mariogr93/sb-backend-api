@@ -2,7 +2,7 @@ namespace SB.SistemaNomina.Servicios.Comun;
 
 public static class MensajesServicio
 {
-    public const string NUMERO_SEGURO_SOCIAL_DUPLICADO = "Ya existe un empleado con ese número de seguro social.";
+    public const string CEDULA_DUPLICADA = "Ya existe un empleado con esa cédula.";
 
     public const string DEPARTAMENTO_NO_DISPONIBLE = "El departamento no existe o está inactivo.";
 

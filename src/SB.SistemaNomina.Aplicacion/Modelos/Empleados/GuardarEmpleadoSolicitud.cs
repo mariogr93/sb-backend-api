@@ -9,7 +9,8 @@ public sealed record GuardarEmpleadoSolicitud
 
     public string ApellidoPaterno { get; init; } = string.Empty;
 
-    public string NumeroSeguroSocial { get; init; } = string.Empty;
+    /// <summary>Formato ###-#######-#.</summary>
+    public string Cedula { get; init; } = string.Empty;
 
     public Guid DepartamentoId { get; init; }
 

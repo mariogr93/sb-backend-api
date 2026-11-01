@@ -21,7 +21,7 @@ public sealed class FabricaEmpleado : IFabricaEmpleado
         var empleado = ObtenerCreador(solicitud.Tipo).Crear(solicitud.Compensacion);
         empleado.PrimerNombre = solicitud.PrimerNombre.Trim();
         empleado.ApellidoPaterno = solicitud.ApellidoPaterno.Trim();
-        empleado.NumeroSeguroSocial = solicitud.NumeroSeguroSocial.Trim();
+        empleado.Cedula = solicitud.Cedula.Trim();
         empleado.DepartamentoId = solicitud.DepartamentoId;
         return empleado;
     }

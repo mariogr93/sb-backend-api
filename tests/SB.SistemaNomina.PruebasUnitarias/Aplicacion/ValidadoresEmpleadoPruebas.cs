@@ -33,7 +33,7 @@ public class ValidadoresEmpleadoPruebas
     {
         PrimerNombre = "Carlos",
         ApellidoPaterno = "Hernández",
-        NumeroSeguroSocial = "402-12-3456",
+        Cedula = "402-1234567-8",
         DepartamentoId = Guid.NewGuid(),
         Tipo = tipo,
         Compensacion = compensacion ?? _compensacionValida
@@ -292,16 +292,16 @@ public class ValidadoresEmpleadoPruebas
     [Theory]
     [InlineData("")]
     [InlineData(null)]
-    public async Task SeguroSocialAusenteUsaReglaRequerida(string? valor)
+    public async Task CedulaAusenteUsaReglaRequerida(string? valor)
     {
-        var solicitud = CrearSolicitud(TipoEmpleado.Asalariado) with { NumeroSeguroSocial = valor! };
+        var solicitud = CrearSolicitud(TipoEmpleado.Asalariado) with { Cedula = valor! };
 
         var resultado = await _validador.ValidateAsync(solicitud);
 
         var error = Assert.Single(resultado.Errors);
-        Assert.Equal(nameof(GuardarEmpleadoSolicitud.NumeroSeguroSocial), error.PropertyName);
+        Assert.Equal(nameof(GuardarEmpleadoSolicitud.Cedula), error.PropertyName);
         Assert.Equal("NotEmptyValidator", error.ErrorCode);
-        Assert.Equal("El campo Numero Seguro Social es requerido.", error.ErrorMessage);
+        Assert.Equal("El campo Cedula es requerido.", error.ErrorMessage);
     }
 
     [Fact]
@@ -325,16 +325,19 @@ public class ValidadoresEmpleadoPruebas
     }
 
     [Theory]
-    [InlineData("402123456", MensajesValidacion.NUMERO_SEGURO_SOCIAL_INVALIDO)]
-    [InlineData("40-212-3456", MensajesValidacion.NUMERO_SEGURO_SOCIAL_INVALIDO)]
-    [InlineData("402-12-345a", MensajesValidacion.NUMERO_SEGURO_SOCIAL_INVALIDO)]
-    public async Task NumeroSeguroSocialConFormatoIncorrectoEsInvalido(string numeroSeguroSocial, string mensaje)
+    [InlineData("40212345678")]
+    [InlineData("4021-234567-8")]
+    [InlineData("402-123456-78")]
+    [InlineData("402-1234567-")]
+    [InlineData("402-123456a-8")]
+    [InlineData("402-12-3456")]
+    public async Task CedulaConFormatoIncorrectoEsInvalida(string cedula)
     {
-        var solicitud = CrearSolicitud(TipoEmpleado.Asalariado) with { NumeroSeguroSocial = numeroSeguroSocial };
+        var solicitud = CrearSolicitud(TipoEmpleado.Asalariado) with { Cedula = cedula };
 
         var resultado = await _validador.ValidateAsync(solicitud);
 
-        AfirmarErrorUnico(resultado, nameof(GuardarEmpleadoSolicitud.NumeroSeguroSocial), mensaje);
+        AfirmarErrorUnico(resultado, nameof(GuardarEmpleadoSolicitud.Cedula), MensajesValidacion.CEDULA_INVALIDA);
     }
 
     [Fact]

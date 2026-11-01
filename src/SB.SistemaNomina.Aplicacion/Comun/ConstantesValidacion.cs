@@ -23,8 +23,8 @@ public static class ConstantesValidacion
 
     public const decimal TARIFA_COMISION_MAXIMA = 1m;
 
-    /// <summary>Formato ###-##-####.</summary>
-    public const string PATRON_NUMERO_SEGURO_SOCIAL = @"^\d{3}-\d{2}-\d{4}$";
+    /// <summary>Cédula dominicana ###-#######-#.</summary>
+    public const string PATRON_CEDULA = @"^\d{3}-\d{7}-\d$";
 
     /// <summary>Letras (con acentos), espacios, apóstrofo, punto y guion.</summary>
     public const string PATRON_NOMBRE_PERSONA = @"^\p{L}[\p{L} '.-]*$";

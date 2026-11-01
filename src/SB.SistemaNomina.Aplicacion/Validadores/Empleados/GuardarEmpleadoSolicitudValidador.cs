@@ -18,9 +18,9 @@ public sealed class GuardarEmpleadoSolicitudValidador : ValidadorBase<GuardarEmp
 
         RuleFor(solicitud => solicitud.ApellidoPaterno).ReglasNombrePersona();
 
-        RuleFor(solicitud => solicitud.NumeroSeguroSocial)
+        RuleFor(solicitud => solicitud.Cedula)
             .NotEmpty().WithMessage(MensajesValidacion.CAMPO_REQUERIDO)
-            .Matches(ConstantesValidacion.PATRON_NUMERO_SEGURO_SOCIAL).WithMessage(MensajesValidacion.NUMERO_SEGURO_SOCIAL_INVALIDO);
+            .Matches(ConstantesValidacion.PATRON_CEDULA).WithMessage(MensajesValidacion.CEDULA_INVALIDA);
 
         RuleFor(solicitud => solicitud.DepartamentoId)
             .NotEmpty().WithMessage(MensajesValidacion.CAMPO_REQUERIDO);
