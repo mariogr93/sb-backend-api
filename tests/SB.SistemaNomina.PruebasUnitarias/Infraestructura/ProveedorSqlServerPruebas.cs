@@ -70,6 +70,25 @@ public sealed class ProveedorSqlServerPruebas
         });
     }
 
+    [Fact]
+    public async Task SqlServerResuelveContextoConSuCadenaYRepositoriosEf()
+    {
+        await using var proveedor = Registrar("SqlServer", CADENA_PRUEBA).AddLogging().BuildServiceProvider();
+        await using var alcance = proveedor.CreateAsyncScope();
+        var servicios = alcance.ServiceProvider;
+
+        // Sin conexión real: solo se construye el contexto.
+        var contexto = servicios.GetRequiredService<NominaContexto>();
+        Assert.Equal("Microsoft.EntityFrameworkCore.SqlServer", contexto.Database.ProviderName);
+        Assert.Equal(CADENA_PRUEBA, contexto.Database.GetConnectionString());
+
+        Assert.IsType<EfEmpleadoRepositorio>(servicios.GetRequiredService<IEmpleadoRepositorio>());
+        Assert.IsType<EfDepartamentoRepositorio>(servicios.GetRequiredService<IDepartamentoRepositorio>());
+        Assert.IsType<EfEntidadGubernamentalRepositorio>(servicios.GetRequiredService<IEntidadGubernamentalRepositorio>());
+        Assert.IsType<EfUsuarioRepositorio>(servicios.GetRequiredService<IUsuarioRepositorio>());
+        Assert.IsType<EfNominaRepositorio>(servicios.GetRequiredService<INominaRepositorio>());
+    }
+
     [Theory]
     [InlineData(null)]
     [InlineData(" ")]

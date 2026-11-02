@@ -165,6 +165,7 @@ public sealed class AutenticacionPruebas
 
     [Theory]
     [InlineData(true, NombresRoles.ADMINISTRADOR, NombresRoles.ADMINISTRADOR, true)]
+    [InlineData(true, NombresRoles.USUARIO, NombresRoles.USUARIO, true)]
     [InlineData(false, NombresRoles.ADMINISTRADOR, NombresRoles.ADMINISTRADOR, false)]
     [InlineData(true, NombresRoles.USUARIO, NombresRoles.ADMINISTRADOR, false)]
     [InlineData(true, NombresRoles.ADMINISTRADOR, null, false)]

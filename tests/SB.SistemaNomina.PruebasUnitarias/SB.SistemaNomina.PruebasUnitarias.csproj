@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\SB.SistemaNomina.API\SB.SistemaNomina.API.csproj" />
     <ProjectReference Include="..\..\src\SB.SistemaNomina.Dominio\SB.SistemaNomina.Dominio.csproj" />
     <ProjectReference Include="..\..\src\SB.SistemaNomina.Aplicacion\SB.SistemaNomina.Aplicacion.csproj" />
     <ProjectReference Include="..\..\src\SB.SistemaNomina.Servicios\SB.SistemaNomina.Servicios.csproj" />
