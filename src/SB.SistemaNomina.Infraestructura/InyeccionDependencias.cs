@@ -27,7 +27,7 @@ public static class InyeccionDependencias
     private const string ARCHIVO_ENTIDADES = "entidades-gubernamentales.json";
     private const string ARCHIVO_USUARIOS = "usuarios.json";
     private const string ARCHIVO_NOMINAS = "nominas.json";
-    private const string MENSAJE_CADENA_SQL_SERVER =
+    internal const string MENSAJE_CADENA_SQL_SERVER =
         "Configure ConnectionStrings:SqlServer (o la variable ConnectionStrings__SqlServer) para usar el proveedor SqlServer.";
 
     /// <summary>Persistencia según Persistencia:Proveedor, hash de contraseñas y datos iniciales. Carpeta relativa se resuelve contra rutaContenido.</summary>

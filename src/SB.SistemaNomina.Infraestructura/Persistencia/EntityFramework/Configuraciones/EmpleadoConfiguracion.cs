@@ -1,11 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using SB.SistemaNomina.Dominio.Entidades;
-using SB.SistemaNomina.Dominio.Enumeraciones;
 
 namespace SB.SistemaNomina.Infraestructura.Persistencia.EntityFramework.Configuraciones;
 
-/// <summary>Una tabla para los cuatro tipos (TPH); tipo nuevo = valor nuevo del discriminador.</summary>
+/// <summary>Una tabla para todos los tipos (TPH); el discriminador se registra solo por cada subclase.</summary>
 public sealed class EmpleadoConfiguracion : IEntityTypeConfiguration<Empleado>
 {
     public void Configure(EntityTypeBuilder<Empleado> constructor)
@@ -29,11 +28,12 @@ public sealed class EmpleadoConfiguracion : IEntityTypeConfiguration<Empleado>
             .HasForeignKey(empleado => empleado.DepartamentoId)
             .OnDelete(DeleteBehavior.Restrict);
 
-        constructor.HasDiscriminator<string>(ConstantesColumnas.DISCRIMINADOR_EMPLEADO)
-            .HasValue<EmpleadoAsalariado>(nameof(TipoEmpleado.Asalariado))
-            .HasValue<EmpleadoPorHoras>(nameof(TipoEmpleado.PorHoras))
-            .HasValue<EmpleadoPorComision>(nameof(TipoEmpleado.PorComision))
-            .HasValue<EmpleadoAsalariadoPorComision>(nameof(TipoEmpleado.AsalariadoPorComision));
+        var discriminador = constructor.HasDiscriminator<string>(ConstantesColumnas.DISCRIMINADOR_EMPLEADO);
+        foreach (var (subtipo, tipoEmpleado) in SubtiposEmpleado.Todos)
+        {
+            discriminador.HasValue(subtipo, tipoEmpleado.ToString());
+        }
+
         constructor.Property<string>(ConstantesColumnas.DISCRIMINADOR_EMPLEADO).HasMaxLength(ConstantesColumnas.LONGITUD_ENUMERACION);
     }
 }
