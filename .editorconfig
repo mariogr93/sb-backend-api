@@ -1,0 +1,73 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{json,csproj,props,yml,yaml}]
+indent_size = 2
+
+[*.cs]
+# Estilo general
+csharp_style_namespace_declarations = file_scoped:warning
+dotnet_sort_system_directives_first = true
+csharp_prefer_braces = true:warning
+
+# ---- Reglas de nomenclatura (API - ESPECIFICACIONES TECNICAS, sección 7.0) ----
+
+# Símbolos
+dotnet_naming_symbols.interfaces.applicable_kinds = interface
+dotnet_naming_symbols.constantes.applicable_kinds = field, local
+dotnet_naming_symbols.constantes.required_modifiers = const
+dotnet_naming_symbols.tipos.applicable_kinds = class, struct, enum, delegate
+dotnet_naming_symbols.miembros.applicable_kinds = method, property, event, enum_member
+dotnet_naming_symbols.parametros.applicable_kinds = parameter
+dotnet_naming_symbols.locales.applicable_kinds = local
+dotnet_naming_symbols.campos_privados.applicable_kinds = field
+dotnet_naming_symbols.campos_privados.applicable_accessibilities = private
+
+# Estilos
+dotnet_naming_style.prefijo_i.required_prefix = I
+dotnet_naming_style.prefijo_i.capitalization = pascal_case
+dotnet_naming_style.mayusculas.capitalization = all_upper
+dotnet_naming_style.mayusculas.word_separator = _
+dotnet_naming_style.pascal.capitalization = pascal_case
+dotnet_naming_style.camel.capitalization = camel_case
+dotnet_naming_style.guion_bajo_camel.required_prefix = _
+dotnet_naming_style.guion_bajo_camel.capitalization = camel_case
+
+# Reglas (el orden importa: constantes antes que locales/campos)
+dotnet_naming_rule.interfaces_con_i.symbols = interfaces
+dotnet_naming_rule.interfaces_con_i.style = prefijo_i
+dotnet_naming_rule.interfaces_con_i.severity = warning
+
+dotnet_naming_rule.constantes_mayusculas.symbols = constantes
+dotnet_naming_rule.constantes_mayusculas.style = mayusculas
+dotnet_naming_rule.constantes_mayusculas.severity = warning
+
+dotnet_naming_rule.tipos_pascal.symbols = tipos
+dotnet_naming_rule.tipos_pascal.style = pascal
+dotnet_naming_rule.tipos_pascal.severity = warning
+
+dotnet_naming_rule.miembros_pascal.symbols = miembros
+dotnet_naming_rule.miembros_pascal.style = pascal
+dotnet_naming_rule.miembros_pascal.severity = warning
+
+dotnet_naming_rule.parametros_camel.symbols = parametros
+dotnet_naming_rule.parametros_camel.style = camel
+dotnet_naming_rule.parametros_camel.severity = warning
+
+dotnet_naming_rule.locales_camel.symbols = locales
+dotnet_naming_rule.locales_camel.style = camel
+dotnet_naming_rule.locales_camel.severity = warning
+
+dotnet_naming_rule.campos_privados_guion_bajo.symbols = campos_privados
+dotnet_naming_rule.campos_privados_guion_bajo.style = guion_bajo_camel
+dotnet_naming_rule.campos_privados_guion_bajo.severity = warning
+
+# IDE1006 = violaciones de nomenclatura; se vuelven error de compilación vía TreatWarningsAsErrors
+dotnet_diagnostic.IDE1006.severity = warning

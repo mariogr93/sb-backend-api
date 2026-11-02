@@ -1,0 +1,162 @@
+# Prueba de humo de la API (Visual Studio 2022 17.12+ o VS Code REST Client).
+# Arranque: dotnet run --project src/SB.SistemaNomina.API (perfil http, Development).
+# Credenciales: copie aquí las de DatosIniciales en appsettings.Development.json (no se versionan en este archivo).
+@host = http://localhost:5297/api
+@contrasenaAdmin = COPIAR_DE_APPSETTINGS_DEVELOPMENT
+@contrasenaConsulta = COPIAR_DE_APPSETTINGS_DEVELOPMENT
+@lunes = 2026-10-26
+
+### 1. Inicio de sesión: Admin (200)
+# @name loginAdmin
+POST {{host}}/autenticacion/iniciar-sesion
+Content-Type: application/json
+
+{ "nombreUsuario": "admin", "contrasena": "{{contrasenaAdmin}}" }
+
+### 2. Inicio de sesión: Usuario de consulta (200)
+# @name loginConsulta
+POST {{host}}/autenticacion/iniciar-sesion
+Content-Type: application/json
+
+{ "nombreUsuario": "consulta", "contrasena": "{{contrasenaConsulta}}" }
+
+### 3. Credenciales incorrectas (401)
+POST {{host}}/autenticacion/iniciar-sesion
+Content-Type: application/json
+
+{ "nombreUsuario": "admin", "contrasena": "Incorrecta1" }
+
+### 4. Sin token (401)
+GET {{host}}/empleados
+
+### 5. Departamentos (200)
+# @name departamentos
+GET {{host}}/departamentos
+Authorization: Bearer {{loginConsulta.response.body.$.token}}
+
+### 6. Entidades gubernamentales filtradas y paginadas (200)
+GET {{host}}/entidades-gubernamentales?sector=salud&pagina=1&tamanoPagina=5
+Authorization: Bearer {{loginConsulta.response.body.$.token}}
+
+### 7. Paginación inválida (400)
+GET {{host}}/entidades-gubernamentales?pagina=0
+Authorization: Bearer {{loginConsulta.response.body.$.token}}
+
+### 8. Empleados por tipo (200; Usuario ve la cédula enmascarada)
+GET {{host}}/empleados?tipo=PorHoras&pagina=1&tamanoPagina=10
+Authorization: Bearer {{loginConsulta.response.body.$.token}}
+
+### 9. Crear empleado como Usuario (403)
+POST {{host}}/empleados
+Authorization: Bearer {{loginConsulta.response.body.$.token}}
+Content-Type: application/json
+
+{
+  "primerNombre": "Ana",
+  "apellidoPaterno": "Prueba",
+  "cedula": "402-0000001-5",
+  "departamentoId": "{{departamentos.response.body.$[0].id}}",
+  "tipo": "PorHoras",
+  "compensacion": { "sueldoPorHora": 500, "horasTrabajadas": 45 }
+}
+
+### 10. Crear empleado como Admin (201 + Location; pago 23,750)
+# @name empleado
+POST {{host}}/empleados
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+Content-Type: application/json
+
+{
+  "primerNombre": "Ana",
+  "apellidoPaterno": "Prueba",
+  "cedula": "402-0000001-5",
+  "departamentoId": "{{departamentos.response.body.$[0].id}}",
+  "tipo": "PorHoras",
+  "compensacion": { "sueldoPorHora": 500, "horasTrabajadas": 45 }
+}
+
+### 11. Cédula duplicada (409)
+POST {{host}}/empleados
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+Content-Type: application/json
+
+{
+  "primerNombre": "Otra",
+  "apellidoPaterno": "Persona",
+  "cedula": "402-0000001-5",
+  "departamentoId": "{{departamentos.response.body.$[0].id}}",
+  "tipo": "Asalariado",
+  "compensacion": { "salarioSemanal": 1000 }
+}
+
+### 12. Datos inválidos (400 con errores por campo)
+POST {{host}}/empleados
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+Content-Type: application/json
+
+{
+  "primerNombre": "",
+  "apellidoPaterno": "Prueba",
+  "cedula": "402-12-3456",
+  "departamentoId": "{{departamentos.response.body.$[0].id}}",
+  "tipo": "PorComision",
+  "compensacion": { "ventasBrutas": 1000, "tarifaComision": 1.5 }
+}
+
+### 13. Obtener empleado con desglose (200)
+GET {{host}}/empleados/{{empleado.response.body.$.id}}
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+
+### 14. Cambiar a asalariado por comisión; conserva el Id (200)
+PUT {{host}}/empleados/{{empleado.response.body.$.id}}
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+Content-Type: application/json
+
+{
+  "primerNombre": "Ana",
+  "apellidoPaterno": "Prueba",
+  "cedula": "402-0000001-5",
+  "departamentoId": "{{departamentos.response.body.$[0].id}}",
+  "tipo": "AsalariadoPorComision",
+  "compensacion": { "ventasBrutas": 10000, "tarifaComision": 0.06, "salarioBase": 1000 }
+}
+
+### 15. Empleado inexistente (404)
+GET {{host}}/empleados/00000000-0000-0000-0000-000000000001
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+
+### 16. Desactivar departamento con empleados activos (422)
+DELETE {{host}}/departamentos/{{departamentos.response.body.$[0].id}}
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+
+### 17. Desactivar empleado (204)
+DELETE {{host}}/empleados/{{empleado.response.body.$.id}}
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+
+### 18. Usuarios como Usuario (403)
+GET {{host}}/usuarios
+Authorization: Bearer {{loginConsulta.response.body.$.token}}
+
+### 19. Usuarios como Admin (200)
+GET {{host}}/usuarios
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+
+### 20. Admin se desactiva a sí mismo (422). Copie en @idAdmin el id de "admin" de la respuesta 19.
+@idAdmin = 00000000-0000-0000-0000-000000000000
+DELETE {{host}}/usuarios/{{idAdmin}}
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+
+### 21. Reporte semanal en vivo (200)
+GET {{host}}/reportes-nomina/semanal
+Authorization: Bearer {{loginConsulta.response.body.$.token}}
+
+### 22. Guardar nómina de la semana (201; repetir = 409)
+POST {{host}}/reportes-nomina/nominas
+Authorization: Bearer {{loginAdmin.response.body.$.token}}
+Content-Type: application/json
+
+{ "fechaInicioSemana": "{{lunes}}" }
+
+### 23. Historial de nóminas (200)
+GET {{host}}/reportes-nomina/nominas?pagina=1&tamanoPagina=10
+Authorization: Bearer {{loginConsulta.response.body.$.token}}

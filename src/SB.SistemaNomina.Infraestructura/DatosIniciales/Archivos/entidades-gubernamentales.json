@@ -1,0 +1,1088 @@
+[
+  {
+    "nombre": "Acuario Nacional",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Medio Ambiente y Recursos Naturales"
+  },
+  {
+    "nombre": "Administración General del Parque Nacional Mirador Norte",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Archivo General de la Nación",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Cultura"
+  },
+  {
+    "nombre": "Autoridad Nacional de Asuntos Marítimos",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Autoridad Portuaria Dominicana",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Obras Públicas y Comunicaciones"
+  },
+  {
+    "nombre": "Biblioteca Nacional Pedro Henríquez Ureña",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Cultura"
+  },
+  {
+    "nombre": "Centro de Atención Integral para la Discapacidad",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación"
+  },
+  {
+    "nombre": "Centro de Desarrollo y Competitividad Industrial",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Centro de Operaciones de Emergencias",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Comisión de Fomento a la Tecnificación del Sistema Nacional de Riego",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Comisión Nacional de Defensa de la Competencia",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Comisión Nacional de Energía",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Energía y Minas"
+  },
+  {
+    "nombre": "Comisión Presidencial de Apoyo al Desarrollo Barrial",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Social"
+  },
+  {
+    "nombre": "Comisión Reguladora de Prácticas Desleales en el Comercio y Medidas de Salvaguardas",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Comité Ejecutor de Infraestructuras de Zonas Turísticas",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Turismo"
+  },
+  {
+    "nombre": "Consejo de Coordinación de la Zona Especial de Desarrollo Fronterizo",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Consejo Dominicano de Pesca y Acuicultura",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Consejo Nacional de Competitividad",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Consejo Nacional de Discapacidad",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Consejo Nacional de Drogas",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Consejo Nacional de Fronteras",
+    "categoria": "Órgano Colegiado",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Relaciones Exteriores"
+  },
+  {
+    "nombre": "Consejo Nacional de Investigaciones Agropecuarias y Forestales",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Consejo Nacional de la Persona Envejeciente",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Consejo Nacional de Producción Pecuaria",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Consejo Nacional de Promoción y Apoyo a la Micro, Pequeña y Mediana Empresa",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Consejo Nacional de Seguridad Social",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Trabajo"
+  },
+  {
+    "nombre": "Consejo Nacional de Zonas Francas de Exportación",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Consejo Nacional para el Cambio Climático y Mercado de Carbono",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Consejo Nacional para el VIH y el SIDA",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Consejo Nacional para la Niñez y la Adolescencia",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Consejo Nacional para la Reglamentación y Fomento de la Industria Lechera",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Consejo Provincial para la Administración de los Fondos Mineros Sánchez Ramírez",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Economía, Planificación y Desarrollo"
+  },
+  {
+    "nombre": "Consultoría Jurídica del Poder Ejecutivo",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Contraloría General de la República",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Control Interno"
+  },
+  {
+    "nombre": "Corporación de Fomento de la Industria Hotelera y Desarrollo del Turismo",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Turismo"
+  },
+  {
+    "nombre": "Corporación del Acueducto y Alcantarillado de Boca Chica",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Corporación del Acueducto y Alcantarillado de la Romana",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Corporación del Acueducto y Alcantarillado de la Vega",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Corporación del Acueducto y Alcantarillado de Moca",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Corporación del Acueducto y Alcantarillado de Monseñor Nouel",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Corporación del Acueducto y Alcantarillado de Puerto Plata",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Corporación del Acueducto y Alcantarillado de Santiago",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Corporación del Acueducto y Alcantarillado de Santo Domingo",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Corporación Estatal de Radio y Televisión",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Cultura"
+  },
+  {
+    "nombre": "Cuerpo Especializado de Control de Combustibles",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Defensa"
+  },
+  {
+    "nombre": "Departamento Aeroportuario",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Obras Públicas y Comunicaciones"
+  },
+  {
+    "nombre": "Dirección de Asistencia Social y Alimentación Comunitaria",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Social"
+  },
+  {
+    "nombre": "Dirección de Desarrollo Provincial",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Social"
+  },
+  {
+    "nombre": "Dirección de Desarrollo Social Supérate",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Social"
+  },
+  {
+    "nombre": "Dirección de Estrategia y Comunicación Gubernamental",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Dirección de Infraestructura Escolar",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación"
+  },
+  {
+    "nombre": "Dirección de Prensa del Presidente de la República",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Dirección del Comisionado Nacional de Beisbol",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Deportes y Recreación"
+  },
+  {
+    "nombre": "Dirección Ejecutiva del Sistema Nacional de Atención a Emergencias y Seguridad 9-1-1",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Dirección General de Aduanas",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Dirección General de Alianzas Público Privadas",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Dirección General de Bellas Artes",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Cultura"
+  },
+  {
+    "nombre": "Dirección General de Bienes Nacionales",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Dirección General de Catastro Nacional",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Dirección General de Cine",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Cultura"
+  },
+  {
+    "nombre": "Dirección General de Contabilidad Gubernamental",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Dirección General de Contrataciones Públicas",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Dirección General de Desarrollo de la Comunidad",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Social"
+  },
+  {
+    "nombre": "Dirección General de Desarrollo Fronterizo",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Dirección General de Embellecimiento de Carreteras y Avenidas de Circunvalación del País",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Obras Públicas y Comunicaciones"
+  },
+  {
+    "nombre": "Dirección General de Ética e Integridad Gubernamental",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Dirección General de Ganadería",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Dirección General de Impuestos Internos",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Dirección General de Información y Defensa de los Afiliados a la Seguridad Social",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Trabajo"
+  },
+  {
+    "nombre": "Dirección General de Jubilaciones y Pensiones a Cargo del Estado",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Dirección General de la Policía Nacional",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Interior y Policía"
+  },
+  {
+    "nombre": "Dirección General de Mecenazgo",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Cultura"
+  },
+  {
+    "nombre": "Dirección General de Medicamentos, Alimentos y Productos Sanitarios",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Dirección General de Migración",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Interior y Policía"
+  },
+  {
+    "nombre": "Dirección General de Minería",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Energía y Minas"
+  },
+  {
+    "nombre": "Dirección General de Museos",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Cultura"
+  },
+  {
+    "nombre": "Dirección General de Pasaportes",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Relaciones Exteriores"
+  },
+  {
+    "nombre": "Dirección General de Persecución del Ministerio Público",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Justicia"
+  },
+  {
+    "nombre": "Dirección General de Presupuesto",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Dirección General de Proyectos Estratégicos y Especiales de la Presidencia",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Dirección General de Riesgos Agropecuarios",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Dirección General de Servicios Penitenciarios y Correccionales",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Justicia"
+  },
+  {
+    "nombre": "Dirección Nacional de Control de Drogas",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Empresa Metropolitana de Transporte, (EMT). S.A.",
+    "categoria": "Empresa Pública",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Fondo de Pensiones y Jubilaciones de los Trabajadores de la Construcción",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Trabajo"
+  },
+  {
+    "nombre": "Fondo Especial para el Desarrollo Agropecuario",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Fondo Nacional para el Medio Ambiente y Recursos Naturales",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Medio Ambiente y Recursos Naturales"
+  },
+  {
+    "nombre": "Gabinete de Coordinación de Política Social",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Social"
+  },
+  {
+    "nombre": "Industria Nacional de la Aguja",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Instituto Agrario Dominicano",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Instituto Azucarero Dominicano",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Instituto de Auxilios",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Social"
+  },
+  {
+    "nombre": "Instituto de Desarrollo y Crédito Cooperativo",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Instituto de Educación Superior en Formación Diplomática y Consular “Dr. Eduardo Latorre Rodríguez”",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación Superior, Ciencia y Tecnología"
+  },
+  {
+    "nombre": "Instituto de Estabilización de Precios",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Instituto de Formación Turística del Caribe",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Turismo"
+  },
+  {
+    "nombre": "Instituto de Innovación en Biotecnología e Industria",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación Superior, Ciencia y Tecnología"
+  },
+  {
+    "nombre": "Instituto del Tabaco de la República Dominicana",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Instituto Dominicano de Aviación Civil",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Instituto Dominicano de Evaluación e Investigación de la Calidad Educativa",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación"
+  },
+  {
+    "nombre": "Instituto Dominicano de Investigaciones Agropecuarias y Forestales",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Instituto Dominicano de las Telecomunicaciones",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Instituto Dominicano de Meteorología",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Medio Ambiente y Recursos Naturales"
+  },
+  {
+    "nombre": "Instituto Dominicano de Prevención y Protección de Riesgos Laborales",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Trabajo"
+  },
+  {
+    "nombre": "Instituto Dominicano del Café",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Instituto Dominicano para la Calidad",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Instituto Duartiano",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Cultura"
+  },
+  {
+    "nombre": "Instituto Geográfico Nacional José Joaquín Hungría Morell",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Economía, Planificación y Desarrollo"
+  },
+  {
+    "nombre": "Instituto Nacional de Administración Pública",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Administración Pública"
+  },
+  {
+    "nombre": "Instituto Nacional de Aguas Potables y Alcantarillados",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Instituto Nacional de Atención Integral a la Primera Infancia",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación"
+  },
+  {
+    "nombre": "Instituto Nacional de Bienestar Estudiantil",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación"
+  },
+  {
+    "nombre": "Instituto Nacional de Bienestar Magisterial",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación"
+  },
+  {
+    "nombre": "Instituto Nacional de Ciencias Forenses",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Justicia"
+  },
+  {
+    "nombre": "Instituto Nacional de Coordinación de Trasplante",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Instituto Nacional de Custodia y Administración de Bienes Incautados, Decomisados y en Extinción de Dominio",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Instituto Nacional de Educación Física",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación"
+  },
+  {
+    "nombre": "Instituto Nacional de Formación Técnico Profesional",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Trabajo"
+  },
+  {
+    "nombre": "Instituto Nacional de Formación y Capacitación del Magisterio",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación"
+  },
+  {
+    "nombre": "Instituto Nacional de la Uva",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Instituto Nacional de Migración",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Interior y Policía"
+  },
+  {
+    "nombre": "Instituto Nacional de Protección de los Derechos del Consumidor",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Instituto Nacional de Recursos Hidráulicos",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Medio Ambiente y Recursos Naturales"
+  },
+  {
+    "nombre": "Instituto Nacional de Tránsito y Transporte Terrestre",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Obras Públicas y Comunicaciones"
+  },
+  {
+    "nombre": "Instituto para el Desarrollo del Suroeste",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Economía, Planificación y Desarrollo"
+  },
+  {
+    "nombre": "Instituto Postal Dominicano",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Obras Públicas y Comunicaciones"
+  },
+  {
+    "nombre": "Instituto Superior de Formación Docente Salomé Ureña",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación Superior, Ciencia y Tecnología"
+  },
+  {
+    "nombre": "Instituto Superior Especializado de Estudios Penitenciario y Correccionales",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Justicia"
+  },
+  {
+    "nombre": "Instituto Técnico Superior Comunitario",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación Superior, Ciencia y Tecnología"
+  },
+  {
+    "nombre": "Instituto Tecnológico de las Américas",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación Superior, Ciencia y Tecnología"
+  },
+  {
+    "nombre": "Jardín Botánico Nacional \"Dr. Rafael M. Moscoso\"",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Medio Ambiente y Recursos Naturales"
+  },
+  {
+    "nombre": "Junta de Aviación Civil",
+    "categoria": "Órgano Colegiado con Estructura Operativa",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Liga Municipal Dominicana",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Interior y Policía"
+  },
+  {
+    "nombre": "Lotería Nacional",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Mercados Dominicanos de Abasto Agropecuario",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Ministerio Administrativo de la Presidencia",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Ministerio de Administración Pública",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Administración Pública"
+  },
+  {
+    "nombre": "Ministerio de Agricultura",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Agricultura"
+  },
+  {
+    "nombre": "Ministerio de Cultura",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Cultura"
+  },
+  {
+    "nombre": "Ministerio de Defensa",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Defensa"
+  },
+  {
+    "nombre": "Ministerio de Deportes y Recreación",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Deportes y Recreación"
+  },
+  {
+    "nombre": "Ministerio de Educación",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación"
+  },
+  {
+    "nombre": "Ministerio de Educación Superior, Ciencia y Tecnología",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación Superior, Ciencia y Tecnología"
+  },
+  {
+    "nombre": "Ministerio de Energía y Minas",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Energía y Minas"
+  },
+  {
+    "nombre": "Ministerio de Hacienda y Economía",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Ministerio de Industria, Comercio y Mipymes",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Ministerio de Interior y Policía",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Interior y Policía"
+  },
+  {
+    "nombre": "Ministerio de la Juventud",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Juventud"
+  },
+  {
+    "nombre": "Ministerio de la Mujer",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Mujer"
+  },
+  {
+    "nombre": "Ministerio de la Presidencia",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Ministerio de la Vivienda, Hábitat y Edificaciones",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Vivienda, Hábitat y Edificaciones"
+  },
+  {
+    "nombre": "Ministerio de Medio Ambiente y Recursos Naturales",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Medio Ambiente y Recursos Naturales"
+  },
+  {
+    "nombre": "Ministerio de Obras Públicas y Comunicaciones",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Obras Públicas y Comunicaciones"
+  },
+  {
+    "nombre": "Ministerio de Relaciones Exteriores",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Relaciones Exteriores"
+  },
+  {
+    "nombre": "Ministerio de Salud Pública y Asistencia Social",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Ministerio de Trabajo",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Trabajo"
+  },
+  {
+    "nombre": "Ministerio de Turismo",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Turismo"
+  },
+  {
+    "nombre": "Ministerio Público",
+    "categoria": "Ministerio",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Justicia"
+  },
+  {
+    "nombre": "Museo Nacional de Historia Natural \"Prof. Eugenio de Jesús Marcano\"",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Medio Ambiente y Recursos Naturales"
+  },
+  {
+    "nombre": "Oficina de la Defensa Civil",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Oficina Gubernamental de Tecnologías de la Información y Comunicación",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Administración Pública"
+  },
+  {
+    "nombre": "Oficina Nacional de Derecho de Autor",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Oficina Nacional de Estadística",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Economía, Planificación y Desarrollo"
+  },
+  {
+    "nombre": "Oficina Nacional de Evaluación Sísmica y Vulnerabilidad de Infraestructura y Edificaciones",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Oficina Nacional de la Propiedad Industrial",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Organismo Dominicano de Acreditación",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Industria, Comercio y MIPYMES"
+  },
+  {
+    "nombre": "Parque Zoológico Nacional Arq. Manuel Valverde Podesta",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Medio Ambiente y Recursos Naturales"
+  },
+  {
+    "nombre": "Programa de Medicamentos Esenciales/Central de Apoyo Logístico",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Servicio Geológico Nacional",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Energía y Minas"
+  },
+  {
+    "nombre": "Servicio Nacional de Salud",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Salud"
+  },
+  {
+    "nombre": "Sistema Único de Beneficiarios",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Social"
+  },
+  {
+    "nombre": "Superintendencia de Salud y Riesgos Laborales",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Trabajo"
+  },
+  {
+    "nombre": "Superintendencia de Seguros",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Superintendencia del Mercado de Valores",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Tesorería de la Seguridad Social",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Trabajo"
+  },
+  {
+    "nombre": "Tesorería Nacional",
+    "categoria": "Organismo Desconcentrado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Unidad de Análisis Financiero",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Hacienda"
+  },
+  {
+    "nombre": "Unidad Ejecutora para la Readecuación de Barrios y Entornos",
+    "categoria": "Unidad Ejecutora (Proyecto)",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Unidad Técnica Ejecutora de Titulación de Terrenos del Estado",
+    "categoria": "Unidad Ejecutora (Proyecto)",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Presidencia"
+  },
+  {
+    "nombre": "Universidad Autónoma de Santo Domingo",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación Superior, Ciencia y Tecnología"
+  },
+  {
+    "nombre": "Universidad Tecnológica del Cibao Oriental",
+    "categoria": "Organismo Descentralizado Funcionalmente",
+    "poderDelEstado": "Poder Ejecutivo",
+    "sector": "Educación Superior, Ciencia y Tecnología"
+  }
+]

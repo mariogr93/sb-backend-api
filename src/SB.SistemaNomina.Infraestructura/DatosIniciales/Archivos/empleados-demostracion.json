@@ -1,0 +1,2882 @@
+[
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 11591.92,
+      "primerNombre": "Miguel",
+      "apellidoPaterno": "Brito",
+      "cedula": "031-0007919-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 14953.29,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Martínez",
+      "cedula": "402-0015838-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 16778.68,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Mejía",
+      "cedula": "223-0023757-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 18493.93,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Gómez",
+      "cedula": "047-0031676-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 20807.86,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "García",
+      "cedula": "056-0039595-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 22807.56,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "García",
+      "cedula": "001-0047514-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 25555.55,
+      "primerNombre": "Valeria",
+      "apellidoPaterno": "Rodríguez",
+      "cedula": "031-0055433-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 28860.56,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Almonte",
+      "cedula": "402-0063352-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 29278.55,
+      "primerNombre": "Ramón",
+      "apellidoPaterno": "Almonte",
+      "cedula": "223-0071271-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 30680.54,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Vásquez",
+      "cedula": "047-0079190-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 241.03,
+      "horasTrabajadas": 32,
+      "primerNombre": "José",
+      "apellidoPaterno": "Tavárez",
+      "cedula": "056-0087109-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 284.36,
+      "horasTrabajadas": 43,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Martínez",
+      "cedula": "001-0095028-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 336.86,
+      "horasTrabajadas": 37,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Santana",
+      "cedula": "031-0102947-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 382.35,
+      "horasTrabajadas": 42,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Matos",
+      "cedula": "402-0110866-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 442.99,
+      "horasTrabajadas": 34,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Matos",
+      "cedula": "223-0118785-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 498.4,
+      "horasTrabajadas": 49,
+      "primerNombre": "José",
+      "apellidoPaterno": "Reyes",
+      "cedula": "047-0126704-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 550.39,
+      "horasTrabajadas": 35,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "García",
+      "cedula": "056-0134623-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 591.65,
+      "horasTrabajadas": 36,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Rosario",
+      "cedula": "001-0142542-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 637.53,
+      "horasTrabajadas": 50,
+      "primerNombre": "Carlos",
+      "apellidoPaterno": "Tavárez",
+      "cedula": "031-0150461-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 651.35,
+      "horasTrabajadas": 44,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Féliz",
+      "cedula": "402-0158380-0",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 114523.37,
+      "tarifaComision": 0.03,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Almonte",
+      "cedula": "223-0166299-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 138157.9,
+      "tarifaComision": 0.035,
+      "primerNombre": "Héctor",
+      "apellidoPaterno": "Núñez",
+      "cedula": "047-0174218-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 166848.53,
+      "tarifaComision": 0.04,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Guzmán",
+      "cedula": "056-0182137-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 183529.52,
+      "tarifaComision": 0.045,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Mejía",
+      "cedula": "001-0190056-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 219220.4,
+      "tarifaComision": 0.05,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Ureña",
+      "cedula": "031-0197975-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 227928.64,
+      "tarifaComision": 0.055,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Vásquez",
+      "cedula": "402-0205894-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 265746.11,
+      "tarifaComision": 0.06,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Polanco",
+      "cedula": "223-0213813-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 267947.73,
+      "tarifaComision": 0.065,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Matos",
+      "cedula": "047-0221732-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 287054.6,
+      "tarifaComision": 0.07,
+      "primerNombre": "Carlos",
+      "apellidoPaterno": "Encarnación",
+      "cedula": "056-0229651-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 319282.26,
+      "tarifaComision": 0.075,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Ramírez",
+      "cedula": "001-0237570-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 7193.78,
+      "ventasBrutas": 82214.59,
+      "tarifaComision": 0.02,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Tavárez",
+      "cedula": "031-0245489-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8324.9,
+      "ventasBrutas": 95141.68,
+      "tarifaComision": 0.023,
+      "primerNombre": "Héctor",
+      "apellidoPaterno": "Jiménez",
+      "cedula": "402-0253408-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 9166.25,
+      "ventasBrutas": 104757.1,
+      "tarifaComision": 0.026,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Cruz",
+      "cedula": "223-0261327-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10866.03,
+      "ventasBrutas": 124183.25,
+      "tarifaComision": 0.029,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Pérez",
+      "cedula": "047-0269246-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 12115.41,
+      "ventasBrutas": 138461.77,
+      "tarifaComision": 0.032,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Cruz",
+      "cedula": "056-0277165-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 13747.6,
+      "ventasBrutas": 157115.48,
+      "tarifaComision": 0.035,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Féliz",
+      "cedula": "001-0285084-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 15526.19,
+      "ventasBrutas": 177442.15,
+      "tarifaComision": 0.038,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Guzmán",
+      "cedula": "031-0293003-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 16078.75,
+      "ventasBrutas": 183757.11,
+      "tarifaComision": 0.041,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Mejía",
+      "cedula": "402-0300922-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 18166.7,
+      "ventasBrutas": 207619.44,
+      "tarifaComision": 0.044,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Pérez",
+      "cedula": "223-0308841-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Finanzas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 19407.06,
+      "ventasBrutas": 221794.94,
+      "tarifaComision": 0.047,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Guzmán",
+      "cedula": "047-0316760-3",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 12528.57,
+      "primerNombre": "Carlos",
+      "apellidoPaterno": "Castillo",
+      "cedula": "056-0324679-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 14709.45,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Matos",
+      "cedula": "001-0332598-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17766.28,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Díaz",
+      "cedula": "031-0340517-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 19642.23,
+      "primerNombre": "Miguel",
+      "apellidoPaterno": "Reyes",
+      "cedula": "402-0348436-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 21747.21,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Gómez",
+      "cedula": "223-0356355-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 24526.59,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Brito",
+      "cedula": "047-0364274-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 27015.48,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Batista",
+      "cedula": "056-0372193-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 28410.04,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Núñez",
+      "cedula": "001-0380112-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 31472.5,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Ramírez",
+      "cedula": "031-0388031-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 32396.2,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Pérez",
+      "cedula": "402-0395950-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 255.54,
+      "horasTrabajadas": 34,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Santana",
+      "cedula": "223-0403869-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 320.97,
+      "horasTrabajadas": 40,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Ureña",
+      "cedula": "047-0411788-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 373.03,
+      "horasTrabajadas": 37,
+      "primerNombre": "Valeria",
+      "apellidoPaterno": "Ramírez",
+      "cedula": "056-0419707-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 399.65,
+      "horasTrabajadas": 38,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Peña",
+      "cedula": "001-0427626-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 476.63,
+      "horasTrabajadas": 35,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Reyes",
+      "cedula": "031-0435545-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 484.72,
+      "horasTrabajadas": 33,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Polanco",
+      "cedula": "402-0443464-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 538.57,
+      "horasTrabajadas": 34,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "García",
+      "cedula": "223-0451383-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 621.58,
+      "horasTrabajadas": 33,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Polanco",
+      "cedula": "047-0459302-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 668.86,
+      "horasTrabajadas": 33,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Martínez",
+      "cedula": "056-0467221-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 701.63,
+      "horasTrabajadas": 50,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Vásquez",
+      "cedula": "001-0475140-9",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 120295.99,
+      "tarifaComision": 0.03,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Matos",
+      "cedula": "031-0483059-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 146214.2,
+      "tarifaComision": 0.035,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Gómez",
+      "cedula": "402-0490978-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 163132.87,
+      "tarifaComision": 0.04,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Vásquez",
+      "cedula": "223-0498897-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 187776.66,
+      "tarifaComision": 0.045,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Martínez",
+      "cedula": "047-0506816-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 223224.44,
+      "tarifaComision": 0.05,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Ureña",
+      "cedula": "056-0514735-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 234491.5,
+      "tarifaComision": 0.055,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Rodríguez",
+      "cedula": "001-0522654-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 260511.23,
+      "tarifaComision": 0.06,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Polanco",
+      "cedula": "031-0530573-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 285024.8,
+      "tarifaComision": 0.065,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Tavárez",
+      "cedula": "402-0538492-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 315846.92,
+      "tarifaComision": 0.07,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Castillo",
+      "cedula": "223-0546411-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 325253.36,
+      "tarifaComision": 0.075,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Féliz",
+      "cedula": "047-0554330-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 7583.27,
+      "ventasBrutas": 86665.95,
+      "tarifaComision": 0.02,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Mejía",
+      "cedula": "056-0562249-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8820.32,
+      "ventasBrutas": 100803.69,
+      "tarifaComision": 0.023,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Cruz",
+      "cedula": "001-0570168-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 9657.04,
+      "ventasBrutas": 110366.18,
+      "tarifaComision": 0.026,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Pérez",
+      "cedula": "031-0578087-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10869.01,
+      "ventasBrutas": 124217.2,
+      "tarifaComision": 0.029,
+      "primerNombre": "Carmen",
+      "apellidoPaterno": "Rosario",
+      "cedula": "402-0586006-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 12567.02,
+      "ventasBrutas": 143623.1,
+      "tarifaComision": 0.032,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Tavárez",
+      "cedula": "223-0593925-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14278.47,
+      "ventasBrutas": 163182.54,
+      "tarifaComision": 0.035,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Jiménez",
+      "cedula": "047-0601844-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 15001.6,
+      "ventasBrutas": 171446.85,
+      "tarifaComision": 0.038,
+      "primerNombre": "María",
+      "apellidoPaterno": "Matos",
+      "cedula": "056-0609763-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 16881.3,
+      "ventasBrutas": 192929.12,
+      "tarifaComision": 0.041,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Encarnación",
+      "cedula": "001-0617682-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 17378.7,
+      "ventasBrutas": 198613.75,
+      "tarifaComision": 0.044,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Polanco",
+      "cedula": "031-0625601-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Legal",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 19010.32,
+      "ventasBrutas": 217260.8,
+      "tarifaComision": 0.047,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Féliz",
+      "cedula": "402-0633520-6",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 9783.01,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Matos",
+      "cedula": "223-0641439-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 11055.45,
+      "primerNombre": "Carlos",
+      "apellidoPaterno": "Ramírez",
+      "cedula": "047-0649358-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 13129.84,
+      "primerNombre": "José",
+      "apellidoPaterno": "Ramírez",
+      "cedula": "056-0657277-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 15182.32,
+      "primerNombre": "María",
+      "apellidoPaterno": "Cruz",
+      "cedula": "001-0665196-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17585.77,
+      "primerNombre": "Miguel",
+      "apellidoPaterno": "Castillo",
+      "cedula": "031-0673115-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17734.72,
+      "primerNombre": "José",
+      "apellidoPaterno": "Núñez",
+      "cedula": "402-0681034-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 21355.22,
+      "primerNombre": "José",
+      "apellidoPaterno": "García",
+      "cedula": "223-0688953-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 21330.24,
+      "primerNombre": "José",
+      "apellidoPaterno": "Martínez",
+      "cedula": "047-0696872-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 24171.75,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Castillo",
+      "cedula": "056-0704791-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 26412.99,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Hernández",
+      "cedula": "001-0712710-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 202.94,
+      "horasTrabajadas": 51,
+      "primerNombre": "José",
+      "apellidoPaterno": "Batista",
+      "cedula": "031-0720629-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 234.28,
+      "horasTrabajadas": 38,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Sánchez",
+      "cedula": "402-0728548-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 274.88,
+      "horasTrabajadas": 41,
+      "primerNombre": "Carmen",
+      "apellidoPaterno": "Ureña",
+      "cedula": "223-0736467-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 299.88,
+      "horasTrabajadas": 43,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Polanco",
+      "cedula": "047-0744386-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 352.09,
+      "horasTrabajadas": 36,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Rodríguez",
+      "cedula": "056-0752305-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 397.23,
+      "horasTrabajadas": 35,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Vásquez",
+      "cedula": "001-0760224-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 422.65,
+      "horasTrabajadas": 43,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Brito",
+      "cedula": "031-0768143-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 468.34,
+      "horasTrabajadas": 48,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Guzmán",
+      "cedula": "402-0776062-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 493.2,
+      "horasTrabajadas": 52,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "García",
+      "cedula": "223-0783981-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 526.45,
+      "horasTrabajadas": 41,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Sánchez",
+      "cedula": "047-0791900-9",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 94657.78,
+      "tarifaComision": 0.03,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Brito",
+      "cedula": "056-0799819-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 113422.37,
+      "tarifaComision": 0.035,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Sánchez",
+      "cedula": "001-0807738-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 125559.61,
+      "tarifaComision": 0.04,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Martínez",
+      "cedula": "031-0815657-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 155878.69,
+      "tarifaComision": 0.045,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Díaz",
+      "cedula": "402-0823576-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 165650.7,
+      "tarifaComision": 0.05,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Santana",
+      "cedula": "223-0831495-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 183970.28,
+      "tarifaComision": 0.055,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Ramírez",
+      "cedula": "047-0839414-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 194644.06,
+      "tarifaComision": 0.06,
+      "primerNombre": "Valeria",
+      "apellidoPaterno": "Santana",
+      "cedula": "056-0847333-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 228024.16,
+      "tarifaComision": 0.065,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Polanco",
+      "cedula": "001-0855252-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 246356.12,
+      "tarifaComision": 0.07,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Santana",
+      "cedula": "031-0863171-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 248554.58,
+      "tarifaComision": 0.075,
+      "primerNombre": "Ramón",
+      "apellidoPaterno": "Encarnación",
+      "cedula": "402-0871090-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 5535.73,
+      "ventasBrutas": 63265.53,
+      "tarifaComision": 0.02,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Jiménez",
+      "cedula": "223-0879009-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 6479.71,
+      "ventasBrutas": 74053.79,
+      "tarifaComision": 0.023,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Brito",
+      "cedula": "047-0886928-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 7571.76,
+      "ventasBrutas": 86534.45,
+      "tarifaComision": 0.026,
+      "primerNombre": "Valeria",
+      "apellidoPaterno": "Brito",
+      "cedula": "056-0894847-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8561.47,
+      "ventasBrutas": 97845.37,
+      "tarifaComision": 0.029,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Jiménez",
+      "cedula": "001-0902766-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10119.11,
+      "ventasBrutas": 115646.99,
+      "tarifaComision": 0.032,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Matos",
+      "cedula": "031-0910685-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10875.53,
+      "ventasBrutas": 124291.72,
+      "tarifaComision": 0.035,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Guzmán",
+      "cedula": "402-0918604-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 11754.54,
+      "ventasBrutas": 134337.6,
+      "tarifaComision": 0.038,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Peña",
+      "cedula": "223-0926523-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 12323.62,
+      "ventasBrutas": 140841.35,
+      "tarifaComision": 0.041,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "García",
+      "cedula": "047-0934442-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14088.49,
+      "ventasBrutas": 161011.33,
+      "tarifaComision": 0.044,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Cruz",
+      "cedula": "056-0942361-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Operaciones",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14675.35,
+      "ventasBrutas": 167718.3,
+      "tarifaComision": 0.047,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Hernández",
+      "cedula": "001-0950280-7",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 9182.7,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Almonte",
+      "cedula": "031-0958199-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 10505.99,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Vásquez",
+      "cedula": "402-0966118-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 12964.95,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Matos",
+      "cedula": "223-0974037-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 14504.81,
+      "primerNombre": "María",
+      "apellidoPaterno": "Encarnación",
+      "cedula": "047-0981956-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 15736.37,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Díaz",
+      "cedula": "056-0989875-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17115.24,
+      "primerNombre": "Héctor",
+      "apellidoPaterno": "Almonte",
+      "cedula": "001-0997794-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 19722.98,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "García",
+      "cedula": "031-1005713-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 21864.84,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Rodríguez",
+      "cedula": "402-1013632-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 22663.2,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Rosario",
+      "cedula": "223-1021551-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 23947.02,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Pérez",
+      "cedula": "047-1029470-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 191.91,
+      "horasTrabajadas": 31,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Féliz",
+      "cedula": "056-1037389-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 230.49,
+      "horasTrabajadas": 45,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Mejía",
+      "cedula": "001-1045308-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 254.13,
+      "horasTrabajadas": 35,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Díaz",
+      "cedula": "031-1053227-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 303.93,
+      "horasTrabajadas": 46,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Féliz",
+      "cedula": "402-1061146-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 337.7,
+      "horasTrabajadas": 45,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Jiménez",
+      "cedula": "223-1069065-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 373.39,
+      "horasTrabajadas": 41,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Peña",
+      "cedula": "047-1076984-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 393.23,
+      "horasTrabajadas": 46,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Almonte",
+      "cedula": "056-1084903-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 450.84,
+      "horasTrabajadas": 33,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Santana",
+      "cedula": "001-1092822-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 471.94,
+      "horasTrabajadas": 51,
+      "primerNombre": "Juan",
+      "apellidoPaterno": "Matos",
+      "cedula": "031-1100741-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 524.38,
+      "horasTrabajadas": 48,
+      "primerNombre": "María",
+      "apellidoPaterno": "Castillo",
+      "cedula": "402-1108660-4",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 92342.3,
+      "tarifaComision": 0.03,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Santana",
+      "cedula": "223-1116579-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 107581.11,
+      "tarifaComision": 0.035,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Encarnación",
+      "cedula": "047-1124498-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 120758.35,
+      "tarifaComision": 0.04,
+      "primerNombre": "María",
+      "apellidoPaterno": "Batista",
+      "cedula": "056-1132417-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 148013.78,
+      "tarifaComision": 0.045,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Ureña",
+      "cedula": "001-1140336-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 157377.36,
+      "tarifaComision": 0.05,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Núñez",
+      "cedula": "031-1148255-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 169654.14,
+      "tarifaComision": 0.055,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Polanco",
+      "cedula": "402-1156174-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 190339.32,
+      "tarifaComision": 0.06,
+      "primerNombre": "José",
+      "apellidoPaterno": "Santana",
+      "cedula": "223-1164093-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 216272.88,
+      "tarifaComision": 0.065,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Martínez",
+      "cedula": "047-1172012-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 219558.61,
+      "tarifaComision": 0.07,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Tavárez",
+      "cedula": "056-1179931-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 252847.86,
+      "tarifaComision": 0.075,
+      "primerNombre": "Ramón",
+      "apellidoPaterno": "Féliz",
+      "cedula": "001-1187850-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 5470.96,
+      "ventasBrutas": 62525.25,
+      "tarifaComision": 0.02,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Rosario",
+      "cedula": "031-1195769-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 6247.94,
+      "ventasBrutas": 71405.07,
+      "tarifaComision": 0.023,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Cruz",
+      "cedula": "402-1203688-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 7622.86,
+      "ventasBrutas": 87118.44,
+      "tarifaComision": 0.026,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Encarnación",
+      "cedula": "223-1211607-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8191.61,
+      "ventasBrutas": 93618.35,
+      "tarifaComision": 0.029,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Pérez",
+      "cedula": "047-1219526-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 9137.64,
+      "ventasBrutas": 104430.16,
+      "tarifaComision": 0.032,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Núñez",
+      "cedula": "056-1227445-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 9956.48,
+      "ventasBrutas": 113788.39,
+      "tarifaComision": 0.035,
+      "primerNombre": "Carlos",
+      "apellidoPaterno": "García",
+      "cedula": "001-1235364-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 11304.55,
+      "ventasBrutas": 129194.82,
+      "tarifaComision": 0.038,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Batista",
+      "cedula": "031-1243283-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 11808.02,
+      "ventasBrutas": 134948.76,
+      "tarifaComision": 0.041,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Rodríguez",
+      "cedula": "402-1251202-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 13897.97,
+      "ventasBrutas": 158833.91,
+      "tarifaComision": 0.044,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Peña",
+      "cedula": "223-1259121-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Recursos Humanos",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14281.02,
+      "ventasBrutas": 163211.65,
+      "tarifaComision": 0.047,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Peña",
+      "cedula": "047-1267040-7",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 12425.55,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Peña",
+      "cedula": "056-1274959-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 16067.04,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Valdez",
+      "cedula": "001-1282878-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17484.38,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Féliz",
+      "cedula": "031-1290797-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 19439.35,
+      "primerNombre": "Carmen",
+      "apellidoPaterno": "Jiménez",
+      "cedula": "402-1298716-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 23325.77,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Peña",
+      "cedula": "223-1306635-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 25123.04,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Matos",
+      "cedula": "047-1314554-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 27993.43,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Brito",
+      "cedula": "056-1322473-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 30465.54,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Rosario",
+      "cedula": "001-1330392-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 31053.91,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Jiménez",
+      "cedula": "031-1338311-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 35233.51,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Encarnación",
+      "cedula": "402-1346230-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 279.86,
+      "horasTrabajadas": 39,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Peña",
+      "cedula": "223-1354149-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 313.15,
+      "horasTrabajadas": 35,
+      "primerNombre": "Ramón",
+      "apellidoPaterno": "Jiménez",
+      "cedula": "047-1362068-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 381.3,
+      "horasTrabajadas": 43,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Reyes",
+      "cedula": "056-1369987-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 425.26,
+      "horasTrabajadas": 39,
+      "primerNombre": "Valeria",
+      "apellidoPaterno": "Martínez",
+      "cedula": "001-1377906-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 463.68,
+      "horasTrabajadas": 41,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Peña",
+      "cedula": "031-1385825-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 519.49,
+      "horasTrabajadas": 40,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Hernández",
+      "cedula": "402-1393744-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 575.61,
+      "horasTrabajadas": 39,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Tavárez",
+      "cedula": "223-1401663-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 646.56,
+      "horasTrabajadas": 39,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Polanco",
+      "cedula": "047-1409582-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 677.06,
+      "horasTrabajadas": 45,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Vásquez",
+      "cedula": "056-1417501-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 727.89,
+      "horasTrabajadas": 37,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Gómez",
+      "cedula": "001-1425420-4",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 134484.43,
+      "tarifaComision": 0.03,
+      "primerNombre": "María",
+      "apellidoPaterno": "Díaz",
+      "cedula": "031-1433339-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 147658.57,
+      "tarifaComision": 0.035,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Polanco",
+      "cedula": "402-1441258-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 170804.69,
+      "tarifaComision": 0.04,
+      "primerNombre": "Paola",
+      "apellidoPaterno": "Valdez",
+      "cedula": "223-1449177-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 212334.84,
+      "tarifaComision": 0.045,
+      "primerNombre": "Elena",
+      "apellidoPaterno": "Encarnación",
+      "cedula": "047-1457096-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 216189.31,
+      "tarifaComision": 0.05,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Peña",
+      "cedula": "056-1465015-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 248546.41,
+      "tarifaComision": 0.055,
+      "primerNombre": "Ramón",
+      "apellidoPaterno": "Castillo",
+      "cedula": "001-1472934-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 286790.11,
+      "tarifaComision": 0.06,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Reyes",
+      "cedula": "031-1480853-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 309747.54,
+      "tarifaComision": 0.065,
+      "primerNombre": "Patricia",
+      "apellidoPaterno": "Hernández",
+      "cedula": "402-1488772-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 310881.38,
+      "tarifaComision": 0.07,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Guzmán",
+      "cedula": "223-1496691-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 362584.72,
+      "tarifaComision": 0.075,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Pérez",
+      "cedula": "047-1504610-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 7611.13,
+      "ventasBrutas": 86984.37,
+      "tarifaComision": 0.02,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Almonte",
+      "cedula": "056-1512529-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8886.4,
+      "ventasBrutas": 101558.9,
+      "tarifaComision": 0.023,
+      "primerNombre": "Gabriela",
+      "apellidoPaterno": "Hernández",
+      "cedula": "001-1520448-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10132.56,
+      "ventasBrutas": 115800.71,
+      "tarifaComision": 0.026,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Díaz",
+      "cedula": "031-1528367-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 12239.05,
+      "ventasBrutas": 139874.84,
+      "tarifaComision": 0.029,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Martínez",
+      "cedula": "402-1536286-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 13820.37,
+      "ventasBrutas": 157947.13,
+      "tarifaComision": 0.032,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Pérez",
+      "cedula": "223-1544205-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14802.47,
+      "ventasBrutas": 169171.08,
+      "tarifaComision": 0.035,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Féliz",
+      "cedula": "047-1552124-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 15614.21,
+      "ventasBrutas": 178448.1,
+      "tarifaComision": 0.038,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Sánchez",
+      "cedula": "056-1560043-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 16657.63,
+      "ventasBrutas": 190372.88,
+      "tarifaComision": 0.041,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Valdez",
+      "cedula": "001-1567962-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 19702.57,
+      "ventasBrutas": 225172.19,
+      "tarifaComision": 0.044,
+      "primerNombre": "María",
+      "apellidoPaterno": "Féliz",
+      "cedula": "031-1575881-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Tecnología",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 21061.35,
+      "ventasBrutas": 240701.11,
+      "tarifaComision": 0.047,
+      "primerNombre": "Camila",
+      "apellidoPaterno": "Matos",
+      "cedula": "402-1583800-0",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 10548.5,
+      "primerNombre": "Carmen",
+      "apellidoPaterno": "Vásquez",
+      "cedula": "223-1591719-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 12326.83,
+      "primerNombre": "Rafael",
+      "apellidoPaterno": "Jiménez",
+      "cedula": "047-1599638-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 13248.15,
+      "primerNombre": "Lucía",
+      "apellidoPaterno": "Núñez",
+      "cedula": "056-1607557-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 15096.65,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Encarnación",
+      "cedula": "001-1615476-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 17273.13,
+      "primerNombre": "María",
+      "apellidoPaterno": "Castillo",
+      "cedula": "031-1623395-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 18904.82,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Rosario",
+      "cedula": "402-1631314-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 21009.01,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Batista",
+      "cedula": "223-1639233-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 22545.0,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Cruz",
+      "cedula": "047-1647152-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 26231.39,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Féliz",
+      "cedula": "056-1655071-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "Asalariado",
+      "salarioSemanal": 28323.95,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Castillo",
+      "cedula": "001-1662990-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 216.73,
+      "horasTrabajadas": 38,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Reyes",
+      "cedula": "031-1670909-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 259.26,
+      "horasTrabajadas": 33,
+      "primerNombre": "Laura",
+      "apellidoPaterno": "Sánchez",
+      "cedula": "402-1678828-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 287.35,
+      "horasTrabajadas": 44,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Rodríguez",
+      "cedula": "223-1686747-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 315.21,
+      "horasTrabajadas": 33,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Reyes",
+      "cedula": "047-1694666-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 376.18,
+      "horasTrabajadas": 38,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Vásquez",
+      "cedula": "056-1702585-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 392.74,
+      "horasTrabajadas": 50,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Castillo",
+      "cedula": "001-1710504-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 445.45,
+      "horasTrabajadas": 48,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Núñez",
+      "cedula": "031-1718423-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 504.51,
+      "horasTrabajadas": 50,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "García",
+      "cedula": "402-1726342-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 507.14,
+      "horasTrabajadas": 50,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Tavárez",
+      "cedula": "223-1734261-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorHoras",
+      "sueldoPorHora": 544.57,
+      "horasTrabajadas": 31,
+      "primerNombre": "Luis",
+      "apellidoPaterno": "Hernández",
+      "cedula": "047-1742180-6",
+      "estado": "Inactivo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 104332.09,
+      "tarifaComision": 0.03,
+      "primerNombre": "Jorge",
+      "apellidoPaterno": "Gómez",
+      "cedula": "056-1750099-5",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 121625.38,
+      "tarifaComision": 0.035,
+      "primerNombre": "Héctor",
+      "apellidoPaterno": "Peña",
+      "cedula": "001-1758018-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 132578.34,
+      "tarifaComision": 0.04,
+      "primerNombre": "Francisco",
+      "apellidoPaterno": "Rosario",
+      "cedula": "031-1765937-9",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 159847.28,
+      "tarifaComision": 0.045,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Gómez",
+      "cedula": "402-1773856-2",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 178299.38,
+      "tarifaComision": 0.05,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Jiménez",
+      "cedula": "223-1781775-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 203595.09,
+      "tarifaComision": 0.055,
+      "primerNombre": "Ricardo",
+      "apellidoPaterno": "Díaz",
+      "cedula": "047-1789694-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 219733.5,
+      "tarifaComision": 0.06,
+      "primerNombre": "Ana",
+      "apellidoPaterno": "Polanco",
+      "cedula": "056-1797613-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 242600.66,
+      "tarifaComision": 0.065,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Santana",
+      "cedula": "001-1805532-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 259528.67,
+      "tarifaComision": 0.07,
+      "primerNombre": "Isabel",
+      "apellidoPaterno": "Encarnación",
+      "cedula": "031-1813451-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "PorComision",
+      "ventasBrutas": 262875.85,
+      "tarifaComision": 0.075,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Brito",
+      "cedula": "402-1821370-6",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 5651.33,
+      "ventasBrutas": 64586.58,
+      "tarifaComision": 0.02,
+      "primerNombre": "Andrés",
+      "apellidoPaterno": "Díaz",
+      "cedula": "223-1829289-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 6635.34,
+      "ventasBrutas": 75832.45,
+      "tarifaComision": 0.023,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Núñez",
+      "cedula": "047-1837208-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8244.55,
+      "ventasBrutas": 94223.47,
+      "tarifaComision": 0.026,
+      "primerNombre": "Fernando",
+      "apellidoPaterno": "Santana",
+      "cedula": "056-1845127-1",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 8750.05,
+      "ventasBrutas": 100000.61,
+      "tarifaComision": 0.029,
+      "primerNombre": "Sofía",
+      "apellidoPaterno": "Brito",
+      "cedula": "001-1853046-8",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 10576.13,
+      "ventasBrutas": 120870.05,
+      "tarifaComision": 0.032,
+      "primerNombre": "Rosa",
+      "apellidoPaterno": "Martínez",
+      "cedula": "031-1860965-4",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 11588.39,
+      "ventasBrutas": 132438.71,
+      "tarifaComision": 0.035,
+      "primerNombre": "Manuel",
+      "apellidoPaterno": "Núñez",
+      "cedula": "402-1868884-0",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 12531.49,
+      "ventasBrutas": 143217.08,
+      "tarifaComision": 0.038,
+      "primerNombre": "Pedro",
+      "apellidoPaterno": "Ureña",
+      "cedula": "223-1876803-7",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14181.04,
+      "ventasBrutas": 162069.02,
+      "tarifaComision": 0.041,
+      "primerNombre": "Miguel",
+      "apellidoPaterno": "Pérez",
+      "cedula": "047-1884722-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 14945.13,
+      "ventasBrutas": 170801.53,
+      "tarifaComision": 0.044,
+      "primerNombre": "Héctor",
+      "apellidoPaterno": "Batista",
+      "cedula": "056-1892641-3",
+      "estado": "Activo"
+    }
+  },
+  {
+    "departamento": "Ventas",
+    "empleado": {
+      "tipo": "AsalariadoPorComision",
+      "salarioBase": 16000.16,
+      "ventasBrutas": 182858.96,
+      "tarifaComision": 0.047,
+      "primerNombre": "Daniela",
+      "apellidoPaterno": "Batista",
+      "cedula": "001-1900560-1",
+      "estado": "Inactivo"
+    }
+  }
+]
