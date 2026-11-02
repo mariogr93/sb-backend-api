@@ -10,11 +10,6 @@ public static class OpcionesSerializacionJson
     /// <summary>Propiedad que guarda el tipo de empleado en el archivo.</summary>
     public const string DISCRIMINADOR_TIPO_EMPLEADO = "tipo";
 
-    // Subclases de Empleado descubiertas por reflexión: tipo nuevo no requiere editar este archivo.
-    private static readonly Type[] _subtiposEmpleado = typeof(Empleado).Assembly.GetTypes()
-        .Where(tipo => tipo is { IsClass: true, IsAbstract: false } && tipo.IsSubclassOf(typeof(Empleado)))
-        .ToArray();
-
     public static JsonSerializerOptions Crear()
     {
         var resolutor = new DefaultJsonTypeInfoResolver();
@@ -60,9 +55,8 @@ public static class OpcionesSerializacionJson
             UnknownDerivedTypeHandling = JsonUnknownDerivedTypeHandling.FailSerialization
         };
 
-        foreach (var subtipo in _subtiposEmpleado)
+        foreach (var (subtipo, tipoEmpleado) in SubtiposEmpleado.Todos)
         {
-            var tipoEmpleado = ((Empleado)Activator.CreateInstance(subtipo)!).Tipo;
             informacionTipo.PolymorphismOptions.DerivedTypes.Add(new JsonDerivedType(subtipo, tipoEmpleado.ToString()));
         }
     }
