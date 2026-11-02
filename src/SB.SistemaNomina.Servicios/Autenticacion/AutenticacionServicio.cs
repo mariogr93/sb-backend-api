@@ -58,6 +58,12 @@ public sealed class AutenticacionServicio : IAutenticacionServicio
         return new InicioSesionRespuesta(token.Token, token.FechaExpiracion, usuario.NombreUsuario, usuario.NombreCompleto, usuario.Rol);
     }
 
+    public async Task<bool> SesionVigenteAsync(Guid usuarioId, string? rol, CancellationToken tokenCancelacion)
+    {
+        var usuario = await _usuarioRepositorio.ObtenerPorIdAsync(usuarioId, tokenCancelacion);
+        return usuario is { EstaActivo: true } && string.Equals(usuario.Rol, rol, StringComparison.Ordinal);
+    }
+
     private string ObtenerHashFicticio() =>
         _hashFicticio ??= _servicioHash.GenerarHash(new Usuario(), CONTRASENA_FICTICIA);
 }
