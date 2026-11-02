@@ -6,6 +6,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using SB.SistemaNomina.API.Seguridad;
 using SB.SistemaNomina.Aplicacion.Interfaces.Seguridad;
+using SB.SistemaNomina.Aplicacion.Interfaces.Servicios;
 using SB.SistemaNomina.Servicios.Autenticacion;
 
 namespace SB.SistemaNomina.API.Extensiones;
@@ -14,6 +15,8 @@ public static class ExtensionesAutenticacion
 {
     private const string MENSAJE_CONFIGURACION_INVALIDA =
         "Autenticacion: Emisor, Audiencia, ClaveFirma (mínimo 32 bytes) y DuracionTokenMinutos (> 0) son obligatorios.";
+
+    private const string MENSAJE_SESION_REVOCADA = "El usuario del token no existe, está inactivo o cambió de rol.";
 
     private static readonly TimeSpan _toleranciaReloj = TimeSpan.FromSeconds(30);
 
@@ -46,6 +49,7 @@ public static class ExtensionesAutenticacion
                     NameClaimType = ClaimTypes.Name,
                     RoleClaimType = ClaimTypes.Role
                 };
+                opcionesJwt.Events = new JwtBearerEvents { OnTokenValidated = ValidarSesionVigenteAsync };
             });
 
         servicios.AddAuthorizationBuilder()
@@ -58,6 +62,20 @@ public static class ExtensionesAutenticacion
         servicios.AddScoped<IUsuarioActual, UsuarioActual>();
 
         return servicios;
+    }
+
+    // Revoca tokens de usuarios desactivados o con rol cambiado antes de que expiren.
+    private static async Task ValidarSesionVigenteAsync(TokenValidatedContext contexto)
+    {
+        var principal = contexto.Principal;
+        var vigente = Guid.TryParse(principal?.FindFirstValue(JwtRegisteredClaimNames.Sub), out var usuarioId)
+            && await contexto.HttpContext.RequestServices.GetRequiredService<IAutenticacionServicio>()
+                .SesionVigenteAsync(usuarioId, principal!.FindFirstValue(ClaimTypes.Role), contexto.HttpContext.RequestAborted);
+
+        if (!vigente)
+        {
+            contexto.Fail(MENSAJE_SESION_REVOCADA);
+        }
     }
 
     private static bool EsConfiguracionValida(OpcionesAutenticacion opciones) =>

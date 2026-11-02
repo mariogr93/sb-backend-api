@@ -23,6 +23,19 @@ public static class ConstantesValidacion
 
     public const decimal TARIFA_COMISION_MAXIMA = 1m;
 
+    // Dígitos y decimales admitidos; coinciden con las columnas de SQL Server (sin redondeo silencioso).
+    public const int PRECISION_MONTO = 18;
+
+    public const int DECIMALES_MONTO = 2;
+
+    public const int PRECISION_HORAS = 6;
+
+    public const int DECIMALES_HORAS = 3;
+
+    public const int PRECISION_TARIFA = 7;
+
+    public const int DECIMALES_TARIFA = 6;
+
     /// <summary>Cédula dominicana ###-#######-#.</summary>
     public const string PATRON_CEDULA = @"^\d{3}-\d{7}-\d$";
 

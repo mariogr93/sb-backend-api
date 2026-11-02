@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
@@ -5,6 +6,8 @@ using SB.SistemaNomina.Aplicacion.Interfaces.Repositorios;
 using SB.SistemaNomina.Aplicacion.Interfaces.Seguridad;
 using SB.SistemaNomina.Dominio.Entidades;
 using SB.SistemaNomina.Infraestructura.DatosIniciales;
+using SB.SistemaNomina.Infraestructura.Persistencia.EntityFramework;
+using SB.SistemaNomina.Infraestructura.Persistencia.EntityFramework.Repositorios;
 using SB.SistemaNomina.Infraestructura.Persistencia.Json;
 using SB.SistemaNomina.Infraestructura.Seguridad;
 
@@ -14,7 +17,9 @@ public static class InyeccionDependencias
 {
     public const string CLAVE_PROVEEDOR = "Persistencia:Proveedor";
     public const string PROVEEDOR_JSON = "Json";
+    public const string PROVEEDOR_SQL_SERVER = "SqlServer";
     public const string CADENA_BASE_DATOS_JSON = "BaseDatosJson";
+    public const string CADENA_SQL_SERVER = "SqlServer";
 
     private const string CARPETA_PREDETERMINADA = "BaseDatos";
     private const string ARCHIVO_EMPLEADOS = "empleados.json";
@@ -22,29 +27,62 @@ public static class InyeccionDependencias
     private const string ARCHIVO_ENTIDADES = "entidades-gubernamentales.json";
     private const string ARCHIVO_USUARIOS = "usuarios.json";
     private const string ARCHIVO_NOMINAS = "nominas.json";
+    private const string MENSAJE_CADENA_SQL_SERVER =
+        "Configure ConnectionStrings:SqlServer (o la variable ConnectionStrings__SqlServer) para usar el proveedor SqlServer.";
 
     /// <summary>Persistencia según Persistencia:Proveedor, hash de contraseñas y datos iniciales. Carpeta relativa se resuelve contra rutaContenido.</summary>
     public static IServiceCollection AddInfraestructura(this IServiceCollection servicios, IConfiguration configuracion, string rutaContenido)
     {
         var proveedor = configuracion[CLAVE_PROVEEDOR] ?? PROVEEDOR_JSON;
-        if (!string.Equals(proveedor, PROVEEDOR_JSON, StringComparison.OrdinalIgnoreCase))
+        if (string.Equals(proveedor, PROVEEDOR_JSON, StringComparison.OrdinalIgnoreCase))
         {
-            throw new InvalidOperationException($"Proveedor de persistencia no soportado: {proveedor}.");
+            var carpeta = configuracion.GetConnectionString(CADENA_BASE_DATOS_JSON) ?? CARPETA_PREDETERMINADA;
+            AgregarPersistenciaJson(servicios, Path.GetFullPath(carpeta, rutaContenido));
         }
+        else if (string.Equals(proveedor, PROVEEDOR_SQL_SERVER, StringComparison.OrdinalIgnoreCase))
+        {
+            var cadena = configuracion.GetConnectionString(CADENA_SQL_SERVER);
+            if (string.IsNullOrWhiteSpace(cadena))
+            {
+                throw new InvalidOperationException(MENSAJE_CADENA_SQL_SERVER);
+            }
 
-        var carpeta = configuracion.GetConnectionString(CADENA_BASE_DATOS_JSON) ?? CARPETA_PREDETERMINADA;
-        AgregarPersistenciaJson(servicios, Path.GetFullPath(carpeta, rutaContenido));
+            AgregarPersistenciaSqlServer(servicios, cadena);
+        }
+        else
+        {
+            throw new InvalidOperationException($"Proveedor de persistencia no soportado: {proveedor}. Use {PROVEEDOR_JSON} o {PROVEEDOR_SQL_SERVER}.");
+        }
 
         servicios.TryAddSingleton(TimeProvider.System);
         servicios.AddSingleton<IServicioHashContrasena, ServicioHashContrasena>();
         servicios.Configure<OpcionesDatosIniciales>(configuracion.GetSection(OpcionesDatosIniciales.SECCION));
-        servicios.AddSingleton<InicializadorDatos>();
+        servicios.AddScoped<InicializadorDatos>();
 
         return servicios;
     }
 
-    public static Task InicializarDatosAsync(this IServiceProvider proveedorServicios, CancellationToken tokenCancelacion = default) =>
-        proveedorServicios.GetRequiredService<InicializadorDatos>().InicializarAsync(tokenCancelacion);
+    /// <summary>Con SQL Server aplica migraciones pendientes; luego carga los datos iniciales.</summary>
+    public static async Task InicializarDatosAsync(this IServiceProvider proveedorServicios, CancellationToken tokenCancelacion = default)
+    {
+        await using var alcance = proveedorServicios.CreateAsyncScope();
+        if (alcance.ServiceProvider.GetService<NominaContexto>() is { } contexto)
+        {
+            await contexto.Database.MigrateAsync(tokenCancelacion);
+        }
+
+        await alcance.ServiceProvider.GetRequiredService<InicializadorDatos>().InicializarAsync(tokenCancelacion);
+    }
+
+    private static void AgregarPersistenciaSqlServer(IServiceCollection servicios, string cadenaConexion)
+    {
+        servicios.AddDbContext<NominaContexto>(opciones => opciones.UseSqlServer(cadenaConexion));
+        servicios.AddScoped<IEmpleadoRepositorio, EfEmpleadoRepositorio>();
+        servicios.AddScoped<IDepartamentoRepositorio, EfDepartamentoRepositorio>();
+        servicios.AddScoped<IEntidadGubernamentalRepositorio, EfEntidadGubernamentalRepositorio>();
+        servicios.AddScoped<IUsuarioRepositorio, EfUsuarioRepositorio>();
+        servicios.AddScoped<INominaRepositorio, EfNominaRepositorio>();
+    }
 
     private static void AgregarPersistenciaJson(IServiceCollection servicios, string rutaCarpeta)
     {

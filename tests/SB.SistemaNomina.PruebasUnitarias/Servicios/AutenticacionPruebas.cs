@@ -163,6 +163,27 @@ public sealed class AutenticacionPruebas
         Assert.Equal(MENSAJE_DURACION_INVALIDA, excepcion.Message);
     }
 
+    [Theory]
+    [InlineData(true, NombresRoles.ADMINISTRADOR, NombresRoles.ADMINISTRADOR, true)]
+    [InlineData(false, NombresRoles.ADMINISTRADOR, NombresRoles.ADMINISTRADOR, false)]
+    [InlineData(true, NombresRoles.USUARIO, NombresRoles.ADMINISTRADOR, false)]
+    [InlineData(true, NombresRoles.ADMINISTRADOR, null, false)]
+    public async Task SesionVigenteSoloConUsuarioActivoYMismoRol(bool activo, string rolActual, string? rolToken, bool esperado)
+    {
+        var usuario = _usuarios["admin"];
+        usuario.EstaActivo = activo;
+        usuario.Rol = rolActual;
+        _usuarioRepositorio.ObtenerPorIdAsync(usuario.Id, Arg.Any<CancellationToken>()).Returns(usuario);
+
+        Assert.Equal(esperado, await Servicio().SesionVigenteAsync(usuario.Id, rolToken, CancellationToken.None));
+    }
+
+    [Fact]
+    public async Task SesionDeUsuarioInexistenteNoVigente()
+    {
+        Assert.False(await Servicio().SesionVigenteAsync(Guid.NewGuid(), NombresRoles.ADMINISTRADOR, CancellationToken.None));
+    }
+
     [Fact]
     public void DuracionDeUnMinutoExpiraUnMinutoDespues()
     {

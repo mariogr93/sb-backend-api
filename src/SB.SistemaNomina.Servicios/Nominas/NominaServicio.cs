@@ -105,8 +105,7 @@ public sealed class NominaServicio : INominaServicio
     public async Task<ResultadoPaginado<NominaResumenRespuesta>> ListarNominasAsync(SolicitudPaginada paginacion, CancellationToken tokenCancelacion)
     {
         await _validadorPaginacion.ValidarSolicitudAsync(paginacion, tokenCancelacion);
-        var resultado = await _nominaRepositorio.ListarAsync(paginacion, tokenCancelacion);
-        return resultado.Mapear(nomina => nomina.AResumen());
+        return await _nominaRepositorio.ListarResumenesAsync(paginacion, tokenCancelacion);
     }
 
     public async Task<NominaRespuesta> ObtenerNominaPorIdAsync(Guid id, CancellationToken tokenCancelacion)

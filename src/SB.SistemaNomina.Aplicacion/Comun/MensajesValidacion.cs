@@ -15,6 +15,8 @@ public static class MensajesValidacion
 
     public const string MONTO_FUERA_RANGO = "El campo {PropertyName} debe estar entre 0 y 99,999,999.99.";
 
+    public const string DECIMALES_EXCEDIDOS = "El campo {PropertyName} admite máximo {ExpectedScale} decimales.";
+
     public const string HORAS_FUERA_RANGO = "Las horas trabajadas deben estar entre 0 y 168.";
 
     public const string TARIFA_COMISION_FUERA_RANGO = "La tarifa de comisión debe ser mayor que 0 y menor o igual a 1.";

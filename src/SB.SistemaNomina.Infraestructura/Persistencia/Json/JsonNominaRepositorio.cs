@@ -1,5 +1,7 @@
 using SB.SistemaNomina.Aplicacion.Comun;
 using SB.SistemaNomina.Aplicacion.Interfaces.Repositorios;
+using SB.SistemaNomina.Aplicacion.Mapeos;
+using SB.SistemaNomina.Aplicacion.Modelos.Nominas;
 using SB.SistemaNomina.Dominio.Entidades;
 
 namespace SB.SistemaNomina.Infraestructura.Persistencia.Json;
@@ -13,7 +15,7 @@ public sealed class JsonNominaRepositorio : INominaRepositorio
         _almacen = almacen;
     }
 
-    public async Task<ResultadoPaginado<Nomina>> ListarAsync(SolicitudPaginada paginacion, CancellationToken tokenCancelacion)
+    public async Task<ResultadoPaginado<NominaResumenRespuesta>> ListarResumenesAsync(SolicitudPaginada paginacion, CancellationToken tokenCancelacion)
     {
         var (elementos, total) = await _almacen.PaginarAsync(
             nominas => nominas.OrderByDescending(nomina => nomina.FechaInicioSemana),
@@ -21,7 +23,8 @@ public sealed class JsonNominaRepositorio : INominaRepositorio
             paginacion.TamanoPagina,
             tokenCancelacion);
 
-        return new ResultadoPaginado<Nomina>(elementos, paginacion.Pagina, paginacion.TamanoPagina, total);
+        return new ResultadoPaginado<NominaResumenRespuesta>(
+            elementos.Select(nomina => nomina.AResumen()).ToList(), paginacion.Pagina, paginacion.TamanoPagina, total);
     }
 
     public Task<Nomina?> ObtenerPorIdAsync(Guid id, CancellationToken tokenCancelacion) =>
