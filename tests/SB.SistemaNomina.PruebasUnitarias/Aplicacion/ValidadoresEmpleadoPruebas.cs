@@ -234,6 +234,49 @@ public class ValidadoresEmpleadoPruebas
         AfirmarErrorUnico(resultado, $"Compensacion.{campo}");
     }
 
+    // Límites de decimales = columnas de SQL Server: montos 2, horas 3, tarifa 6.
+    [Theory]
+    [InlineData(TipoEmpleado.Asalariado, nameof(CompensacionEmpleado.SalarioSemanal), "1500.55", true)]
+    [InlineData(TipoEmpleado.Asalariado, nameof(CompensacionEmpleado.SalarioSemanal), "1500.555", false)]
+    [InlineData(TipoEmpleado.PorHoras, nameof(CompensacionEmpleado.SueldoPorHora), "500.005", false)]
+    [InlineData(TipoEmpleado.PorHoras, nameof(CompensacionEmpleado.HorasTrabajadas), "40.125", true)]
+    [InlineData(TipoEmpleado.PorHoras, nameof(CompensacionEmpleado.HorasTrabajadas), "40.1255", false)]
+    [InlineData(TipoEmpleado.PorComision, nameof(CompensacionEmpleado.VentasBrutas), "1000.001", false)]
+    [InlineData(TipoEmpleado.PorComision, nameof(CompensacionEmpleado.TarifaComision), "0.123456", true)]
+    [InlineData(TipoEmpleado.PorComision, nameof(CompensacionEmpleado.TarifaComision), "0.1234567", false)]
+    [InlineData(TipoEmpleado.AsalariadoPorComision, nameof(CompensacionEmpleado.SalarioBase), "1000.001", false)]
+    // Ceros finales no cuentan como decimales.
+    [InlineData(TipoEmpleado.Asalariado, nameof(CompensacionEmpleado.SalarioSemanal), "1500.550", true)]
+    [InlineData(TipoEmpleado.PorHoras, nameof(CompensacionEmpleado.SueldoPorHora), "500.010", true)]
+    [InlineData(TipoEmpleado.PorHoras, nameof(CompensacionEmpleado.HorasTrabajadas), "40.1250", true)]
+    [InlineData(TipoEmpleado.PorComision, nameof(CompensacionEmpleado.VentasBrutas), "1000.010", true)]
+    [InlineData(TipoEmpleado.PorComision, nameof(CompensacionEmpleado.TarifaComision), "0.1234560", true)]
+    [InlineData(TipoEmpleado.AsalariadoPorComision, nameof(CompensacionEmpleado.SalarioBase), "1000.010", true)]
+    public async Task DecimalesLimitadosSegunElCampo(TipoEmpleado tipo, string campo, string valor, bool esValido)
+    {
+        var numero = LeerDecimal(valor);
+        var compensacion = campo switch
+        {
+            nameof(CompensacionEmpleado.SalarioSemanal) => _compensacionValida with { SalarioSemanal = numero },
+            nameof(CompensacionEmpleado.SueldoPorHora) => _compensacionValida with { SueldoPorHora = numero },
+            nameof(CompensacionEmpleado.HorasTrabajadas) => _compensacionValida with { HorasTrabajadas = numero },
+            nameof(CompensacionEmpleado.VentasBrutas) => _compensacionValida with { VentasBrutas = numero },
+            nameof(CompensacionEmpleado.TarifaComision) => _compensacionValida with { TarifaComision = numero },
+            _ => _compensacionValida with { SalarioBase = numero }
+        };
+
+        var resultado = await _validador.ValidateAsync(CrearSolicitud(tipo, compensacion));
+
+        if (esValido)
+        {
+            Assert.True(resultado.IsValid);
+            return;
+        }
+
+        AfirmarErrorUnico(resultado, $"Compensacion.{campo}");
+        Assert.Equal("ScalePrecisionValidator", resultado.Errors[0].ErrorCode);
+    }
+
     private static GuardarEmpleadoSolicitud ConNombre(string campo, string? valor) =>
         campo == nameof(GuardarEmpleadoSolicitud.PrimerNombre)
             ? CrearSolicitud(TipoEmpleado.Asalariado) with { PrimerNombre = valor! }
