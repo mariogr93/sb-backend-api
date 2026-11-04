@@ -14,4 +14,6 @@ public interface IEntidadGubernamentalServicio
     Task<EntidadGubernamentalRespuesta> ActualizarAsync(Guid id, GuardarEntidadGubernamentalSolicitud solicitud, CancellationToken tokenCancelacion);
 
     Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion);
+
+    Task ActivarAsync(Guid id, CancellationToken tokenCancelacion);
 }

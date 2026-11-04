@@ -13,4 +13,6 @@ public interface IDepartamentoServicio
     Task<DepartamentoRespuesta> ActualizarAsync(Guid id, GuardarDepartamentoSolicitud solicitud, CancellationToken tokenCancelacion);
 
     Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion);
+
+    Task ActivarAsync(Guid id, CancellationToken tokenCancelacion);
 }

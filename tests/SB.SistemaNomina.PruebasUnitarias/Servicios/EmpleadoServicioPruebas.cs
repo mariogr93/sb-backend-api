@@ -253,6 +253,40 @@ public sealed class EmpleadoServicioPruebas
     }
 
     [Fact]
+    public async Task ActivarDejaAlEmpleadoActivoConFechaDelReloj()
+    {
+        var existente = Existente(EstadoEmpleado.Inactivo);
+
+        await _servicio.ActivarAsync(existente.Id, CancellationToken.None);
+
+        await _empleadoRepositorio.Received(1).ActualizarAsync(Arg.Any<Empleado>(), Arg.Any<CancellationToken>());
+        Assert.NotNull(_actualizado);
+        Assert.Equal(existente.Id, _actualizado.Id);
+        Assert.Equal(EstadoEmpleado.Activo, _actualizado.Estado);
+        Assert.Equal(_ahora.UtcDateTime, _actualizado.FechaActualizacion);
+    }
+
+    [Fact]
+    public async Task ActivarConDepartamentoInactivoLanzaReglaDeNegocioYNoGuarda()
+    {
+        var existente = Existente(EstadoEmpleado.Inactivo);
+        existente.DepartamentoId = _departamentoInactivo.Id;
+
+        var excepcion = await Assert.ThrowsAsync<ReglaNegocioException>(() => _servicio.ActivarAsync(existente.Id, CancellationToken.None));
+
+        Assert.Equal(MensajesServicio.EMPLEADO_CON_DEPARTAMENTO_INACTIVO, excepcion.Message);
+        await NoHuboEscriturasAsync();
+    }
+
+    [Fact]
+    public async Task ActivarEmpleadoInexistenteLanzaNoEncontradoYNoGuarda()
+    {
+        await Assert.ThrowsAsync<RecursoNoEncontradoException>(() => _servicio.ActivarAsync(Guid.NewGuid(), CancellationToken.None));
+
+        await NoHuboEscriturasAsync();
+    }
+
+    [Fact]
     public async Task DesactivarEmpleadoInexistenteLanzaNoEncontradoYNoGuarda()
     {
         await Assert.ThrowsAsync<RecursoNoEncontradoException>(() => _servicio.DesactivarAsync(Guid.NewGuid(), CancellationToken.None));

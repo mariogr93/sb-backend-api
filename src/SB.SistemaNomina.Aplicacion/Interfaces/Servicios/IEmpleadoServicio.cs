@@ -15,4 +15,7 @@ public interface IEmpleadoServicio
 
     /// <summary>Borrado lógico: estado Inactivo.</summary>
     Task DesactivarAsync(Guid id, CancellationToken tokenCancelacion);
+
+    /// <summary>Vuelve a Activo. Lanza ReglaNegocioException si su departamento está inactivo.</summary>
+    Task ActivarAsync(Guid id, CancellationToken tokenCancelacion);
 }

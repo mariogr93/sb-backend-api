@@ -80,4 +80,17 @@ public sealed class EmpleadosController : ControllerBase
         await _empleadoServicio.DesactivarAsync(id, tokenCancelacion);
         return NoContent();
     }
+
+    /// <summary>Reactiva un empleado inactivo; se rechaza si su departamento está inactivo.</summary>
+    [HttpPut("{id:guid}/activar")]
+    [Authorize(Roles = NombresRoles.ADMINISTRADOR)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType<ProblemDetails>(StatusCodes.Status403Forbidden)]
+    [ProducesResponseType<ProblemDetails>(StatusCodes.Status404NotFound)]
+    [ProducesResponseType<ProblemDetails>(StatusCodes.Status422UnprocessableEntity)]
+    public async Task<IActionResult> ActivarAsync(Guid id, CancellationToken tokenCancelacion)
+    {
+        await _empleadoServicio.ActivarAsync(id, tokenCancelacion);
+        return NoContent();
+    }
 }
