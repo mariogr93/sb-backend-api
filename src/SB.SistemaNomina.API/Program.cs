@@ -49,7 +49,12 @@ try
         aplicacion.UseSwaggerUI();
     }
 
-    aplicacion.UseHttpsRedirection();
+    // En desarrollo el cliente usa http: una redirección a https rompería el CORS.
+    if (!aplicacion.Environment.IsDevelopment())
+    {
+        aplicacion.UseHttpsRedirection();
+    }
+
     aplicacion.UseCors(ExtensionesProteccion.POLITICA_CORS);
     aplicacion.UseAuthentication();
     aplicacion.UseRateLimiter();

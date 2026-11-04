@@ -98,6 +98,18 @@ public sealed class DepartamentoServicio : IDepartamentoServicio
             },
             tokenCancelacion);
 
+    public Task ActivarAsync(Guid id, CancellationToken tokenCancelacion) =>
+        _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var departamento = await ObtenerExistenteAsync(id, tokenCancelacion);
+                departamento.EstaActivo = true;
+                await _departamentoRepositorio.ActualizarAsync(departamento, tokenCancelacion);
+
+                _registro.LogInformation("Departamento {DepartamentoId} reactivado.", departamento.Id);
+            },
+            tokenCancelacion);
+
     private async Task<Departamento> ObtenerExistenteAsync(Guid id, CancellationToken tokenCancelacion) =>
         await _departamentoRepositorio.ObtenerPorIdAsync(id, tokenCancelacion)
         ?? throw new RecursoNoEncontradoException(NombresRecursos.DEPARTAMENTO, id);

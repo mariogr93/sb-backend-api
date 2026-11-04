@@ -75,4 +75,16 @@ public sealed class EntidadesGubernamentalesController : ControllerBase
         await _entidadServicio.DesactivarAsync(id, tokenCancelacion);
         return NoContent();
     }
+
+    /// <summary>Reactiva una entidad inactiva (EstaActiva = true).</summary>
+    [HttpPut("{id:guid}/activar")]
+    [Authorize(Roles = NombresRoles.ADMINISTRADOR)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType<ProblemDetails>(StatusCodes.Status403Forbidden)]
+    [ProducesResponseType<ProblemDetails>(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> ActivarAsync(Guid id, CancellationToken tokenCancelacion)
+    {
+        await _entidadServicio.ActivarAsync(id, tokenCancelacion);
+        return NoContent();
+    }
 }

@@ -122,6 +122,24 @@ public sealed class EmpleadoServicio : IEmpleadoServicio
             },
             tokenCancelacion);
 
+    public Task ActivarAsync(Guid id, CancellationToken tokenCancelacion) =>
+        _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var empleado = await ObtenerExistenteAsync(id, tokenCancelacion);
+                var departamento = await _departamentoRepositorio.ObtenerPorIdAsync(empleado.DepartamentoId, tokenCancelacion);
+                if (departamento is not { EstaActivo: true })
+                {
+                    throw new ReglaNegocioException(MensajesServicio.EMPLEADO_CON_DEPARTAMENTO_INACTIVO);
+                }
+
+                empleado.Activar(_proveedorTiempo.GetUtcNow().UtcDateTime);
+                await _empleadoRepositorio.ActualizarAsync(empleado, tokenCancelacion);
+
+                _registro.LogInformation("Empleado {EmpleadoId} reactivado.", empleado.Id);
+            },
+            tokenCancelacion);
+
     private async Task<Empleado> ObtenerExistenteAsync(Guid id, CancellationToken tokenCancelacion) =>
         await _empleadoRepositorio.ObtenerPorIdAsync(id, tokenCancelacion)
         ?? throw new RecursoNoEncontradoException(NombresRecursos.EMPLEADO, id);
