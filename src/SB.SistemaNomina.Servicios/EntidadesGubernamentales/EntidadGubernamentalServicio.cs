@@ -100,6 +100,18 @@ public sealed class EntidadGubernamentalServicio : IEntidadGubernamentalServicio
             },
             tokenCancelacion);
 
+    public Task ActivarAsync(Guid id, CancellationToken tokenCancelacion) =>
+        _cerrojo.EjecutarAsync(
+            async () =>
+            {
+                var entidad = await ObtenerExistenteAsync(id, tokenCancelacion);
+                entidad.EstaActiva = true;
+                await _entidadRepositorio.ActualizarAsync(entidad, tokenCancelacion);
+
+                _registro.LogInformation("Entidad gubernamental {EntidadId} reactivada.", entidad.Id);
+            },
+            tokenCancelacion);
+
     private static void AplicarDatos(EntidadGubernamental entidad, GuardarEntidadGubernamentalSolicitud solicitud)
     {
         entidad.Nombre = solicitud.Nombre.Trim();

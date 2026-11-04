@@ -150,10 +150,13 @@ Todas las rutas requieren token salvo el inicio de sesión. **Admin** = solo rol
 | GET | `/api/empleados/{id}` | | Empleado con desglose del pago semanal. |
 | POST / PUT | `/api/empleados`, `/api/empleados/{id}` | Admin | Crear / actualizar (permite cambiar de tipo conservando el Id). |
 | DELETE | `/api/empleados/{id}` | Admin | Desactivación lógica (`Inactivo`). |
+| PUT | `/api/empleados/{id}/activar` | Admin | Reactiva un empleado; 422 si su departamento está inactivo. |
 | GET | `/api/departamentos`, `/{id}` | | Catálogo de departamentos. |
 | POST / PUT / DELETE | `/api/departamentos`, `/{id}` | Admin | Mantenimiento; no se desactiva con empleados activos. |
+| PUT | `/api/departamentos/{id}/activar` | Admin | Reactiva un departamento. |
 | GET | `/api/entidades-gubernamentales`, `/{id}` | | Lista paginada; filtros `nombre`, `sector`, `poderDelEstado`, `incluirInactivas`. |
 | POST / PUT / DELETE | `/api/entidades-gubernamentales`, `/{id}` | Admin | Mantenimiento (desactivación lógica). |
+| PUT | `/api/entidades-gubernamentales/{id}/activar` | Admin | Reactiva una entidad. |
 | GET | `/api/reportes-nomina/semanal` | | Reporte en vivo: pago por empleado activo, totales por tipo y total general. |
 | POST | `/api/reportes-nomina/nominas` | Admin | Guarda la nómina de una semana (una por semana). |
 | GET | `/api/reportes-nomina/nominas`, `/nominas/{id}` | | Historial paginado y detalle de una nómina guardada. |
@@ -190,7 +193,7 @@ Cada pago incluye su desglose por línea; cada línea se redondea a 2 decimales 
 dotnet test
 ```
 
-347 pruebas: fórmulas de pago y desglose, validaciones, servicios (empleados, nómina, usuarios, autenticación), revocación de tokens en cada solicitud, persistencia JSON, selección de proveedor y modelo de SQL Server, y rendimiento (reporte de 1,000 empleados en menos de 2 segundos).
+357 pruebas: fórmulas de pago y desglose, validaciones, servicios (empleados, nómina, usuarios, autenticación), revocación de tokens en cada solicitud, persistencia JSON, selección de proveedor y modelo de SQL Server, y rendimiento (reporte de 1,000 empleados en menos de 2 segundos).
 
 ## Supuestos de diseño
 

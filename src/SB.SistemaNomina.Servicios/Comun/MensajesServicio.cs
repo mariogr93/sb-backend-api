@@ -10,6 +10,8 @@ public static class MensajesServicio
 
     public const string DEPARTAMENTO_CON_EMPLEADOS_ACTIVOS = "No se puede desactivar un departamento con empleados activos.";
 
+    public const string EMPLEADO_CON_DEPARTAMENTO_INACTIVO = "No se puede reactivar un empleado cuyo departamento está inactivo.";
+
     public const string ENTIDAD_DUPLICADA = "Ya existe una entidad gubernamental con ese nombre.";
 
     public const string NOMBRE_USUARIO_DUPLICADO = "Ya existe un usuario con ese nombre de usuario.";

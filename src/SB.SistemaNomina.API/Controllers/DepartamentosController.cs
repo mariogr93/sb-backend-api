@@ -74,4 +74,16 @@ public sealed class DepartamentosController : ControllerBase
         await _departamentoServicio.DesactivarAsync(id, tokenCancelacion);
         return NoContent();
     }
+
+    /// <summary>Reactiva un departamento inactivo.</summary>
+    [HttpPut("{id:guid}/activar")]
+    [Authorize(Roles = NombresRoles.ADMINISTRADOR)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType<ProblemDetails>(StatusCodes.Status403Forbidden)]
+    [ProducesResponseType<ProblemDetails>(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> ActivarAsync(Guid id, CancellationToken tokenCancelacion)
+    {
+        await _departamentoServicio.ActivarAsync(id, tokenCancelacion);
+        return NoContent();
+    }
 }
